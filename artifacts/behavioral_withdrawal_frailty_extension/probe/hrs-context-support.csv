@@ -1,0 +1,9 @@
+cohort,context_field,observed_n,positive_n,withdrawal_observed_n
+hrs,self_rated_health_worsening,87064,22209,22303
+hrs,transition_hospitalization,86943,24662,22279
+hrs,cesd_worsening,80801,22706,20565
+hrs,bmi_or_weight_loss,29591,2133,7464
+hrs,incident_non_target_disease,87214,13474,22352
+hrs,fi_change,59847,14677,15234
+hrs,fi_worsening_005,59847,14677,15234
+hrs,concurrent_health_change,87214,57769,22352

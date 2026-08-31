@@ -1,0 +1,7 @@
+cohort,outcome_id,analysis_family,model_id,n,people,events,nonevents,parameters,matrix_rank,any_withdrawal_n,any_withdrawal_events,any_withdrawal_nonevents,model_status,warnings,term,estimate_scale,estimate,standard_error,ci_low,ci_high,p_value,loss_1_n,loss_1_events,loss_1_nonevents,loss_2plus_n,loss_2plus_events,loss_2plus_nonevents
+klosa,incident_diabetes,delayed_outcome,delayed_any,9450,3728,260,9190,18,18,2760.0,69.0,2691.0,PASS,,any_withdrawal,risk_ratio,0.8212984075394294,0.2325394298365007,0.5206706042735116,1.2955044296536993,0.39721598977994244,,,,,,
+klosa,incident_diabetes,delayed_outcome,delayed_gradient,9450,3728,260,9190,19,19,,,,NOT_EVALUABLE_LOSS_2PLUS_EVENTS,,,,,,,,,2568.0,62.0,2506.0,192.0,7.0,185.0
+klosa,incident_stroke,delayed_outcome,delayed_any,11301,4411,134,11167,18,18,,,,NOT_EVALUABLE_EPV,,,,,,,,,,,,,,
+klosa,incident_stroke,delayed_outcome,delayed_gradient,11301,4411,134,11167,19,19,,,,NOT_EVALUABLE_EPV,,,,,,,,,,,,,,
+klosa,incident_heart_disease,delayed_outcome,delayed_any,10824,4234,160,10664,18,18,,,,NOT_EVALUABLE_EPV,,,,,,,,,,,,,,
+klosa,incident_heart_disease,delayed_outcome,delayed_gradient,10824,4234,160,10664,19,19,,,,NOT_EVALUABLE_EPV,,,,,,,,,,,,,,

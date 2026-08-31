@@ -1,0 +1,366 @@
+{
+  "status": "PASS",
+  "checks": {
+    "parent_counts_status_reproduced": true,
+    "all_three_scenarios_present_per_passing_model": true,
+    "all_probabilities_in_range": true,
+    "pooled_k_matches_contributing_cohorts": true,
+    "single_design_commit_time": true,
+    "single_code_commit": true,
+    "intervals_within_frozen_window": true,
+    "mortality_meta_k1_not_pooled": true
+  },
+  "details": [
+    {
+      "check": "risk_parent_reproduction",
+      "cohort": "charls",
+      "outcome_id": "mortality",
+      "status_match": true,
+      "n_match": true,
+      "events_match": true
+    },
+    {
+      "check": "risk_parent_reproduction",
+      "cohort": "charls",
+      "outcome_id": "incident_any_adl",
+      "status_match": true,
+      "n_match": true,
+      "events_match": true
+    },
+    {
+      "check": "risk_parent_reproduction",
+      "cohort": "charls",
+      "outcome_id": "incident_any_iadl",
+      "status_match": true,
+      "n_match": true,
+      "events_match": true
+    },
+    {
+      "check": "risk_parent_reproduction",
+      "cohort": "charls",
+      "outcome_id": "multimorbidity_progression",
+      "status_match": true,
+      "n_match": true,
+      "events_match": true
+    },
+    {
+      "check": "risk_parent_reproduction",
+      "cohort": "elsa",
+      "outcome_id": "mortality",
+      "status_match": true,
+      "n_match": true,
+      "events_match": true
+    },
+    {
+      "check": "risk_parent_reproduction",
+      "cohort": "elsa",
+      "outcome_id": "incident_any_adl",
+      "status_match": true,
+      "n_match": true,
+      "events_match": true
+    },
+    {
+      "check": "risk_parent_reproduction",
+      "cohort": "elsa",
+      "outcome_id": "incident_any_iadl",
+      "status_match": true,
+      "n_match": true,
+      "events_match": true
+    },
+    {
+      "check": "risk_parent_reproduction",
+      "cohort": "elsa",
+      "outcome_id": "multimorbidity_progression",
+      "status_match": true,
+      "n_match": true,
+      "events_match": true
+    },
+    {
+      "check": "risk_parent_reproduction",
+      "cohort": "hrs",
+      "outcome_id": "mortality",
+      "status_match": true,
+      "n_match": true,
+      "events_match": true
+    },
+    {
+      "check": "risk_parent_reproduction",
+      "cohort": "hrs",
+      "outcome_id": "incident_any_adl",
+      "status_match": true,
+      "n_match": true,
+      "events_match": true
+    },
+    {
+      "check": "risk_parent_reproduction",
+      "cohort": "hrs",
+      "outcome_id": "incident_any_iadl",
+      "status_match": true,
+      "n_match": true,
+      "events_match": true
+    },
+    {
+      "check": "risk_parent_reproduction",
+      "cohort": "hrs",
+      "outcome_id": "multimorbidity_progression",
+      "status_match": true,
+      "n_match": true,
+      "events_match": true
+    },
+    {
+      "check": "risk_parent_reproduction",
+      "cohort": "klosa",
+      "outcome_id": "mortality",
+      "status_match": true,
+      "n_match": true,
+      "events_match": true
+    },
+    {
+      "check": "risk_parent_reproduction",
+      "cohort": "klosa",
+      "outcome_id": "incident_any_adl",
+      "status_match": true,
+      "n_match": true,
+      "events_match": true
+    },
+    {
+      "check": "risk_parent_reproduction",
+      "cohort": "klosa",
+      "outcome_id": "incident_any_iadl",
+      "status_match": true,
+      "n_match": true,
+      "events_match": true
+    },
+    {
+      "check": "risk_parent_reproduction",
+      "cohort": "klosa",
+      "outcome_id": "multimorbidity_progression",
+      "status_match": true,
+      "n_match": true,
+      "events_match": true
+    },
+    {
+      "check": "risk_parent_reproduction",
+      "cohort": "mhas",
+      "outcome_id": "mortality",
+      "status_match": true,
+      "n_match": true,
+      "events_match": true
+    },
+    {
+      "check": "risk_parent_reproduction",
+      "cohort": "mhas",
+      "outcome_id": "incident_any_adl",
+      "status_match": true,
+      "n_match": true,
+      "events_match": true
+    },
+    {
+      "check": "risk_parent_reproduction",
+      "cohort": "mhas",
+      "outcome_id": "incident_any_iadl",
+      "status_match": true,
+      "n_match": true,
+      "events_match": true
+    },
+    {
+      "check": "risk_parent_reproduction",
+      "cohort": "mhas",
+      "outcome_id": "multimorbidity_progression",
+      "status_match": true,
+      "n_match": true,
+      "events_match": true
+    },
+    {
+      "check": "risk_parent_reproduction",
+      "cohort": "share",
+      "outcome_id": "mortality",
+      "status_match": true,
+      "n_match": true,
+      "events_match": true
+    },
+    {
+      "check": "risk_parent_reproduction",
+      "cohort": "share",
+      "outcome_id": "incident_any_adl",
+      "status_match": true,
+      "n_match": true,
+      "events_match": true
+    },
+    {
+      "check": "risk_parent_reproduction",
+      "cohort": "share",
+      "outcome_id": "incident_any_iadl",
+      "status_match": true,
+      "n_match": true,
+      "events_match": true
+    },
+    {
+      "check": "risk_parent_reproduction",
+      "cohort": "share",
+      "outcome_id": "multimorbidity_progression",
+      "status_match": true,
+      "n_match": true,
+      "events_match": true
+    },
+    {
+      "check": "work_exit_parent_reproduction",
+      "cohort": "elsa",
+      "outcome_id": "incident_any_adl",
+      "status_match": true,
+      "n_match": true,
+      "events_match": true,
+      "direct_contrast_match": true
+    },
+    {
+      "check": "work_exit_parent_reproduction",
+      "cohort": "elsa",
+      "outcome_id": "mortality",
+      "status_match": true,
+      "n_match": true,
+      "events_match": true
+    },
+    {
+      "check": "work_exit_parent_reproduction",
+      "cohort": "hrs",
+      "outcome_id": "incident_any_adl",
+      "status_match": true,
+      "n_match": true,
+      "events_match": true,
+      "direct_contrast_match": true
+    },
+    {
+      "check": "work_exit_parent_reproduction",
+      "cohort": "hrs",
+      "outcome_id": "mortality",
+      "status_match": true,
+      "n_match": true,
+      "events_match": true,
+      "direct_contrast_match": true
+    },
+    {
+      "check": "work_exit_parent_reproduction",
+      "cohort": "mhas",
+      "outcome_id": "incident_any_adl",
+      "status_match": true,
+      "n_match": true,
+      "events_match": true
+    },
+    {
+      "check": "work_exit_parent_reproduction",
+      "cohort": "mhas",
+      "outcome_id": "mortality",
+      "status_match": true,
+      "n_match": true,
+      "events_match": true
+    },
+    {
+      "check": "work_exit_parent_reproduction",
+      "cohort": "share",
+      "outcome_id": "incident_any_adl",
+      "status_match": true,
+      "n_match": true,
+      "events_match": true
+    },
+    {
+      "check": "work_exit_parent_reproduction",
+      "cohort": "share",
+      "outcome_id": "mortality",
+      "status_match": true,
+      "n_match": true,
+      "events_match": true
+    }
+  ],
+  "standardized_risk_contributors": {
+    "incident_any_adl": [
+      "elsa",
+      "hrs",
+      "share"
+    ],
+    "incident_any_iadl": [
+      "elsa",
+      "hrs",
+      "share"
+    ],
+    "mortality": [
+      "elsa",
+      "hrs",
+      "klosa",
+      "share"
+    ],
+    "multimorbidity_progression": [
+      "elsa",
+      "hrs",
+      "klosa",
+      "share"
+    ]
+  },
+  "work_exit_statuses": [
+    {
+      "outcome_id": "incident_any_adl",
+      "model_status": "NOT_EVALUABLE_CLUSTERS",
+      "cohorts": [
+        "mhas"
+      ]
+    },
+    {
+      "outcome_id": "incident_any_adl",
+      "model_status": "NOT_EVALUABLE_RETIREMENT_NOT_MEASURED",
+      "cohorts": [
+        "charls",
+        "klosa"
+      ]
+    },
+    {
+      "outcome_id": "incident_any_adl",
+      "model_status": "NOT_EVALUABLE_WORK_EXIT_NO_RETIREMENT_EVENTS",
+      "cohorts": [
+        "share"
+      ]
+    },
+    {
+      "outcome_id": "incident_any_adl",
+      "model_status": "PASS",
+      "cohorts": [
+        "elsa",
+        "hrs"
+      ]
+    },
+    {
+      "outcome_id": "mortality",
+      "model_status": "NOT_EVALUABLE_CLUSTERS",
+      "cohorts": [
+        "mhas"
+      ]
+    },
+    {
+      "outcome_id": "mortality",
+      "model_status": "NOT_EVALUABLE_EPV",
+      "cohorts": [
+        "elsa"
+      ]
+    },
+    {
+      "outcome_id": "mortality",
+      "model_status": "NOT_EVALUABLE_RETIREMENT_NOT_MEASURED",
+      "cohorts": [
+        "charls",
+        "klosa"
+      ]
+    },
+    {
+      "outcome_id": "mortality",
+      "model_status": "NOT_EVALUABLE_WORK_EXIT_NO_RETIREMENT_EVENTS",
+      "cohorts": [
+        "share"
+      ]
+    },
+    {
+      "outcome_id": "mortality",
+      "model_status": "PASS",
+      "cohorts": [
+        "hrs"
+      ]
+    }
+  ]
+}

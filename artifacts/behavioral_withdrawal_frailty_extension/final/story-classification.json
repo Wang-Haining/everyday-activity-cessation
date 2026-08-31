@@ -1,0 +1,10 @@
+{
+  "classification": "BROADER_CLINICAL_SIGNAL_NO_INCREMENTAL_VALUE",
+  "cardiometabolic_gradient_replicated_after_current_state_adjustment": false,
+  "diabetes_supported": false,
+  "stroke_supported": false,
+  "nonfrail_positive_cohorts": [],
+  "cv_improved_cohorts": [],
+  "adds_information_beyond_frailty": false,
+  "permitted_language": "does not add reproducible information beyond current behavior and frailty"
+}

@@ -1,0 +1,4 @@
+cohort,outcome_id,n,people,events,loss_0_n,loss_0_events,loss_1_n,loss_1_events,loss_2_plus_n,loss_2_plus_events,support
+share,incident_diabetes,29394,17770,815,22424,589,6302,210,668,16,NOT_EVALUABLE_CATEGORY_SUPPORT
+share,incident_stroke,32860,19926,764,24883,579,7217,171,760,14,NOT_EVALUABLE_CATEGORY_SUPPORT
+share,incident_heart_disease,27532,16859,1423,20936,1081,5996,307,600,35,ESTIMABLE

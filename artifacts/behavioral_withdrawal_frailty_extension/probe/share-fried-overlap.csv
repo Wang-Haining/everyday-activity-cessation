@@ -1,0 +1,10 @@
+cohort,loss_category,fried_category,intervals,people
+share,0,robust,29142,21151
+share,0,prefrail,23298,18392
+share,0,frail,2346,2124
+share,1,robust,5484,5188
+share,1,prefrail,7746,7232
+share,1,frail,3634,3438
+share,2_plus,robust,271,271
+share,2_plus,prefrail,949,944
+share,2_plus,frail,636,634

@@ -1,0 +1,27 @@
+{
+  "analysis_id": "behavioral_withdrawal_frailty_extension_v0.2",
+  "status": "PASS",
+  "story_classification": "BROADER_CLINICAL_SIGNAL_NO_INCREMENTAL_VALUE",
+  "aggregate_only": true,
+  "respondent_rows_exported": 0,
+  "outputs": {
+    "systematic-specificity-results.csv": "e2f87ee86cdff55ecbc858b2b5cfe93ab93ab1b130d666237c93aa015d424bed",
+    "systematic-risks-results.csv": "17a1c779339f79db65fae293e4d4887ce764ef1f08dfbf4d6b44e3d360a5b411",
+    "postprocess-manifest.json": "545a3b4a06ee64d7459c579f057a7eb1d5f0d49faa8610770807339651537e5a",
+    "systematic-delayed-results.csv": "f934173acb20ff7999167921ab124599892eff26163a0bc3e5c2460477812dda",
+    "figure-frailty-performance.png": "03382656fc4140bc4d8cdd92459642f9be8a05b92af39becba85fce47f4acb04",
+    "independent-validation.json": "a5b7ac6819d23e69cc22335d67f3d0f2106243a36736b54d6589086c62dc920c",
+    "systematic-coverage-results.csv": "29aadc256c586b3bb550cf685fd85f450e863ff1bbfe81cf582980f3d46ad471",
+    "systematic-frailty-results.csv": "ef0e6f70e105adc5ef3f41cb0cad0762e05198a523a2b758e2ea85794012ec8f",
+    "systematic-context-results.csv": "57ce9bce8534f565668561b8684ebba025c1e28199bf90020deb5aee4ffa2b0c",
+    "systematic-performance-results.csv": "b81f27ee8619b0f4c8169928c85a8d88de01e116369473db60faabbd266eff62",
+    "systematic-sensitivity-results.csv": "03decca28c268fed28eb27b4f88e2cb673c79374fc45a6219b78605ca00db01f",
+    "story-classification.json": "0a9146201c5f1da3f69e31dab4b0dd7966bfa6bf1523136239d00c8f24472b05",
+    "pooled-sensitivity-manifest.json": "560e62e81bbc354641afa674825a9e7c048c221780bb5825fdbd1886aaf7873c",
+    "cross-cohort-meta-analysis.csv": "9e3ae18e692919f73b4ba01a6b8c915e6de200e16fbcef5ef95d1891962dd915",
+    "figure-six-disease-heatmap.png": "cd706c837d97023b200e2784cd2932f8001ae5ad6f0c622ae6eef5ba9657847e",
+    "figure-current-state-decomposition.png": "e53f036f61c69526ea349435bf52f1ab9cb5d3e687671d2a5909c87a061817f3",
+    ".md": "c533ba2d7c758e8bf5b1f952a41c0b25449c56369f7ed6afdc72665cb65e4730",
+    "pooled-fixed-effects-sensitivity.csv": "24e7c814db67b00777bbee2f5a04b4b9f8bca73b5d189a722b46eb95a7eaf00a"
+  }
+}

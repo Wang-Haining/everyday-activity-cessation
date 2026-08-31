@@ -1,0 +1,20 @@
+{
+  "analysis_id": "behavioral_withdrawal_frailty_extension_v0.2",
+  "code_commit": "ec19423",
+  "aggregate_only": true,
+  "respondent_rows_exported": 0,
+  "cohorts": [
+    "charls",
+    "elsa",
+    "hrs",
+    "klosa",
+    "mhas",
+    "share"
+  ],
+  "outputs": [
+    "manuscript-flow.csv",
+    "manuscript-table1-long.csv",
+    "manuscript-outcome-risk-sets.csv",
+    "manuscript-delayed-risk-sets.csv"
+  ]
+}

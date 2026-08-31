@@ -1,0 +1,9 @@
+cohort,context_field,observed_n,positive_n,withdrawal_observed_n
+elsa,self_rated_health_worsening,27699,7599,5746
+elsa,transition_hospitalization,0,0,0
+elsa,cesd_worsening,35839,10006,7408
+elsa,bmi_or_weight_loss,18139,913,3778
+elsa,incident_non_target_disease,36059,4921,7460
+elsa,fi_change,5414,1070,1071
+elsa,fi_worsening_005,5414,1070,1071
+elsa,concurrent_health_change,36063,18211,7462

@@ -1,0 +1,12 @@
+# The exact environment the reported models were fitted in, read off the
+# cluster that ran them rather than written from memory. requirements.txt
+# gives the ranges the code is written against; this pins what produced the
+# numbers in the manuscript and in artifacts/.
+#
+# Python 3.12.4
+numpy==2.2.6
+pandas==2.2.2
+scipy==1.14.0
+statsmodels==0.14.6
+matplotlib==3.9.0
+seaborn==0.13.2

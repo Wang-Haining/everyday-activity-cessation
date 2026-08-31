@@ -1,0 +1,5 @@
+cohort,scope,adjustment,outcome_id,exposure_model,n,people,parameters,matrix_rank,outcome_coding_status,scenario,model_status
+mhas,comparable_22_30_months,full,mortality,score_categorical,0,0,13,0,PASS_SOURCE_STATUS,__model__,NOT_EVALUABLE_CLUSTERS
+mhas,comparable_22_30_months,full,incident_any_adl,score_categorical,0,0,13,0,PASS_STRICT_COMPLETE_ITEM_COUNTS,__model__,NOT_EVALUABLE_CLUSTERS
+mhas,comparable_22_30_months,full,incident_any_iadl,score_categorical,0,0,13,0,PASS_STRICT_COMPLETE_ITEM_COUNTS,__model__,NOT_EVALUABLE_CLUSTERS
+mhas,comparable_22_30_months,full,multimorbidity_progression,score_categorical,0,0,14,0,PASS_STRICT_COMMON_SIX,__model__,NOT_EVALUABLE_CLUSTERS

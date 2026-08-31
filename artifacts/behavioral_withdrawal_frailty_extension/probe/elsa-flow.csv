@@ -1,0 +1,3 @@
+cohort,scope,intervals,people,loss_0_n,loss_1_n,loss_2_plus_n,direction_stable_n,direction_expansion_n,direction_mixed_n,direction_contraction_1_n,direction_contraction_2_plus_n
+elsa,comparable_22_30_months,34655,10412,27193,6948,514,24062,3131,513,6446,503
+elsa,all_primary_wave_intervals,39620,10835,31115,7926,579,27602,3513,584,7354,567

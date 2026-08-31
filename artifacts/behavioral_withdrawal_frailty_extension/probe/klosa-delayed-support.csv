@@ -1,0 +1,4 @@
+cohort,outcome_id,n,people,events,loss_0_n,loss_0_events,loss_1_n,loss_1_events,loss_2_plus_n,loss_2_plus_events,support
+klosa,incident_diabetes,9512,3740,263,6732,192,2587,64,193,7,NOT_EVALUABLE_CATEGORY_SUPPORT
+klosa,incident_stroke,11372,4421,135,8001,96,3145,36,226,3,NOT_EVALUABLE_CATEGORY_SUPPORT
+klosa,incident_heart_disease,10895,4246,161,7679,115,2992,41,224,5,NOT_EVALUABLE_CATEGORY_SUPPORT

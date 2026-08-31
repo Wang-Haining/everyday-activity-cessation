@@ -1,0 +1,6 @@
+cohort,t1,outcome_wave,scheduled_followup_months,observed_duration_n,observed_duration_p25,observed_duration_median,observed_duration_p75
+klosa,4,5,25.0,4704,24.0,24.0,25.0
+klosa,5,6,24.0,4811,24.0,24.0,24.0
+klosa,6,7,23.0,4863,23.0,24.0,24.0
+klosa,7,8,24.0,4901,23.0,24.0,25.0
+klosa,8,9,25.0,4962,24.0,24.0,25.0

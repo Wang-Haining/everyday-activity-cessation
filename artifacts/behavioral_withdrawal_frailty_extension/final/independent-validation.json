@@ -1,0 +1,318 @@
+{
+  "analysis_id": "behavioral_withdrawal_frailty_extension_v0.2",
+  "status": "PASS",
+  "checks": [
+    {
+      "check": "charls_probe_manifest",
+      "pass": true
+    },
+    {
+      "check": "charls_model_manifest",
+      "pass": true
+    },
+    {
+      "check": "charls_probe_privacy",
+      "pass": true
+    },
+    {
+      "check": "charls_model_privacy",
+      "pass": true
+    },
+    {
+      "check": "charls_specificity_hash",
+      "pass": true
+    },
+    {
+      "check": "charls_delayed_hash",
+      "pass": true
+    },
+    {
+      "check": "charls_sensitivity_hash",
+      "pass": true
+    },
+    {
+      "check": "charls_frailty_hash",
+      "pass": true
+    },
+    {
+      "check": "charls_performance_hash",
+      "pass": true
+    },
+    {
+      "check": "charls_risks_hash",
+      "pass": true
+    },
+    {
+      "check": "charls_coverage_hash",
+      "pass": true
+    },
+    {
+      "check": "charls_context_hash",
+      "pass": true
+    },
+    {
+      "check": "elsa_probe_manifest",
+      "pass": true
+    },
+    {
+      "check": "elsa_model_manifest",
+      "pass": true
+    },
+    {
+      "check": "elsa_probe_privacy",
+      "pass": true
+    },
+    {
+      "check": "elsa_model_privacy",
+      "pass": true
+    },
+    {
+      "check": "elsa_specificity_hash",
+      "pass": true
+    },
+    {
+      "check": "elsa_delayed_hash",
+      "pass": true
+    },
+    {
+      "check": "elsa_sensitivity_hash",
+      "pass": true
+    },
+    {
+      "check": "elsa_frailty_hash",
+      "pass": true
+    },
+    {
+      "check": "elsa_performance_hash",
+      "pass": true
+    },
+    {
+      "check": "elsa_risks_hash",
+      "pass": true
+    },
+    {
+      "check": "elsa_coverage_hash",
+      "pass": true
+    },
+    {
+      "check": "elsa_context_hash",
+      "pass": true
+    },
+    {
+      "check": "hrs_probe_manifest",
+      "pass": true
+    },
+    {
+      "check": "hrs_model_manifest",
+      "pass": true
+    },
+    {
+      "check": "hrs_probe_privacy",
+      "pass": true
+    },
+    {
+      "check": "hrs_model_privacy",
+      "pass": true
+    },
+    {
+      "check": "hrs_specificity_hash",
+      "pass": true
+    },
+    {
+      "check": "hrs_delayed_hash",
+      "pass": true
+    },
+    {
+      "check": "hrs_sensitivity_hash",
+      "pass": true
+    },
+    {
+      "check": "hrs_frailty_hash",
+      "pass": true
+    },
+    {
+      "check": "hrs_performance_hash",
+      "pass": true
+    },
+    {
+      "check": "hrs_risks_hash",
+      "pass": true
+    },
+    {
+      "check": "hrs_coverage_hash",
+      "pass": true
+    },
+    {
+      "check": "hrs_context_hash",
+      "pass": true
+    },
+    {
+      "check": "klosa_probe_manifest",
+      "pass": true
+    },
+    {
+      "check": "klosa_model_manifest",
+      "pass": true
+    },
+    {
+      "check": "klosa_probe_privacy",
+      "pass": true
+    },
+    {
+      "check": "klosa_model_privacy",
+      "pass": true
+    },
+    {
+      "check": "klosa_specificity_hash",
+      "pass": true
+    },
+    {
+      "check": "klosa_delayed_hash",
+      "pass": true
+    },
+    {
+      "check": "klosa_sensitivity_hash",
+      "pass": true
+    },
+    {
+      "check": "mhas_probe_manifest",
+      "pass": true
+    },
+    {
+      "check": "mhas_model_manifest",
+      "pass": true
+    },
+    {
+      "check": "mhas_probe_privacy",
+      "pass": true
+    },
+    {
+      "check": "mhas_model_privacy",
+      "pass": true
+    },
+    {
+      "check": "mhas_specificity_hash",
+      "pass": true
+    },
+    {
+      "check": "mhas_delayed_hash",
+      "pass": true
+    },
+    {
+      "check": "mhas_sensitivity_hash",
+      "pass": true
+    },
+    {
+      "check": "share_probe_manifest",
+      "pass": true
+    },
+    {
+      "check": "share_model_manifest",
+      "pass": true
+    },
+    {
+      "check": "share_probe_privacy",
+      "pass": true
+    },
+    {
+      "check": "share_model_privacy",
+      "pass": true
+    },
+    {
+      "check": "share_specificity_hash",
+      "pass": true
+    },
+    {
+      "check": "share_delayed_hash",
+      "pass": true
+    },
+    {
+      "check": "share_sensitivity_hash",
+      "pass": true
+    },
+    {
+      "check": "share_frailty_hash",
+      "pass": true
+    },
+    {
+      "check": "share_performance_hash",
+      "pass": true
+    },
+    {
+      "check": "share_risks_hash",
+      "pass": true
+    },
+    {
+      "check": "share_coverage_hash",
+      "pass": true
+    },
+    {
+      "check": "share_context_hash",
+      "pass": true
+    },
+    {
+      "check": "single_model_code_commit",
+      "pass": true
+    },
+    {
+      "check": "single_frozen_design_commit",
+      "pass": true
+    },
+    {
+      "check": "no_model_failures",
+      "pass": true
+    },
+    {
+      "check": "not_evaluable_retained",
+      "pass": true
+    },
+    {
+      "check": "no_row_level_fields",
+      "pass": true
+    },
+    {
+      "check": "finite_passed_estimates",
+      "pass": true
+    },
+    {
+      "check": "risk_ratio_range",
+      "pass": true
+    },
+    {
+      "check": "head_to_head_common_analysis_sets",
+      "pass": true
+    },
+    {
+      "check": "cv_deltas_have_grouped_bootstrap_ci",
+      "pass": "True"
+    },
+    {
+      "check": "diabetes_meta_recomputed",
+      "pass": true
+    },
+    {
+      "check": "pooled_sensitivity_manifest",
+      "pass": true
+    },
+    {
+      "check": "pooled_sensitivity_privacy_and_hash",
+      "pass": true
+    },
+    {
+      "check": "story_gate_written",
+      "pass": true
+    },
+    {
+      "check": "three_clinical_figures_written",
+      "pass": true
+    }
+  ],
+  "failed": [],
+  "aggregate_only": true,
+  "model_code_commits": [
+    "f7d16ff5f4da0c667ae5f3a2a9dc61591a664c13"
+  ],
+  "design_commits": [
+    "c8b3e99a2d430ef0748a307f550cfa9109121dbc"
+  ]
+}

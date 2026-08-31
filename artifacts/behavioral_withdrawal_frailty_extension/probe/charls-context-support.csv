@@ -1,0 +1,9 @@
+cohort,context_field,observed_n,positive_n,withdrawal_observed_n
+charls,self_rated_health_worsening,0,0,0
+charls,transition_hospitalization,2344,377,757
+charls,cesd_worsening,2300,648,741
+charls,bmi_or_weight_loss,1814,197,589
+charls,incident_non_target_disease,2286,215,738
+charls,fi_change,0,0,0
+charls,fi_worsening_005,0,0,0
+charls,concurrent_health_change,2360,1125,763

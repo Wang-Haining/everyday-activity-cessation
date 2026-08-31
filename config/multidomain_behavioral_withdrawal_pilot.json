@@ -1,0 +1,94 @@
+{
+  "analysis_id": "multidomain_behavioral_withdrawal_pilot_v0.1",
+  "frozen_at": "2026-08-24",
+  "frozen_before_first_effect_fit": true,
+  "design_path": "design/multidomain_behavioral_withdrawal_pilot_v0.1.md",
+  "parent_universe_config": "config/behavioral_transition_outcome_scan_universe_v0.1.json",
+  "parent_universe_sha256": "b952c94d1b7b87916366d867797512ca77f27c59a2d100ebecbbdb4239039fd6",
+  "release_root": "Harmonized_final_8_18_2026",
+  "remote_root": "multidomain_behavioral_withdrawal_pilot_v0.1",
+  "candidate_cohorts": [
+    "charls",
+    "elsa",
+    "hrs",
+    "klosa",
+    "mhas",
+    "share"
+  ],
+  "single_wave_not_evaluable": [
+    "lasi"
+  ],
+  "minimum_age_at_t1": 60,
+  "comparable_window_months": [
+    22,
+    30
+  ],
+  "core_domains": [
+    "alcohol_current",
+    "moderate_or_vigorous_activity",
+    "paid_work"
+  ],
+  "extended_social_cohorts": {
+    "annual_participation": [
+      "elsa",
+      "share"
+    ],
+    "weekly_participation": [
+      "klosa",
+      "mhas"
+    ]
+  },
+  "religious_context_cohorts": [
+    "hrs",
+    "klosa",
+    "mhas"
+  ],
+  "retirement_context_cohorts": [
+    "elsa",
+    "hrs",
+    "mhas",
+    "share"
+  ],
+  "component_transition": "1_to_0",
+  "primary_binary_outcomes": [
+    "incident_diabetes",
+    "incident_stroke",
+    "incident_any_adl",
+    "multimorbidity_progression",
+    "mortality"
+  ],
+  "secondary_binary_outcomes": [
+    "incident_heart_disease",
+    "incident_hypertension",
+    "incident_any_iadl",
+    "iadl_count_increase"
+  ],
+  "secondary_continuous_outcomes": [
+    "word_recall_change"
+  ],
+  "primary_score_categories": [
+    "0",
+    "1",
+    "2_plus"
+  ],
+  "minimum_baseline_opportunities": 1,
+  "minimum_exposed_events": 20,
+  "minimum_exposed_nonevents": 20,
+  "events_per_parameter": 10,
+  "minimum_clusters": 30,
+  "minimum_continuous_group_n": 100,
+  "minimum_meta_cohorts": 3,
+  "age_rcs_knots": [
+    60,
+    70,
+    80,
+    90
+  ],
+  "binary_model": "modified_poisson_log_link_cluster_robust_by_respondent",
+  "continuous_model": "linear_cluster_robust_baseline_adjusted",
+  "meta_analysis": "REML_unmodified_Hartung_Knapp_prediction_interval",
+  "row_level_outputs_allowed": false,
+  "formal_iwstat_allowed": false,
+  "selection_by_p_value_allowed": false,
+  "negative_results_retained": true
+}

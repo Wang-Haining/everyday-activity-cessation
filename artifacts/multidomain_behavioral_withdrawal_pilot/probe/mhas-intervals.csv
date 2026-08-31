@@ -1,0 +1,5 @@
+cohort,t1,outcome_wave,scheduled_followup_months,observed_duration_n,observed_duration_p25,observed_duration_median,observed_duration_p75
+mhas,2,3,112.0,4622,111.0,112.0,112.0
+mhas,3,4,36.0,7369,36.0,36.0,36.0
+mhas,4,5,36.0,7915,37.0,37.0,37.0
+mhas,5,6,37.0,7839,36.0,37.0,37.0

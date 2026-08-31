@@ -1,0 +1,205 @@
+{
+  "analysis_id": "behavioral_withdrawal_age_floor_v0.1",
+  "cohort": "mhas",
+  "code_commit": "6445b40",
+  "age_floors": [
+    60,
+    65,
+    70
+  ],
+  "universe_config_sha256": "b952c94d1b7b87916366d867797512ca77f27c59a2d100ebecbbdb4239039fd6",
+  "multidomain_config_sha256": "ba91bc2f0d15b3baafa32ea1d4b00538b496f352a79457c6fa696943b994944d",
+  "lookup_sha256": "75aa3cb7ecc07a04f1fbc6f14d170f2d6d255e7b3b76f5797c16cdef65819a5f",
+  "input_audit": {
+    "formal": {
+      "formal_relative_path": "mhas.csv",
+      "formal_sha256": "722e3c08fd95c508b7809a1abe98e1457f8e23889a6936b72cb14e6638d33826",
+      "ordered_header_matches_lookup": true,
+      "selected_rows": 92245,
+      "selected_fields": [
+        "rahhidnp",
+        "wave",
+        "agey",
+        "ragender",
+        "raeducl",
+        "itot",
+        "iwy",
+        "iwm",
+        "drink",
+        "smoken",
+        "vigact",
+        "work",
+        "socwk",
+        "relgwk",
+        "retemp",
+        "drinkd",
+        "smokef",
+        "dressa",
+        "batha",
+        "eata",
+        "beda",
+        "toilta",
+        "moneya",
+        "medsa",
+        "shopa",
+        "mealsa",
+        "lgrip",
+        "rgrip",
+        "wspeed",
+        "tr16",
+        "cesd_m",
+        "shlt",
+        "painfr",
+        "fall",
+        "hosp1y",
+        "cancre",
+        "diabe",
+        "hearte",
+        "hibpe",
+        "stroke",
+        "arthre",
+        "bmi",
+        "mwaist",
+        "smokev"
+      ],
+      "id_wave_unique": true
+    },
+    "status": {
+      "primary_source_relative_path": "H_MHAS_d.dta",
+      "primary_source_sha256": "5c8eea943a99048078d7ba6356276c267e59e4cd132eb116f97a63304d6cc81f",
+      "source_id_unique": true,
+      "source_rows": 27159,
+      "status_value_labels": [
+        {
+          "variable": "r1iwstat",
+          "value_label_name": "status",
+          "value_labels": {
+            "0": "0.Inap",
+            "1": "1.Resp, alive",
+            "4": "4.NR, alive",
+            "5": "5.NR, died this wave",
+            "6": "6.NR, died prev wave",
+            "7": "7.NR, dropped from sample",
+            "9": "9.NR, dk if alive or died",
+            "2147483643": ".v:SP NR",
+            "2147483642": ".u:Unmar",
+            "2147483639": ".r:Refuse",
+            "2147483634": ".m:Missing",
+            "2147483640": ".s:Skip",
+            "2147483630": ".i:Invalid",
+            "2147483625": ".d:DK"
+          }
+        },
+        {
+          "variable": "r2iwstat",
+          "value_label_name": "status",
+          "value_labels": {
+            "0": "0.Inap",
+            "1": "1.Resp, alive",
+            "4": "4.NR, alive",
+            "5": "5.NR, died this wave",
+            "6": "6.NR, died prev wave",
+            "7": "7.NR, dropped from sample",
+            "9": "9.NR, dk if alive or died",
+            "2147483643": ".v:SP NR",
+            "2147483642": ".u:Unmar",
+            "2147483639": ".r:Refuse",
+            "2147483634": ".m:Missing",
+            "2147483640": ".s:Skip",
+            "2147483630": ".i:Invalid",
+            "2147483625": ".d:DK"
+          }
+        },
+        {
+          "variable": "r3iwstat",
+          "value_label_name": "status",
+          "value_labels": {
+            "0": "0.Inap",
+            "1": "1.Resp, alive",
+            "4": "4.NR, alive",
+            "5": "5.NR, died this wave",
+            "6": "6.NR, died prev wave",
+            "7": "7.NR, dropped from sample",
+            "9": "9.NR, dk if alive or died",
+            "2147483643": ".v:SP NR",
+            "2147483642": ".u:Unmar",
+            "2147483639": ".r:Refuse",
+            "2147483634": ".m:Missing",
+            "2147483640": ".s:Skip",
+            "2147483630": ".i:Invalid",
+            "2147483625": ".d:DK"
+          }
+        },
+        {
+          "variable": "r4iwstat",
+          "value_label_name": "status",
+          "value_labels": {
+            "0": "0.Inap",
+            "1": "1.Resp, alive",
+            "4": "4.NR, alive",
+            "5": "5.NR, died this wave",
+            "6": "6.NR, died prev wave",
+            "7": "7.NR, dropped from sample",
+            "9": "9.NR, dk if alive or died",
+            "2147483643": ".v:SP NR",
+            "2147483642": ".u:Unmar",
+            "2147483639": ".r:Refuse",
+            "2147483634": ".m:Missing",
+            "2147483640": ".s:Skip",
+            "2147483630": ".i:Invalid",
+            "2147483625": ".d:DK"
+          }
+        },
+        {
+          "variable": "r5iwstat",
+          "value_label_name": "status",
+          "value_labels": {
+            "0": "0.Inap",
+            "1": "1.Resp, alive",
+            "4": "4.NR, alive",
+            "5": "5.NR, died this wave",
+            "6": "6.NR, died prev wave",
+            "7": "7.NR, dropped from sample",
+            "9": "9.NR, dk if alive or died",
+            "2147483643": ".v:SP NR",
+            "2147483642": ".u:Unmar",
+            "2147483639": ".r:Refuse",
+            "2147483634": ".m:Missing",
+            "2147483640": ".s:Skip",
+            "2147483630": ".i:Invalid",
+            "2147483625": ".d:DK"
+          }
+        },
+        {
+          "variable": "r6iwstat",
+          "value_label_name": "status",
+          "value_labels": {
+            "0": "0.Inap",
+            "1": "1.Resp, alive",
+            "4": "4.NR, alive",
+            "5": "5.NR, died this wave",
+            "6": "6.NR, died prev wave",
+            "7": "7.NR, dropped from sample",
+            "9": "9.NR, dk if alive or died",
+            "2147483643": ".v:SP NR",
+            "2147483642": ".u:Unmar",
+            "2147483639": ".r:Refuse",
+            "2147483634": ".m:Missing",
+            "2147483640": ".s:Skip",
+            "2147483630": ".i:Invalid",
+            "2147483625": ".d:DK"
+          }
+        }
+      ],
+      "elsa_interview_dates_read_from_source": false
+    }
+  },
+  "support_gates_unchanged": true,
+  "negative_results_retained": true,
+  "aggregate_only": true,
+  "respondent_rows_exported": 0,
+  "outputs": {
+    "age_floor": "c88e383a50ffc7eb3166f966f67e85e17b92716925862c6a5a413702008e1c82",
+    "age_distribution": "784a27b6e735efc81090df5e7faf780037971e7b46c05d22a4c3b602e2397700"
+  }
+}

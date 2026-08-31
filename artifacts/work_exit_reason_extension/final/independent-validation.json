@@ -1,0 +1,53 @@
+{
+  "analysis_id": "bmc_absolute_risk_work_exit_extension_v0.2",
+  "status": "PASS",
+  "checks": {
+    "all_cohorts_present": true,
+    "single_design_commit": true,
+    "aggregate_only": true,
+    "no_respondent_rows_exported": true,
+    "risk_range_valid": true,
+    "scope_frozen": true,
+    "adjustment_frozen": true
+  },
+  "model_status_counts_standardized_risk": {
+    "PASS": 42,
+    "NOT_EVALUABLE_LOSS_2PLUS_EVENTS": 4,
+    "NOT_EVALUABLE_CLUSTERS": 4,
+    "NOT_EVALUABLE_EPV": 2
+  },
+  "model_status_counts_work_exit": {
+    "NOT_EVALUABLE_RETIREMENT_NOT_MEASURED": 4,
+    "PASS": 3,
+    "NOT_EVALUABLE_CLUSTERS": 2,
+    "NOT_EVALUABLE_WORK_EXIT_NO_RETIREMENT_EVENTS": 2,
+    "NOT_EVALUABLE_EPV": 1
+  },
+  "output_hashes": {
+    "cohort_standardized_risks.csv": "9761ca012ea36c070f0a93bfa347b70f385c56f7b9e36f1a772decdf68d99b98",
+    "pooled_standardized_risks.csv": "35c6c5ba2f3ed172dc3b3aa26c8c7da5c773214f06f16404939e97fa7037af25",
+    "cohort_work_exit_contrasts.csv": "93c63cadead19c0a60f1b9e6d587711969db95f6ef0a1746bc95a31c43bb1e1a",
+    "pooled_work_exit_contrasts.csv": "d3aad04b614a06c41553afba7171ca17841aa955dd33841f4fd1b1969f56ca2e",
+    "comparable_interval_provenance.csv": "74420227f92797fa3cc0d676f984801a8101e1ac815d69310dd3d30efbfac44c"
+  },
+  "input_hashes": {
+    "charls-standardized-risks.csv": "6b717c204ad9fdea97e23a940618a54c87710c2a7b9a2ed08a8bd297f55a329c",
+    "elsa-standardized-risks.csv": "969f5309624bcf28a43efcdc4e8200d90d4846ea9fd39a0307473e85117e3919",
+    "hrs-standardized-risks.csv": "bd32eb5feaf989dcb3b40b25025ecad06dfce9dcd35cdb4dd94ecfd9a00689c7",
+    "klosa-standardized-risks.csv": "6702336fffa97716c51b300cf9b7176be1cde65050bb772f75b4b085dca44fb9",
+    "mhas-standardized-risks.csv": "6b233aa3c4de9f9e0816bd1840a4275d1ec13098bc76bfbf583881ef8ffa9a66",
+    "share-standardized-risks.csv": "02ccc2d72da458e13e1d2515d0b8eeaf437479e7df04ad3b646e5efbaa902a1c",
+    "charls-work-exit-contrasts.csv": "7b97aae51d9afeddef2140984137409e7fc270b115552fe1acf15b328b135755",
+    "elsa-work-exit-contrasts.csv": "4ccaaeb70741828cde8959886162404b162943779a169f8f1fd7b91054754f33",
+    "hrs-work-exit-contrasts.csv": "42b0628c1f5b0a132cd41800ef85b5d185bcace34b56b02b09234c63a148bfb7",
+    "klosa-work-exit-contrasts.csv": "2cd06ce3ed4ce2f20b3268358eb6ea25f5d5005e555a8184e67930f62722ac4b",
+    "mhas-work-exit-contrasts.csv": "2434e4746481658f71b6730d80e2b3ae7111e426c3df92b7d4ee2a1c38904000",
+    "share-work-exit-contrasts.csv": "7fe1313e61118b7ca8aa37868bdb0f0c3ce1a7466e753c6851380ffaaf38fc48",
+    "charls-interval-provenance.csv": "dfd45bfbf12970227219c5da1cb12f90102bea087322d49db7ac9d4e91cb33ec",
+    "elsa-interval-provenance.csv": "ecbb821702f108a48b97f23795c54c56fd9c775b4ec0f5ad624eb7faccb6eeb5",
+    "hrs-interval-provenance.csv": "76373add07bc64c19c38cee0eb4735571f5c674ec775bd84509a1fa6116440ab",
+    "klosa-interval-provenance.csv": "7562ddc3bc523255edc4ba5c951384080645b1dd35a8bca1848d73849572cd2b",
+    "mhas-interval-provenance.csv": "75fb6f886371573fa7a787a638e82c99dd452aad09448af2f859ab4db7b10116",
+    "share-interval-provenance.csv": "fadca0261656e1b12702cc7969af17cb5688761c6bcc5dee5baf3a385510bcc2"
+  }
+}

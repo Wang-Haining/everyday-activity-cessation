@@ -1,0 +1,21 @@
+cohort,component,analytic_field,source_tier,source_path,source_variables,waves,operational_rule,review_status
+CHARLS,shrinking,bmi/mweight,formal CSV via live lookup,charls.csv,r1mbmi-r3mbmi/r1mweight-r3mweight,1-3,BMI below 18.5 or greater than 10 percent same-type prior weight loss,VERIFIED_MAPPING_RULE_FROZEN
+CHARLS,exhaustion,effortl/goingl,formal CSV via live lookup,charls.csv,r1effortl-r4effortl/r1goingl-r4goingl,1-4,either valid item positive,VERIFIED_MAPPING_RULE_FROZEN
+CHARLS,weakness,lgrip/rgrip and source reason flags,formal plus primary harmonized source,GH_CHARLS_d2.dta,r1-r3 grip measures and completion reasons,1-3,sex and BMI stratum lowest fifth; health unsafe or tried unable counts deficit,VERIFIED_MAPPING_RULE_FROZEN
+CHARLS,slowness,wspeed,formal CSV via live lookup,charls.csv,r1wspeed-r3wspeed,1-3,sex and height stratum highest fifth of valid walk seconds,VERIFIED_SCALE_BY_LIVE_DISTRIBUTION
+CHARLS,low activity,vgact_c/mdact_c/ltact_c,formal CSV via live lookup,charls.csv,r1-r4 activity indicators,1-4,no activity indicator positive,VERIFIED_MAPPING_RULE_FROZEN
+ELSA,shrinking,mbmi/mweight,formal CSV via live lookup,elsa.csv,r2/r4/r6/r8 measured BMI and weight,2;4;6;8,BMI below 18.5 or greater than 10 percent same-type prior weight loss,VERIFIED_MAPPING_RULE_FROZEN
+ELSA,exhaustion,source effort/going,primary harmonized source,gh_elsa_h.dta,r1effort-r10effort/r1going-r10going,1-10,either valid CES-D item positive,VERIFIED_SOURCE_LABEL_RULE_FROZEN
+ELSA,weakness,lgrip/rgrip and source reason flags,formal plus primary harmonized source,gh_elsa_h.dta,r2/r4/r6/r8 grip and completion reasons,2;4;6;8,sex and BMI stratum lowest fifth; unsafe health reason counts deficit,VERIFIED_MAPPING_RULE_FROZEN
+ELSA,slowness,wspeed,formal CSV via live lookup,elsa.csv,r1wspeed-r10wspeed,1-10,sex and height stratum highest fifth of valid walk seconds,VERIFIED_SCALE_BY_LIVE_DISTRIBUTION
+ELSA,low activity,vgactx_e/mdactx_e/ltactx_e,formal CSV via live lookup,elsa.csv,r1-r10 activity frequencies,1-10,all three frequencies in inactive categories,VERIFIED_MAPPING_RULE_FROZEN
+HRS,shrinking,mbmi/mweight,formal CSV via live lookup,hrs.csv,r7-r14 measured BMI and weight,7-14,BMI below 18.5 or greater than 10 percent same-type prior weight loss,VERIFIED_MAPPING_RULE_FROZEN
+HRS,exhaustion,source effort/going,primary harmonized source,randhrs1992_2022v1.dta,r5effort-r16effort/r5going-r16going,5-16,either valid CES-D item positive,VERIFIED_SOURCE_LABEL_RULE_FROZEN
+HRS,weakness,lgrip/rgrip and source reason flags,formal plus HRS harmonized supplement,01_H_HRS_d.dta,r7-r14 grip and completion reasons,7-14,original Fried sex and BMI cutoffs; unsafe health or tried unable counts deficit,VERIFIED_MAPPING_RULE_FROZEN
+HRS,slowness,wspeed,formal CSV via live lookup,hrs.csv,r7wspeed-r14wspeed,7-14,sex and height stratum highest fifth of valid walk seconds,VERIFIED_SCALE_BY_LIVE_DISTRIBUTION
+HRS,low activity,vgactx/mdactx/ltactx,formal CSV via live lookup,hrs.csv,r7-r16 activity frequencies,7-16,all three frequencies in inactive categories,VERIFIED_MAPPING_RULE_FROZEN
+SHARE,shrinking,bmi/weight with appetite sensitivity,formal plus primary harmonized source,GH_SHARE_g.dta,r1-r9 BMI weight and appetite fields,1;2;4-9,BMI below 18.5 or greater than 10 percent same-type prior weight loss; appetite separate sensitivity,VERIFIED_MAPPING_RULE_FROZEN
+SHARE,exhaustion,source fatigue,primary harmonized source,GH_SHARE_g.dta,r1fatig/r2fatig/r4fatig-r9fatig,1;2;4-9,valid EURO-D fatigue item positive,VERIFIED_SOURCE_LABEL_RULE_FROZEN
+SHARE,weakness,lgrip/rgrip and source reason flags,formal plus primary harmonized source,GH_SHARE_g.dta,r1/r2/r4-r9 grip and completion reasons,1;2;4-9,original Fried sex and BMI cutoffs; unsafe health or tried unable counts deficit,VERIFIED_MAPPING_RULE_FROZEN
+SHARE,slowness,walk100a/clim1a,formal CSV via live lookup,share.csv,r1/r2/r4-r9 walking 100 m and climbing one flight difficulty,1;2;4-9,either difficulty positive,VERIFIED_PUBLISHED_ADAPTATION
+SHARE,low activity,mdactx,formal CSV via live lookup,share.csv,r1mdactx/r2mdactx/r4mdactx-r9mdactx,1;2;4-9,one to three times monthly or hardly ever never,VERIFIED_PUBLISHED_ADAPTATION

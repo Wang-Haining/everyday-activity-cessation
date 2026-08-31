@@ -1,0 +1,13 @@
+cohort,outcome_id,risk_model,state,model_status,standardized_risk,n
+elsa,incident_diabetes,four_state,NOT_EVALUABLE,NOT_EVALUABLE_BOTH_EVENTS,,
+elsa,incident_stroke,four_state,NOT_EVALUABLE,NOT_EVALUABLE_EPV,,
+elsa,incident_heart_disease,four_state,neither,,0.03508872913954619,10502.0
+elsa,incident_heart_disease,four_state,withdrawal_only,,0.03981818863269915,10502.0
+elsa,incident_heart_disease,four_state,frailty_only,,0.05946253253028572,10502.0
+elsa,incident_heart_disease,four_state,both,,0.04330689551313136,10502.0
+elsa,incident_hypertension,four_state,NOT_EVALUABLE,NOT_EVALUABLE_FRAILTY_ONLY_EVENTS,,
+elsa,incident_cancer,four_state,neither,,0.03268979071124528,11438.0
+elsa,incident_cancer,four_state,withdrawal_only,,0.017190620439264302,11438.0
+elsa,incident_cancer,four_state,frailty_only,,0.029440058069451915,11438.0
+elsa,incident_cancer,four_state,both,,0.02876494795753868,11438.0
+elsa,incident_arthritis,four_state,NOT_EVALUABLE,NOT_EVALUABLE_BOTH_EVENTS,,

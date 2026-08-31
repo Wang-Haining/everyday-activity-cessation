@@ -1,0 +1,237 @@
+{
+  "analysis_id": "behavioral_withdrawal_baseline_burden_v0.1",
+  "cohort": "share",
+  "code_commit": "67b9532",
+  "universe_config_sha256": "b952c94d1b7b87916366d867797512ca77f27c59a2d100ebecbbdb4239039fd6",
+  "multidomain_config_sha256": "ba91bc2f0d15b3baafa32ea1d4b00538b496f352a79457c6fa696943b994944d",
+  "lookup_sha256": "75aa3cb7ecc07a04f1fbc6f14d170f2d6d255e7b3b76f5797c16cdef65819a5f",
+  "input_audit": {
+    "formal": {
+      "formal_relative_path": "share.csv",
+      "formal_sha256": "f086d4e24487185e80e72749fdc007db59ab36558bd689cb181b0581a171df70",
+      "ordered_header_matches_lookup": true,
+      "selected_rows": 459946,
+      "selected_fields": [
+        "mergeid",
+        "wave",
+        "agey",
+        "ragender",
+        "raeducl",
+        "hhitothhinc",
+        "iwy",
+        "iwm",
+        "drinkxw",
+        "smoken",
+        "vgactx",
+        "mdactx",
+        "work",
+        "socyr",
+        "retemp",
+        "drinkx",
+        "smokef",
+        "dressa",
+        "batha",
+        "eata",
+        "beda",
+        "toilta",
+        "moneya",
+        "medsa",
+        "shopa",
+        "mealsa",
+        "lgrip",
+        "rgrip",
+        "wspeed",
+        "tr20",
+        "shlt",
+        "painfr",
+        "hosp1y",
+        "cancre",
+        "diabe",
+        "hearte",
+        "hibpe",
+        "stroke",
+        "arthre",
+        "lunge",
+        "psyche",
+        "hchole",
+        "kidneye",
+        "parkine",
+        "bmi",
+        "smokev",
+        "gripcomp",
+        "weight",
+        "height",
+        "walk100a",
+        "clim1a"
+      ],
+      "id_wave_unique": true
+    },
+    "status": {
+      "primary_source_relative_path": "GH_SHARE_g.dta",
+      "primary_source_sha256": "909039500f32931cb7c3a99ab2190f145250165b49019531538b776286cc68bc",
+      "source_id_unique": true,
+      "source_rows": 158764,
+      "status_value_labels": [
+        {
+          "variable": "r1iwstat",
+          "value_label_name": "wstat",
+          "value_labels": {
+            "0": "0.inap.",
+            "1": "1.resp, alive",
+            "4": "4.nr, alive",
+            "5": "5.nr, died this wv",
+            "6": "6.nr, died prev wv",
+            "7": "7.nr, dropped from samp",
+            "9": "9.nr, dk if alive or died",
+            "10": "10.nr, cntry not in wv",
+            "2147483643": ".v:SP NR",
+            "2147483642": ".u:Unmar",
+            "2147483639": ".r:Refuse",
+            "2147483634": ".m:Missing",
+            "2147483625": ".d:DK"
+          }
+        },
+        {
+          "variable": "r2iwstat",
+          "value_label_name": "wstat",
+          "value_labels": {
+            "0": "0.inap.",
+            "1": "1.resp, alive",
+            "4": "4.nr, alive",
+            "5": "5.nr, died this wv",
+            "6": "6.nr, died prev wv",
+            "7": "7.nr, dropped from samp",
+            "9": "9.nr, dk if alive or died",
+            "10": "10.nr, cntry not in wv",
+            "2147483643": ".v:SP NR",
+            "2147483642": ".u:Unmar",
+            "2147483639": ".r:Refuse",
+            "2147483634": ".m:Missing",
+            "2147483625": ".d:DK"
+          }
+        },
+        {
+          "variable": "r4iwstat",
+          "value_label_name": "wstat",
+          "value_labels": {
+            "0": "0.inap.",
+            "1": "1.resp, alive",
+            "4": "4.nr, alive",
+            "5": "5.nr, died this wv",
+            "6": "6.nr, died prev wv",
+            "7": "7.nr, dropped from samp",
+            "9": "9.nr, dk if alive or died",
+            "10": "10.nr, cntry not in wv",
+            "2147483643": ".v:SP NR",
+            "2147483642": ".u:Unmar",
+            "2147483639": ".r:Refuse",
+            "2147483634": ".m:Missing",
+            "2147483625": ".d:DK"
+          }
+        },
+        {
+          "variable": "r5iwstat",
+          "value_label_name": "wstat",
+          "value_labels": {
+            "0": "0.inap.",
+            "1": "1.resp, alive",
+            "4": "4.nr, alive",
+            "5": "5.nr, died this wv",
+            "6": "6.nr, died prev wv",
+            "7": "7.nr, dropped from samp",
+            "9": "9.nr, dk if alive or died",
+            "10": "10.nr, cntry not in wv",
+            "2147483643": ".v:SP NR",
+            "2147483642": ".u:Unmar",
+            "2147483639": ".r:Refuse",
+            "2147483634": ".m:Missing",
+            "2147483625": ".d:DK"
+          }
+        },
+        {
+          "variable": "r6iwstat",
+          "value_label_name": "wstat",
+          "value_labels": {
+            "0": "0.inap.",
+            "1": "1.resp, alive",
+            "4": "4.nr, alive",
+            "5": "5.nr, died this wv",
+            "6": "6.nr, died prev wv",
+            "7": "7.nr, dropped from samp",
+            "9": "9.nr, dk if alive or died",
+            "10": "10.nr, cntry not in wv",
+            "2147483643": ".v:SP NR",
+            "2147483642": ".u:Unmar",
+            "2147483639": ".r:Refuse",
+            "2147483634": ".m:Missing",
+            "2147483625": ".d:DK"
+          }
+        },
+        {
+          "variable": "r7iwstat",
+          "value_label_name": "wstat",
+          "value_labels": {
+            "0": "0.inap.",
+            "1": "1.resp, alive",
+            "4": "4.nr, alive",
+            "5": "5.nr, died this wv",
+            "6": "6.nr, died prev wv",
+            "7": "7.nr, dropped from samp",
+            "9": "9.nr, dk if alive or died",
+            "10": "10.nr, cntry not in wv",
+            "2147483643": ".v:SP NR",
+            "2147483642": ".u:Unmar",
+            "2147483639": ".r:Refuse",
+            "2147483634": ".m:Missing",
+            "2147483625": ".d:DK"
+          }
+        },
+        {
+          "variable": "r8iwstat",
+          "value_label_name": "wstat",
+          "value_labels": {
+            "0": "0.inap.",
+            "1": "1.resp, alive",
+            "4": "4.nr, alive",
+            "5": "5.nr, died this wv",
+            "6": "6.nr, died prev wv",
+            "7": "7.nr, dropped from samp",
+            "9": "9.nr, dk if alive or died",
+            "10": "10.nr, cntry not in wv",
+            "2147483643": ".v:SP NR",
+            "2147483642": ".u:Unmar",
+            "2147483639": ".r:Refuse",
+            "2147483634": ".m:Missing",
+            "2147483625": ".d:DK"
+          }
+        },
+        {
+          "variable": "r9iwstat",
+          "value_label_name": "wstat",
+          "value_labels": {
+            "0": "0.inap.",
+            "1": "1.resp, alive",
+            "4": "4.nr, alive",
+            "5": "5.nr, died this wv",
+            "6": "6.nr, died prev wv",
+            "7": "7.nr, dropped from samp",
+            "9": "9.nr, dk if alive or died",
+            "10": "10.nr, cntry not in wv",
+            "2147483643": ".v:SP NR",
+            "2147483642": ".u:Unmar",
+            "2147483639": ".r:Refuse",
+            "2147483634": ".m:Missing",
+            "2147483625": ".d:DK"
+          }
+        }
+      ],
+      "elsa_interview_dates_read_from_source": false
+    }
+  },
+  "descriptive_only": true,
+  "aggregate_only": true,
+  "respondent_rows_exported": 0,
+  "outputs": {
+    "burden": "7d729815bf42269f821f9fb6ac03653839e11df6e16d4182ab28d6e710cd46bb"
+  }
+}

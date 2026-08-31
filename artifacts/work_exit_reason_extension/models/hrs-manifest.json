@@ -1,0 +1,293 @@
+{
+  "analysis_id": "bmc_absolute_risk_work_exit_extension_v0.2",
+  "cohort": "hrs",
+  "design_commit": "ff797c4a0b1e8df009a494d8b43460e8443e40d4",
+  "design_commit_time": "2026-08-25T14:58:48-04:00",
+  "code_commit": "584bb4378e63acba8a361c06eabaf234b2d6ded8",
+  "design_sha256": "14a4f9c1dfe83c23f3885bff8784d90e37b528da3ceb8e6bb34ffc759d42f42e",
+  "extension_config_sha256": "f9fdfb9de4a54d32e0016ce14aa4e6a76b4347492e76a6873fc2423c1fb28c12",
+  "pilot_config_sha256": "ba91bc2f0d15b3baafa32ea1d4b00538b496f352a79457c6fa696943b994944d",
+  "universe_config_sha256": "b952c94d1b7b87916366d867797512ca77f27c59a2d100ebecbbdb4239039fd6",
+  "lookup_sha256": "75aa3cb7ecc07a04f1fbc6f14d170f2d6d255e7b3b76f5797c16cdef65819a5f",
+  "source_audit": {
+    "formal": {
+      "formal_relative_path": "hrs.csv",
+      "formal_sha256": "e7aa272bc059d8c6357c197a370eded61225567ea41a02db76aea6e48085906a",
+      "ordered_header_matches_lookup": true,
+      "selected_rows": 224530,
+      "selected_fields": [
+        "hhidpn",
+        "wave",
+        "ragey_e",
+        "ragender",
+        "raeducl",
+        "itot",
+        "iwendy",
+        "iwendm",
+        "drink",
+        "smoken",
+        "vgactx",
+        "mdactx",
+        "work",
+        "socwk",
+        "relgwk",
+        "retemp",
+        "drinkd",
+        "smokef",
+        "dressa",
+        "batha",
+        "eata",
+        "beda",
+        "toilta",
+        "moneya",
+        "medsa",
+        "shopa",
+        "mealsa",
+        "lgrip",
+        "rgrip",
+        "wspeed",
+        "tr20",
+        "cesd",
+        "shlt",
+        "painfr",
+        "fall",
+        "hosp",
+        "cancre",
+        "diabe",
+        "hearte",
+        "hibpe",
+        "stroke",
+        "arthre",
+        "lunge",
+        "psyche",
+        "hchole",
+        "demene",
+        "bmi",
+        "bpsys",
+        "mwaist",
+        "smokev"
+      ],
+      "id_wave_unique": true
+    },
+    "source_status": {
+      "primary_source_relative_path": "randhrs1992_2022v1.dta",
+      "primary_source_sha256": "9faf6db0092c2e66d1e199965c1595d183d24a9f26974e11b80bfdd94adff211",
+      "source_id_unique": true,
+      "source_rows": 45234,
+      "status_value_labels": [
+        {
+          "variable": "r5iwstat",
+          "value_label_name": "IWSTAT",
+          "value_labels": {
+            "0": "0.inap.",
+            "1": "1.resp,alive",
+            "2": "2.resp,died after iw",
+            "3": "3.resp(proxy),died",
+            "4": "4.nr,alive",
+            "5": "5.nr,died this wv",
+            "6": "6.nr,died prev wv",
+            "7": "7.nr,dropped from samp",
+            "9": "9.nr,dk if alive or died",
+            "2147483642": ".u=unmarried",
+            "2147483643": ".v=spouse nr"
+          }
+        },
+        {
+          "variable": "r6iwstat",
+          "value_label_name": "IWSTAT",
+          "value_labels": {
+            "0": "0.inap.",
+            "1": "1.resp,alive",
+            "2": "2.resp,died after iw",
+            "3": "3.resp(proxy),died",
+            "4": "4.nr,alive",
+            "5": "5.nr,died this wv",
+            "6": "6.nr,died prev wv",
+            "7": "7.nr,dropped from samp",
+            "9": "9.nr,dk if alive or died",
+            "2147483642": ".u=unmarried",
+            "2147483643": ".v=spouse nr"
+          }
+        },
+        {
+          "variable": "r7iwstat",
+          "value_label_name": "IWSTAT",
+          "value_labels": {
+            "0": "0.inap.",
+            "1": "1.resp,alive",
+            "2": "2.resp,died after iw",
+            "3": "3.resp(proxy),died",
+            "4": "4.nr,alive",
+            "5": "5.nr,died this wv",
+            "6": "6.nr,died prev wv",
+            "7": "7.nr,dropped from samp",
+            "9": "9.nr,dk if alive or died",
+            "2147483642": ".u=unmarried",
+            "2147483643": ".v=spouse nr"
+          }
+        },
+        {
+          "variable": "r8iwstat",
+          "value_label_name": "IWSTAT",
+          "value_labels": {
+            "0": "0.inap.",
+            "1": "1.resp,alive",
+            "2": "2.resp,died after iw",
+            "3": "3.resp(proxy),died",
+            "4": "4.nr,alive",
+            "5": "5.nr,died this wv",
+            "6": "6.nr,died prev wv",
+            "7": "7.nr,dropped from samp",
+            "9": "9.nr,dk if alive or died",
+            "2147483642": ".u=unmarried",
+            "2147483643": ".v=spouse nr"
+          }
+        },
+        {
+          "variable": "r9iwstat",
+          "value_label_name": "IWSTAT",
+          "value_labels": {
+            "0": "0.inap.",
+            "1": "1.resp,alive",
+            "2": "2.resp,died after iw",
+            "3": "3.resp(proxy),died",
+            "4": "4.nr,alive",
+            "5": "5.nr,died this wv",
+            "6": "6.nr,died prev wv",
+            "7": "7.nr,dropped from samp",
+            "9": "9.nr,dk if alive or died",
+            "2147483642": ".u=unmarried",
+            "2147483643": ".v=spouse nr"
+          }
+        },
+        {
+          "variable": "r10iwstat",
+          "value_label_name": "IWSTAT",
+          "value_labels": {
+            "0": "0.inap.",
+            "1": "1.resp,alive",
+            "2": "2.resp,died after iw",
+            "3": "3.resp(proxy),died",
+            "4": "4.nr,alive",
+            "5": "5.nr,died this wv",
+            "6": "6.nr,died prev wv",
+            "7": "7.nr,dropped from samp",
+            "9": "9.nr,dk if alive or died",
+            "2147483642": ".u=unmarried",
+            "2147483643": ".v=spouse nr"
+          }
+        },
+        {
+          "variable": "r11iwstat",
+          "value_label_name": "IWSTAT",
+          "value_labels": {
+            "0": "0.inap.",
+            "1": "1.resp,alive",
+            "2": "2.resp,died after iw",
+            "3": "3.resp(proxy),died",
+            "4": "4.nr,alive",
+            "5": "5.nr,died this wv",
+            "6": "6.nr,died prev wv",
+            "7": "7.nr,dropped from samp",
+            "9": "9.nr,dk if alive or died",
+            "2147483642": ".u=unmarried",
+            "2147483643": ".v=spouse nr"
+          }
+        },
+        {
+          "variable": "r12iwstat",
+          "value_label_name": "IWSTAT",
+          "value_labels": {
+            "0": "0.inap.",
+            "1": "1.resp,alive",
+            "2": "2.resp,died after iw",
+            "3": "3.resp(proxy),died",
+            "4": "4.nr,alive",
+            "5": "5.nr,died this wv",
+            "6": "6.nr,died prev wv",
+            "7": "7.nr,dropped from samp",
+            "9": "9.nr,dk if alive or died",
+            "2147483642": ".u=unmarried",
+            "2147483643": ".v=spouse nr"
+          }
+        },
+        {
+          "variable": "r13iwstat",
+          "value_label_name": "IWSTAT",
+          "value_labels": {
+            "0": "0.inap.",
+            "1": "1.resp,alive",
+            "2": "2.resp,died after iw",
+            "3": "3.resp(proxy),died",
+            "4": "4.nr,alive",
+            "5": "5.nr,died this wv",
+            "6": "6.nr,died prev wv",
+            "7": "7.nr,dropped from samp",
+            "9": "9.nr,dk if alive or died",
+            "2147483642": ".u=unmarried",
+            "2147483643": ".v=spouse nr"
+          }
+        },
+        {
+          "variable": "r14iwstat",
+          "value_label_name": "IWSTAT",
+          "value_labels": {
+            "0": "0.inap.",
+            "1": "1.resp,alive",
+            "2": "2.resp,died after iw",
+            "3": "3.resp(proxy),died",
+            "4": "4.nr,alive",
+            "5": "5.nr,died this wv",
+            "6": "6.nr,died prev wv",
+            "7": "7.nr,dropped from samp",
+            "9": "9.nr,dk if alive or died",
+            "2147483642": ".u=unmarried",
+            "2147483643": ".v=spouse nr"
+          }
+        },
+        {
+          "variable": "r15iwstat",
+          "value_label_name": "IWSTAT",
+          "value_labels": {
+            "0": "0.inap.",
+            "1": "1.resp,alive",
+            "2": "2.resp,died after iw",
+            "3": "3.resp(proxy),died",
+            "4": "4.nr,alive",
+            "5": "5.nr,died this wv",
+            "6": "6.nr,died prev wv",
+            "7": "7.nr,dropped from samp",
+            "9": "9.nr,dk if alive or died",
+            "2147483642": ".u=unmarried",
+            "2147483643": ".v=spouse nr"
+          }
+        },
+        {
+          "variable": "r16iwstat",
+          "value_label_name": "IWSTAT",
+          "value_labels": {
+            "0": "0.inap.",
+            "1": "1.resp,alive",
+            "2": "2.resp,died after iw",
+            "3": "3.resp(proxy),died",
+            "4": "4.nr,alive",
+            "5": "5.nr,died this wv",
+            "6": "6.nr,died prev wv",
+            "7": "7.nr,dropped from samp",
+            "9": "9.nr,dk if alive or died",
+            "2147483642": ".u=unmarried",
+            "2147483643": ".v=spouse nr"
+          }
+        }
+      ],
+      "elsa_interview_dates_read_from_source": false
+    }
+  },
+  "outputs": {
+    "standardized_risks": "bd32eb5feaf989dcb3b40b25025ecad06dfce9dcd35cdb4dd94ecfd9a00689c7",
+    "work_exit_contrasts": "42b0628c1f5b0a132cd41800ef85b5d185bcace34b56b02b09234c63a148bfb7",
+    "interval_provenance": "76373add07bc64c19c38cee0eb4735571f5c674ec775bd84509a1fa6116440ab"
+  },
+  "aggregate_only": true,
+  "respondent_rows_exported": 0
+}

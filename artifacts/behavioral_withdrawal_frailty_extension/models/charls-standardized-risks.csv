@@ -1,0 +1,7 @@
+cohort,outcome_id,risk_model,state,model_status
+charls,incident_diabetes,four_state,NOT_EVALUABLE,NOT_EVALUABLE_EPV
+charls,incident_stroke,four_state,NOT_EVALUABLE,NOT_EVALUABLE_EPV
+charls,incident_heart_disease,four_state,NOT_EVALUABLE,NOT_EVALUABLE_EPV
+charls,incident_hypertension,four_state,NOT_EVALUABLE,NOT_EVALUABLE_EPV
+charls,incident_cancer,four_state,NOT_EVALUABLE,NOT_EVALUABLE_EPV
+charls,incident_arthritis,four_state,NOT_EVALUABLE,NOT_EVALUABLE_EPV

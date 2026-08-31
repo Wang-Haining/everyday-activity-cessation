@@ -1,0 +1,384 @@
+{
+  "analysis_id": "behavioral_withdrawal_frailty_extension_v0.2",
+  "frozen_at": "2026-08-24",
+  "frozen_before_first_effect_fit": true,
+  "design_path": "design/behavioral_withdrawal_frailty_extension_v0.2.md",
+  "universe_config": "config/behavioral_transition_outcome_scan_universe_v0.1.json",
+  "universe_config_sha256": "b952c94d1b7b87916366d867797512ca77f27c59a2d100ebecbbdb4239039fd6",
+  "multidomain_config": "config/multidomain_behavioral_withdrawal_pilot_v0.1.json",
+  "multidomain_config_sha256": "ba91bc2f0d15b3baafa32ea1d4b00538b496f352a79457c6fa696943b994944d",
+  "fi_parent_config_sha256": "69956be9d1d5118bb2ca995b498aaf87db5a5aaea664327292639d2d4239039fd6",
+  "fi_parent_design_sha256": "ee9dcff1ca8f33c50a29bfff2320516dfc3ae2cc78af8f7886287a36f1405196",
+  "release_root": "Harmonized_final_8_18_2026",
+  "remote_root": "behavioral_withdrawal_frailty_extension_v0.2",
+  "frailty_cohorts": [
+    "charls",
+    "elsa",
+    "hrs",
+    "share"
+  ],
+  "specificity_cohorts": [
+    "charls",
+    "elsa",
+    "hrs",
+    "klosa",
+    "mhas",
+    "share"
+  ],
+  "minimum_age_at_t1": 60,
+  "comparable_window_months": [
+    22,
+    30
+  ],
+  "core_domains": [
+    "alcohol_current",
+    "moderate_or_vigorous_activity",
+    "paid_work"
+  ],
+  "loss_categories": [
+    "0",
+    "1",
+    "2_plus"
+  ],
+  "direction_categories": [
+    "stable",
+    "expansion",
+    "mixed",
+    "contraction_1",
+    "contraction_2_plus"
+  ],
+  "fried": {
+    "complete_components_required": 5,
+    "category_cutpoints": {
+      "robust": [
+        0,
+        0
+      ],
+      "prefrail": [
+        1,
+        2
+      ],
+      "frail": [
+        3,
+        5
+      ]
+    },
+    "shrinking": {
+      "bmi_threshold": 18.5,
+      "weight_loss_fraction": 0.1,
+      "maximum_prior_scheduled_visits": 2,
+      "same_measurement_type_required": true,
+      "measured_cohorts": [
+        "charls",
+        "elsa",
+        "hrs"
+      ],
+      "self_report_cohorts": [
+        "share"
+      ],
+      "share_appetite_sensitivity": true
+    },
+    "exhaustion": {
+      "charls_positive_values": [
+        3,
+        4
+      ],
+      "elsa_positive_values": [
+        1
+      ],
+      "hrs_positive_values": [
+        1
+      ],
+      "share_positive_values": [
+        1
+      ]
+    },
+    "weakness": {
+      "charls": {
+        "method": "cohort_wave_sex_bmi_stratum_lowest_fifth"
+      },
+      "elsa": {
+        "method": "cohort_wave_sex_bmi_stratum_lowest_fifth"
+      },
+      "hrs": {
+        "method": "fried_absolute_sex_bmi_cutoffs"
+      },
+      "share": {
+        "method": "fried_absolute_sex_bmi_cutoffs"
+      },
+      "female_bmi_upper_bounds": [
+        23,
+        26,
+        29
+      ],
+      "female_grip_cutoffs_kg": [
+        17,
+        17.3,
+        18,
+        21
+      ],
+      "male_bmi_upper_bounds": [
+        24,
+        26,
+        28
+      ],
+      "male_grip_cutoffs_kg": [
+        29,
+        30,
+        30,
+        32
+      ],
+      "health_or_unable_counts_as_deficit": true,
+      "refusal_or_equipment_is_missing": true
+    },
+    "slowness": {
+      "charls": "cohort_wave_sex_height_stratum_highest_fifth_walk_seconds",
+      "elsa": "cohort_wave_sex_height_stratum_highest_fifth_walk_seconds",
+      "hrs": "cohort_wave_sex_height_stratum_highest_fifth_walk_seconds",
+      "walk_seconds_valid_range": [
+        0.5,
+        30
+      ],
+      "share": "walking_or_climbing_difficulty"
+    },
+    "low_activity": {
+      "charls": "no_light_moderate_or_vigorous_10min_activity",
+      "elsa": "light_moderate_and_vigorous_all_inactive",
+      "hrs": "light_moderate_and_vigorous_all_inactive",
+      "share": "low_or_moderate_activity_monthly_or_less"
+    }
+  },
+  "formal_frailty_fields": {
+    "charls": [
+      "effortl",
+      "goingl",
+      "gripsum",
+      "lgrip",
+      "rgrip",
+      "gripcomp",
+      "wspeed",
+      "walkcomp",
+      "bmi",
+      "mweight",
+      "mheight",
+      "vgact_c",
+      "mdact_c",
+      "ltact_c",
+      "cesd10",
+      "hspnite"
+    ],
+    "elsa": [
+      "gripsum",
+      "lgrip",
+      "rgrip",
+      "wspeed",
+      "walkcomp",
+      "mbmi",
+      "mweight",
+      "mheight",
+      "vgactx_e",
+      "mdactx_e",
+      "ltactx_e",
+      "cesd",
+      "shlt"
+    ],
+    "hrs": [
+      "lgrip",
+      "rgrip",
+      "wspeed",
+      "walkcomp",
+      "mbmi",
+      "mweight",
+      "mheight",
+      "vgactx",
+      "mdactx",
+      "ltactx",
+      "cesd",
+      "shlt",
+      "hosp"
+    ],
+    "share": [
+      "lgrip",
+      "rgrip",
+      "gripcomp",
+      "bmi",
+      "weight",
+      "height",
+      "vgactx",
+      "mdactx",
+      "walk100a",
+      "clim1a",
+      "shlt",
+      "hosp1y"
+    ]
+  },
+  "source_component_fields": {
+    "charls": {
+      "relative_path": "GH_CHARLS_d2.dta",
+      "sha256": "1cb881f018b7acaee664887a3b8720dac40c4750cf9c952823f147a66f9c6629",
+      "id": "ID",
+      "waves": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "patterns": {
+        "grip_health": "r{wave}gripsft",
+        "grip_unable": "r{wave}griptryu",
+        "grip_refusal": "r{wave}gripref",
+        "grip_equipment": "r{wave}gripequp"
+      }
+    },
+    "elsa": {
+      "relative_path": "gh_elsa_h.dta",
+      "sha256": "915f0725c48439e604ebeeab45920d7f74640c68d8f863fc67d3220a19244824",
+      "id": "idauniqc",
+      "waves": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "patterns": {
+        "exhaustion_effort": "r{wave}effort",
+        "exhaustion_going": "r{wave}going",
+        "grip_health": "r{wave}gripsft",
+        "grip_refusal": "r{wave}gripref",
+        "grip_equipment": "r{wave}gripequp"
+      }
+    },
+    "hrs": {
+      "relative_path": "randhrs1992_2022v1.dta",
+      "sha256": "9faf6db0092c2e66d1e199965c1595d183d24a9f26974e11b80bfdd94adff211",
+      "id": "hhidpn",
+      "waves": [
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16
+      ],
+      "patterns": {
+        "exhaustion_effort": "r{wave}effort",
+        "exhaustion_going": "r{wave}going"
+      },
+      "completion_supplement": {
+        "relative_path": "01_H_HRS_d.dta",
+        "sha256": "3e36417aca0b5cc13d5dc9211a49a4665a31e892e3495ac9329dff32fc49c3d2",
+        "patterns": {
+          "grip_health": "r{wave}gripsft",
+          "grip_unable": "r{wave}griptryu",
+          "grip_refusal": "r{wave}gripref",
+          "grip_equipment": "r{wave}gripequp"
+        }
+      }
+    },
+    "share": {
+      "relative_path": "GH_SHARE_g.dta",
+      "sha256": "909039500f32931cb7c3a99ab2190f145250165b49019531538b776286cc68bc",
+      "id": "mergeid",
+      "waves": [
+        1,
+        2,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "patterns": {
+        "exhaustion_fatigue": "r{wave}fatig",
+        "appetite_loss": "r{wave}appett",
+        "grip_health": "r{wave}gripsft",
+        "grip_unable": "r{wave}griptryu",
+        "grip_refusal": "r{wave}gripref",
+        "grip_equipment": "r{wave}gripequp"
+      }
+    }
+  },
+  "fi_sources": {
+    "charls": {
+      "path": "charls-person-wave.parquet",
+      "sha256": "43cee9b4cf68c67fc40fbddb7e472d1da052a6138d5e666b13c42709471d9e5c"
+    },
+    "elsa": {
+      "path": "elsa-person-wave.parquet",
+      "sha256": "f8792d302b870ee8676ded769a119ee52da9f20a43763cbb88155de1fecd4605"
+    },
+    "hrs": {
+      "path": "hrs-person-wave.parquet",
+      "sha256": "51760e8cb432f22ff3e73fdcd9d3182f9f3f8cbf2598ff3824ada4459b6c1726"
+    },
+    "share": {
+      "path": "share-person-wave.parquet",
+      "sha256": "36eb3db3a1ec26e41df61aaf488714c71b3dba129e741ccca5b7cc567e99a339"
+    }
+  },
+  "specificity_outcomes": [
+    "incident_diabetes",
+    "incident_stroke",
+    "incident_heart_disease",
+    "incident_hypertension",
+    "incident_cancer",
+    "incident_arthritis"
+  ],
+  "delayed_outcomes": [
+    "incident_diabetes",
+    "incident_stroke",
+    "incident_heart_disease"
+  ],
+  "clinical_context": [
+    "self_rated_health_worsening",
+    "transition_hospitalization",
+    "cesd_worsening",
+    "bmi_or_weight_loss",
+    "incident_non_target_disease",
+    "fi_change"
+  ],
+  "minimum_exposed_events": 20,
+  "minimum_exposed_nonevents": 20,
+  "minimum_cell_events": 10,
+  "minimum_clusters": 30,
+  "events_per_parameter": 10,
+  "minimum_cv_events": 100,
+  "minimum_cv_withdrawal_events": 20,
+  "cv_folds": 5,
+  "cv_fold_assignment": "stable_hash_of_cohort_and_person_id",
+  "age_rcs_knots": [
+    60,
+    70,
+    80,
+    90
+  ],
+  "binary_model": "modified_poisson_log_link_cluster_robust_by_respondent",
+  "primary_synthesis": "cohort_specific_REML_Hartung_Knapp_prediction_interval",
+  "ipcw_truncation_percentiles": [
+    1,
+    99
+  ],
+  "multiple_imputation_cohorts": [
+    "elsa",
+    "share"
+  ],
+  "multiple_imputation_m": 20,
+  "row_level_outputs_allowed": false,
+  "formal_iwstat_allowed": false,
+  "selection_by_p_value_allowed": false,
+  "nri_allowed": false,
+  "decision_curve_primary_allowed": false
+}

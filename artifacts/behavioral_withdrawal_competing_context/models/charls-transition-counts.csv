@@ -1,0 +1,13 @@
+cohort,domain,transition_state,n,people,deaths
+charls,alcohol,0_to_0,970,970,25
+charls,alcohol,0_to_1,127,127,2
+charls,alcohol,1_to_0,176,176,14
+charls,alcohol,1_to_1,539,539,17
+charls,activity,0_to_0,207,207,12
+charls,activity,0_to_1,191,191,4
+charls,activity,1_to_0,469,469,24
+charls,activity,1_to_1,945,945,18
+charls,work,0_to_0,381,381,21
+charls,work,0_to_1,155,155,1
+charls,work,1_to_0,289,289,15
+charls,work,1_to_1,987,987,21

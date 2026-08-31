@@ -1,0 +1,7 @@
+cohort,outcome_id,analysis_family,model_id,n,people,events,nonevents,parameters,matrix_rank,model_status
+elsa,incident_diabetes,delayed_outcome,delayed_any,0,0,0,0,22,0,NOT_EVALUABLE_CLUSTERS
+elsa,incident_diabetes,delayed_outcome,delayed_gradient,0,0,0,0,23,0,NOT_EVALUABLE_CLUSTERS
+elsa,incident_stroke,delayed_outcome,delayed_any,0,0,0,0,22,0,NOT_EVALUABLE_CLUSTERS
+elsa,incident_stroke,delayed_outcome,delayed_gradient,0,0,0,0,23,0,NOT_EVALUABLE_CLUSTERS
+elsa,incident_heart_disease,delayed_outcome,delayed_any,0,0,0,0,22,0,NOT_EVALUABLE_CLUSTERS
+elsa,incident_heart_disease,delayed_outcome,delayed_gradient,0,0,0,0,23,0,NOT_EVALUABLE_CLUSTERS

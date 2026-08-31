@@ -1,0 +1,4 @@
+cohort,outcome_id,n,people,events,loss_0_n,loss_0_events,loss_1_n,loss_1_events,loss_2_plus_n,loss_2_plus_events,support
+elsa,incident_diabetes,0,0,0,0,0,0,0,0,0,NOT_EVALUABLE_CATEGORY_SUPPORT
+elsa,incident_stroke,0,0,0,0,0,0,0,0,0,NOT_EVALUABLE_CATEGORY_SUPPORT
+elsa,incident_heart_disease,0,0,0,0,0,0,0,0,0,NOT_EVALUABLE_CATEGORY_SUPPORT

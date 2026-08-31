@@ -1,0 +1,1523 @@
+{
+  "analysis_id": "behavioral_transition_outcome_landscape_v0.1",
+  "universe_frozen_at": "2026-08-21",
+  "parent_design_commit": "6b397383eb883b598a9ca6dea806b31f17f5ea41",
+  "release_root": "Harmonized_final_8_18_2026",
+  "formal_subdir": "<redacted>",
+  "lookup_relative_path": "variable_lookup_long.csv",
+  "lookup_sha256": "75aa3cb7ecc07a04f1fbc6f14d170f2d6d255e7b3b76f5797c16cdef65819a5f",
+  "minimum_age_at_t1": 60,
+  "comparable_outcome_window_months": [
+    22,
+    30
+  ],
+  "minimum_binary_transition_events": 20,
+  "minimum_binary_transition_nonevents": 20,
+  "minimum_continuous_episodes": 200,
+  "minimum_continuous_transitioned": 50,
+  "events_per_parameter": 10,
+  "negative_numeric_values_are_missing": true,
+  "cohorts": {
+    "charls": {
+      "formal_file": "charls.csv",
+      "formal_sha256": "3b0c3053c35660487f649bf45cc67232179b7c7167f4212e5edc3d32ee0ba296",
+      "id": "ID",
+      "wave": "wave",
+      "primary_waves": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "extension_waves": [
+        5
+      ],
+      "age": "age",
+      "sex": "ragender",
+      "education": "raeducl",
+      "income": "income_total",
+      "interview_year": "iwy",
+      "interview_month": "iwm",
+      "primary_source_relative_path": "GH_CHARLS_d2.dta",
+      "primary_source_sha256": "1cb881f018b7acaee664887a3b8720dac40c4750cf9c952823f147a66f9c6629",
+      "death_codes": [
+        5
+      ],
+      "alive_codes": [
+        1,
+        4
+      ]
+    },
+    "elsa": {
+      "formal_file": "elsa.csv",
+      "formal_sha256": "b7141c949ed30f2758b6760703a40aa4c12d5ad39a0cda57a9301536711e8105",
+      "id": "idauniqc",
+      "wave": "wave",
+      "primary_waves": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "extension_waves": [
+        11
+      ],
+      "age": "agey",
+      "sex": "ragender",
+      "education": "raeducl",
+      "income": "hitot",
+      "interview_year": null,
+      "interview_month": null,
+      "primary_source_relative_path": "gh_elsa_h.dta",
+      "primary_source_sha256": "915f0725c48439e604ebeeab45920d7f74640c68d8f863fc67d3220a19244824",
+      "death_codes": [
+        5
+      ],
+      "alive_codes": [
+        1,
+        4
+      ]
+    },
+    "hrs": {
+      "formal_file": "hrs.csv",
+      "formal_sha256": "e7aa272bc059d8c6357c197a370eded61225567ea41a02db76aea6e48085906a",
+      "id": "hhidpn",
+      "wave": "wave",
+      "primary_waves": [
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16
+      ],
+      "extension_waves": [],
+      "age": "ragey_e",
+      "sex": "ragender",
+      "education": "raeducl",
+      "income": "itot",
+      "interview_year": "iwendy",
+      "interview_month": "iwendm",
+      "primary_source_relative_path": "randhrs1992_2022v1.dta",
+      "primary_source_sha256": "9faf6db0092c2e66d1e199965c1595d183d24a9f26974e11b80bfdd94adff211",
+      "death_codes": [
+        2,
+        3,
+        5
+      ],
+      "alive_codes": [
+        1,
+        4
+      ]
+    },
+    "klosa": {
+      "formal_file": "klosa.csv",
+      "formal_sha256": "a954e6917ca2e68523a331b1a88e70d0d6097fb68cba28e27ef8c6680286866e",
+      "id": "pid",
+      "wave": "wave",
+      "primary_waves": [
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "extension_waves": [
+        10
+      ],
+      "age": "agey",
+      "sex": "ragender",
+      "education": "raeducl",
+      "income": "itot",
+      "interview_year": "iwy",
+      "interview_month": "iwm",
+      "primary_source_relative_path": "GH_KLoSA_f_wave10_candidate.dta",
+      "primary_source_sha256": "0318deeb1049a7642fe786b9c00b97c0c6ee39ef1cd5c2622b0533a7f751b71a",
+      "death_codes": [
+        5
+      ],
+      "alive_codes": [
+        1,
+        4
+      ]
+    },
+    "mhas": {
+      "formal_file": "mhas.csv",
+      "formal_sha256": "722e3c08fd95c508b7809a1abe98e1457f8e23889a6936b72cb14e6638d33826",
+      "id": "rahhidnp",
+      "wave": "wave",
+      "primary_waves": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "extension_waves": [],
+      "age": "agey",
+      "sex": "ragender",
+      "education": "raeducl",
+      "income": "itot",
+      "interview_year": "iwy",
+      "interview_month": "iwm",
+      "primary_source_relative_path": "H_MHAS_d.dta",
+      "primary_source_sha256": "5c8eea943a99048078d7ba6356276c267e59e4cd132eb116f97a63304d6cc81f",
+      "death_codes": [
+        5
+      ],
+      "alive_codes": [
+        1,
+        4
+      ]
+    },
+    "share": {
+      "formal_file": "share.csv",
+      "formal_sha256": "f086d4e24487185e80e72749fdc007db59ab36558bd689cb181b0581a171df70",
+      "id": "mergeid",
+      "wave": "wave",
+      "primary_waves": [
+        1,
+        2,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "extension_waves": [],
+      "age": "agey",
+      "sex": "ragender",
+      "education": "raeducl",
+      "income": "hhitothhinc",
+      "interview_year": "iwy",
+      "interview_month": "iwm",
+      "primary_source_relative_path": "GH_SHARE_g.dta",
+      "primary_source_sha256": "909039500f32931cb7c3a99ab2190f145250165b49019531538b776286cc68bc",
+      "death_codes": [
+        5
+      ],
+      "alive_codes": [
+        1,
+        4
+      ]
+    }
+  },
+  "behavioral_transitions": {
+    "alcohol_current": {
+      "family": "alcohol",
+      "kind": "binary",
+      "state_1": "current drinking in cohort-specific reference period",
+      "state_0": "no current drinking in that reference period",
+      "fields": {
+        "charls": [
+          "drinkl"
+        ],
+        "elsa": [
+          "drink"
+        ],
+        "hrs": [
+          "drink"
+        ],
+        "klosa": [
+          "drink"
+        ],
+        "mhas": [
+          "drink"
+        ],
+        "share": [
+          "drinkxw"
+        ]
+      },
+      "rule": "binary_single",
+      "valid_values": [
+        0,
+        1
+      ]
+    },
+    "smoking_current": {
+      "family": "smoking",
+      "kind": "binary",
+      "state_1": "currently smoking",
+      "state_0": "not currently smoking",
+      "fields": {
+        "charls": [
+          "smoken"
+        ],
+        "elsa": [
+          "smoken"
+        ],
+        "hrs": [
+          "smoken"
+        ],
+        "klosa": [
+          "smoken"
+        ],
+        "mhas": [
+          "smoken"
+        ],
+        "share": [
+          "smoken"
+        ]
+      },
+      "rule": "binary_single",
+      "valid_values": [
+        0,
+        1
+      ]
+    },
+    "moderate_or_vigorous_activity": {
+      "family": "physical_activity",
+      "kind": "binary",
+      "state_1": "regular moderate or vigorous activity under cohort scale",
+      "state_0": "neither regular moderate nor vigorous activity",
+      "fields": {
+        "charls": [
+          "vgact_c",
+          "mdact_c"
+        ],
+        "elsa": [
+          "vgactx_e",
+          "mdactx_e"
+        ],
+        "hrs": [
+          "vgactx",
+          "mdactx"
+        ],
+        "klosa": [
+          "vigact"
+        ],
+        "mhas": [
+          "vigact"
+        ],
+        "share": [
+          "vgactx",
+          "mdactx"
+        ]
+      },
+      "rules_by_cohort": {
+        "charls": {
+          "rule": "binary_any",
+          "active_values": [
+            1
+          ],
+          "inactive_values": [
+            0
+          ],
+          "usable_waves": [
+            1,
+            2,
+            3,
+            4
+          ]
+        },
+        "elsa": {
+          "rule": "ordinal_any",
+          "active_values": [
+            2,
+            3
+          ],
+          "inactive_values": [
+            4,
+            5
+          ],
+          "usable_waves": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10
+          ]
+        },
+        "hrs": {
+          "rule": "ordinal_any",
+          "active_values": [
+            1,
+            2,
+            3
+          ],
+          "inactive_values": [
+            4,
+            5
+          ],
+          "usable_waves": [
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16
+          ]
+        },
+        "klosa": {
+          "rule": "binary_any",
+          "active_values": [
+            1
+          ],
+          "inactive_values": [
+            0
+          ],
+          "usable_waves": [
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9
+          ]
+        },
+        "mhas": {
+          "rule": "binary_any",
+          "active_values": [
+            1
+          ],
+          "inactive_values": [
+            0
+          ],
+          "usable_waves": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+          ]
+        },
+        "share": {
+          "rule": "ordinal_any",
+          "active_values": [
+            2,
+            3
+          ],
+          "inactive_values": [
+            4,
+            5
+          ],
+          "usable_waves": [
+            1,
+            2,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9
+          ]
+        }
+      }
+    },
+    "paid_work": {
+      "family": "employment_retirement",
+      "kind": "binary",
+      "state_1": "currently working for pay",
+      "state_0": "not currently working for pay",
+      "fields": {
+        "charls": [
+          "work"
+        ],
+        "elsa": [
+          "work"
+        ],
+        "hrs": [
+          "work"
+        ],
+        "klosa": [
+          "work"
+        ],
+        "mhas": [
+          "work"
+        ],
+        "share": [
+          "work"
+        ]
+      },
+      "rule": "binary_single",
+      "valid_values": [
+        0,
+        1
+      ]
+    },
+    "social_participation": {
+      "family": "social_participation",
+      "kind": "binary",
+      "state_1": "participates at the cohort-specific weekly or yearly threshold",
+      "state_0": "does not participate at that threshold",
+      "fields": {
+        "elsa": [
+          "socyr"
+        ],
+        "hrs": [
+          "socwk"
+        ],
+        "klosa": [
+          "socwk"
+        ],
+        "mhas": [
+          "socwk"
+        ],
+        "share": [
+          "socyr"
+        ]
+      },
+      "rule": "binary_single",
+      "valid_values": [
+        0,
+        1
+      ],
+      "usable_waves": {
+        "elsa": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10
+        ],
+        "hrs": [
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15
+        ],
+        "klosa": [
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9
+        ],
+        "mhas": [
+          3,
+          4,
+          5,
+          6
+        ],
+        "share": [
+          4,
+          5,
+          6,
+          7,
+          8,
+          9
+        ]
+      },
+      "harmonization": "threshold differs; cohort estimates retained and meta-analysis requires a same-threshold stratum"
+    },
+    "religious_participation_weekly": {
+      "family": "social_participation",
+      "kind": "binary",
+      "state_1": "participates in religious services weekly",
+      "state_0": "does not participate weekly",
+      "fields": {
+        "hrs": [
+          "relgwk"
+        ],
+        "klosa": [
+          "relgwk"
+        ],
+        "mhas": [
+          "relgwk"
+        ]
+      },
+      "rule": "binary_single",
+      "valid_values": [
+        0,
+        1
+      ],
+      "usable_waves": {
+        "hrs": [
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15
+        ],
+        "klosa": [
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9
+        ],
+        "mhas": [
+          2,
+          3,
+          4,
+          5,
+          6
+        ]
+      }
+    },
+    "retirement_status": {
+      "family": "employment_retirement",
+      "kind": "binary",
+      "state_1": "retired or partly retired",
+      "state_0": "not retired",
+      "fields": {
+        "elsa": [
+          "retemp"
+        ],
+        "hrs": [
+          "retemp"
+        ],
+        "mhas": [
+          "retemp"
+        ],
+        "share": [
+          "retemp"
+        ]
+      },
+      "rules_by_cohort": {
+        "elsa": {
+          "active_values": [
+            1
+          ],
+          "inactive_values": [
+            0
+          ],
+          "usable_waves": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10
+          ]
+        },
+        "hrs": {
+          "active_values": [
+            1,
+            2
+          ],
+          "inactive_values": [
+            0
+          ],
+          "usable_waves": [
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16
+          ]
+        },
+        "mhas": {
+          "active_values": [
+            1,
+            2
+          ],
+          "inactive_values": [
+            0
+          ],
+          "usable_waves": [
+            2,
+            3,
+            4,
+            5,
+            6
+          ]
+        },
+        "share": {
+          "active_values": [
+            1
+          ],
+          "inactive_values": [
+            0
+          ],
+          "usable_waves": [
+            1,
+            2,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9
+          ]
+        }
+      },
+      "coding_note": "value 2 is retained as partly retired in HRS and MHAS; code-specific results remain cohort-specific"
+    },
+    "alcohol_frequency": {
+      "family": "alcohol",
+      "kind": "continuous_or_ordinal_change",
+      "fields": {
+        "elsa": [
+          "drinkd_e"
+        ],
+        "hrs": [
+          "drinkd"
+        ],
+        "klosa": [
+          "drinkx"
+        ],
+        "mhas": [
+          "drinkd"
+        ],
+        "share": [
+          "drinkx"
+        ]
+      },
+      "rules_by_cohort": {
+        "elsa": {
+          "scale": "days_per_week",
+          "valid_range": [
+            0,
+            7
+          ]
+        },
+        "hrs": {
+          "scale": "days_per_week",
+          "valid_range": [
+            0,
+            7
+          ]
+        },
+        "klosa": {
+          "scale": "ordinal_frequency",
+          "direction": "higher_code_more_frequent",
+          "valid_range": [
+            0,
+            4
+          ],
+          "status": "SOURCE_VALUE_LABEL_VALIDATED"
+        },
+        "mhas": {
+          "scale": "days_per_week",
+          "valid_range": [
+            0,
+            7
+          ]
+        },
+        "share": {
+          "scale": "ordinal_frequency",
+          "direction": "higher_code_more_frequent",
+          "valid_range": [
+            0,
+            4
+          ],
+          "status": "SOURCE_VALUE_LABEL_VALIDATED"
+        }
+      },
+      "primary_categorization": "decrease, stable, increase; days/week requires absolute change >=2, ordinal requires at least one category",
+      "status": "SECONDARY_AFTER_BINARY_SCAN"
+    },
+    "smoking_quantity": {
+      "family": "smoking",
+      "kind": "continuous_change",
+      "fields": {
+        "charls": [
+          "smokef"
+        ],
+        "elsa": [
+          "smokef"
+        ],
+        "hrs": [
+          "smokef"
+        ],
+        "klosa": [
+          "smokef"
+        ],
+        "mhas": [
+          "smokef"
+        ],
+        "share": [
+          "smokef"
+        ]
+      },
+      "valid_range": [
+        0,
+        100
+      ],
+      "primary_categorization": "decrease >=5 cigarettes/day, stable within 4, increase >=5",
+      "status": "SECONDARY_AFTER_BINARY_SCAN"
+    }
+  },
+  "outcomes": {
+    "mortality": {
+      "family": "mortality",
+      "type": "binary_source_status",
+      "definition": "confirmed death by the next scheduled wave from source r*iwstat",
+      "cohorts": [
+        "charls",
+        "elsa",
+        "hrs",
+        "klosa",
+        "mhas",
+        "share"
+      ]
+    },
+    "incident_any_adl": {
+      "family": "functional_decline",
+      "type": "derived_incident_binary",
+      "baseline_requirement": "adl_count_t1=0",
+      "event": "adl_count_t2>=1",
+      "fields": {
+        "charls": [
+          "dressa",
+          "batha",
+          "eata",
+          "beda",
+          "toilta"
+        ],
+        "elsa": [
+          "dressa",
+          "batha",
+          "eata",
+          "beda",
+          "toilta"
+        ],
+        "hrs": [
+          "dressa",
+          "batha",
+          "eata",
+          "beda",
+          "toilta"
+        ],
+        "klosa": [
+          "dressb",
+          "bathb",
+          "eatb",
+          "bedb_k",
+          "toiltb"
+        ],
+        "mhas": [
+          "dressa",
+          "batha",
+          "eata",
+          "beda",
+          "toilta"
+        ],
+        "share": [
+          "dressa",
+          "batha",
+          "eata",
+          "beda",
+          "toilta"
+        ]
+      },
+      "valid_values": [
+        0,
+        1
+      ]
+    },
+    "adl_count_increase": {
+      "family": "functional_decline",
+      "type": "derived_binary_change",
+      "event": "adl_count_t2-adl_count_t1>=1",
+      "shares_fields_with": "incident_any_adl"
+    },
+    "incident_any_iadl": {
+      "family": "functional_decline",
+      "type": "derived_incident_binary",
+      "baseline_requirement": "iadl_count_t1=0",
+      "event": "iadl_count_t2>=1",
+      "fields": {
+        "charls": [
+          "moneya",
+          "medsa",
+          "shopa",
+          "mealsa"
+        ],
+        "elsa": [
+          "moneya",
+          "medsa",
+          "shopa",
+          "mealsa"
+        ],
+        "hrs": [
+          "moneya",
+          "medsa",
+          "shopa",
+          "mealsa"
+        ],
+        "klosa": [
+          "moneyb",
+          "medsb",
+          "shopb",
+          "mealsb"
+        ],
+        "mhas": [
+          "moneya",
+          "medsa",
+          "shopa",
+          "mealsa"
+        ],
+        "share": [
+          "moneya",
+          "medsa",
+          "shopa",
+          "mealsa"
+        ]
+      },
+      "valid_values": [
+        0,
+        1
+      ]
+    },
+    "iadl_count_increase": {
+      "family": "functional_decline",
+      "type": "derived_binary_change",
+      "event": "iadl_count_t2-iadl_count_t1>=1",
+      "shares_fields_with": "incident_any_iadl"
+    },
+    "grip_strength_change": {
+      "family": "frailty",
+      "type": "continuous_change",
+      "definition": "maximum valid left/right grip strength in kg",
+      "fields": {
+        "charls": [
+          "lgrip",
+          "rgrip"
+        ],
+        "elsa": [
+          "lgrip",
+          "rgrip"
+        ],
+        "hrs": [
+          "lgrip",
+          "rgrip"
+        ],
+        "klosa": [
+          "lgrip",
+          "rgrip"
+        ],
+        "mhas": [
+          "lgrip",
+          "rgrip"
+        ],
+        "share": [
+          "lgrip",
+          "rgrip"
+        ]
+      },
+      "valid_range": [
+        1,
+        100
+      ],
+      "direction": "higher_better"
+    },
+    "gait_speed_change": {
+      "family": "frailty",
+      "type": "continuous_change",
+      "definition": "harmonized walking-test seconds; positive change is slower",
+      "fields": {
+        "charls": [
+          "wspeed"
+        ],
+        "elsa": [
+          "wspeed"
+        ],
+        "hrs": [
+          "wspeed"
+        ],
+        "mhas": [
+          "wspeed"
+        ],
+        "share": [
+          "wspeed"
+        ]
+      },
+      "valid_range": [
+        0.5,
+        120
+      ],
+      "direction": "higher_worse"
+    },
+    "word_recall_change": {
+      "family": "cognition_neurology",
+      "type": "continuous_change_standardized_within_cohort",
+      "fields": {
+        "charls": [
+          "tr20"
+        ],
+        "elsa": [
+          "tr20"
+        ],
+        "hrs": [
+          "tr20"
+        ],
+        "klosa": [
+          "tr6"
+        ],
+        "mhas": [
+          "tr16"
+        ],
+        "share": [
+          "tr20"
+        ]
+      },
+      "valid_range_by_cohort": {
+        "charls": [
+          0,
+          20
+        ],
+        "elsa": [
+          0,
+          20
+        ],
+        "hrs": [
+          0,
+          20
+        ],
+        "klosa": [
+          0,
+          6
+        ],
+        "mhas": [
+          0,
+          16
+        ],
+        "share": [
+          0,
+          20
+        ]
+      },
+      "direction": "higher_better"
+    },
+    "depressive_symptom_change": {
+      "family": "depression_self_rated_health_pain",
+      "type": "continuous_change_standardized_within_cohort",
+      "fields": {
+        "charls": [
+          "cesd10"
+        ],
+        "elsa": [
+          "cesd"
+        ],
+        "hrs": [
+          "cesd"
+        ],
+        "mhas": [
+          "cesd_m"
+        ]
+      },
+      "valid_range_by_cohort": {
+        "charls": [
+          0,
+          30
+        ],
+        "elsa": [
+          0,
+          8
+        ],
+        "hrs": [
+          0,
+          8
+        ],
+        "mhas": [
+          0,
+          9
+        ]
+      },
+      "direction": "higher_worse",
+      "klosa_module": {
+        "fields_by_waves": {
+          "3-4": "cesd10a",
+          "5-10": "cesd10b"
+        },
+        "exclude_scale_crossing_episode": true
+      }
+    },
+    "self_rated_health_deterioration": {
+      "family": "depression_self_rated_health_pain",
+      "type": "ordinal_worsening",
+      "fields": {
+        "elsa": [
+          "shlt"
+        ],
+        "hrs": [
+          "shlt"
+        ],
+        "klosa": [
+          "shlt"
+        ],
+        "mhas": [
+          "shlt"
+        ],
+        "share": [
+          "shlt"
+        ]
+      },
+      "valid_values": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "event": "t2 category worse than t1",
+      "coding_direction_by_cohort": {
+        "elsa": "higher_worse",
+        "hrs": "higher_worse",
+        "klosa": "higher_worse",
+        "mhas": "higher_worse",
+        "share": "higher_worse"
+      },
+      "coding_provenance": "pinned primary-source Stata value labels: 1 Excellent through 5 Poor; SHARE code 6 Blind excluded from the common ordinal scale"
+    },
+    "incident_frequent_pain": {
+      "family": "depression_self_rated_health_pain",
+      "type": "incident_binary",
+      "fields": {
+        "elsa": [
+          "painfr"
+        ],
+        "hrs": [
+          "painfr"
+        ],
+        "klosa": [
+          "painfr"
+        ],
+        "mhas": [
+          "painfr"
+        ],
+        "share": [
+          "painfr"
+        ]
+      },
+      "valid_values": [
+        0,
+        1
+      ]
+    },
+    "falls_next_interval": {
+      "family": "falls",
+      "type": "binary_interval_event",
+      "fields": {
+        "elsa": [
+          "fall"
+        ],
+        "hrs": [
+          "fall"
+        ],
+        "klosa": [
+          "fall"
+        ],
+        "mhas": [
+          "fall"
+        ]
+      },
+      "valid_values": [
+        0,
+        1
+      ]
+    },
+    "hospitalization_next_interval": {
+      "family": "hospitalization_institutionalization",
+      "type": "binary_interval_event",
+      "fields": {
+        "hrs": [
+          "hosp"
+        ],
+        "klosa": [
+          "hcfcl2y"
+        ],
+        "mhas": [
+          "hosp1y"
+        ],
+        "share": [
+          "hosp1y"
+        ]
+      },
+      "valid_values": [
+        0,
+        1
+      ],
+      "recall_windows": {
+        "hrs": "since prior interview or about 2 years",
+        "klosa": "past 2 years including hospital/long-term facility",
+        "mhas": "past 12 months",
+        "share": "past 12 months"
+      },
+      "harmonization": "recall-window strata; do not pool 1-year with 2-year risks"
+    },
+    "incident_cancer": {
+      "family": "cancer_respiratory_gastrointestinal",
+      "type": "incident_binary",
+      "field": "cancre",
+      "cohorts": [
+        "charls",
+        "elsa",
+        "hrs",
+        "klosa",
+        "mhas",
+        "share"
+      ],
+      "valid_values": [
+        0,
+        1
+      ]
+    },
+    "incident_diabetes": {
+      "family": "metabolic",
+      "type": "incident_binary",
+      "field": "diabe",
+      "cohorts": [
+        "charls",
+        "elsa",
+        "hrs",
+        "klosa",
+        "mhas",
+        "share"
+      ],
+      "valid_values": [
+        0,
+        1
+      ]
+    },
+    "incident_heart_disease": {
+      "family": "cardiovascular",
+      "type": "incident_binary",
+      "field": "hearte",
+      "cohorts": [
+        "charls",
+        "elsa",
+        "hrs",
+        "klosa",
+        "mhas",
+        "share"
+      ],
+      "valid_values": [
+        0,
+        1
+      ]
+    },
+    "incident_hypertension": {
+      "family": "cardiovascular",
+      "type": "incident_binary",
+      "field": "hibpe",
+      "cohorts": [
+        "charls",
+        "elsa",
+        "hrs",
+        "klosa",
+        "mhas",
+        "share"
+      ],
+      "valid_values": [
+        0,
+        1
+      ]
+    },
+    "incident_stroke": {
+      "family": "cognition_neurology",
+      "type": "incident_binary",
+      "field": "stroke",
+      "cohorts": [
+        "charls",
+        "elsa",
+        "hrs",
+        "klosa",
+        "mhas",
+        "share"
+      ],
+      "valid_values": [
+        0,
+        1
+      ]
+    },
+    "incident_arthritis": {
+      "family": "multimorbidity_medication_burden",
+      "type": "incident_binary",
+      "field": "arthre",
+      "cohorts": [
+        "charls",
+        "elsa",
+        "hrs",
+        "klosa",
+        "mhas",
+        "share"
+      ],
+      "valid_values": [
+        0,
+        1
+      ]
+    },
+    "multimorbidity_progression": {
+      "family": "multimorbidity_medication_burden",
+      "type": "derived_binary_change",
+      "fields": [
+        "cancre",
+        "diabe",
+        "hearte",
+        "hibpe",
+        "stroke",
+        "arthre"
+      ],
+      "event": "count_t2-count_t1>=1",
+      "valid_values": [
+        0,
+        1
+      ],
+      "cohorts": [
+        "charls",
+        "elsa",
+        "hrs",
+        "klosa",
+        "mhas",
+        "share"
+      ]
+    },
+    "incident_lung_disease": {
+      "family": "cancer_respiratory_gastrointestinal",
+      "type": "incident_binary",
+      "field": "lunge",
+      "cohorts": [
+        "charls",
+        "elsa",
+        "hrs",
+        "klosa",
+        "share"
+      ],
+      "valid_values": [
+        0,
+        1
+      ]
+    },
+    "incident_psychiatric_diagnosis": {
+      "family": "depression_self_rated_health_pain",
+      "type": "incident_binary",
+      "field": "psyche",
+      "cohorts": [
+        "charls",
+        "elsa",
+        "hrs",
+        "klosa",
+        "share"
+      ],
+      "valid_values": [
+        0,
+        1
+      ]
+    },
+    "incident_high_cholesterol": {
+      "family": "metabolic",
+      "type": "incident_binary",
+      "field": "hchole",
+      "cohorts": [
+        "elsa",
+        "hrs",
+        "share"
+      ],
+      "valid_values": [
+        0,
+        1
+      ]
+    },
+    "incident_kidney_disease": {
+      "family": "renal_liver_nutrition",
+      "type": "incident_binary",
+      "field": "kidneye",
+      "cohorts": [
+        "charls",
+        "share"
+      ],
+      "valid_values": [
+        0,
+        1
+      ]
+    },
+    "incident_liver_disease": {
+      "family": "renal_liver_nutrition",
+      "type": "incident_binary",
+      "field": "livere",
+      "cohorts": [
+        "charls",
+        "klosa"
+      ],
+      "valid_values": [
+        0,
+        1
+      ]
+    },
+    "incident_digestive_disease": {
+      "family": "cancer_respiratory_gastrointestinal",
+      "type": "incident_binary",
+      "field": "digeste",
+      "cohorts": [
+        "charls",
+        "klosa"
+      ],
+      "valid_values": [
+        0,
+        1
+      ]
+    },
+    "incident_dementia": {
+      "family": "cognition_neurology",
+      "type": "incident_binary",
+      "field": "demene",
+      "cohorts": [
+        "elsa",
+        "hrs"
+      ],
+      "valid_values": [
+        0,
+        1
+      ]
+    },
+    "incident_parkinsonism": {
+      "family": "cognition_neurology",
+      "type": "incident_binary",
+      "field": "parkine",
+      "cohorts": [
+        "elsa",
+        "share"
+      ],
+      "valid_values": [
+        0,
+        1
+      ]
+    },
+    "bmi_change": {
+      "family": "metabolic",
+      "type": "continuous_change",
+      "fields": {
+        "charls": [
+          "bmi"
+        ],
+        "elsa": [
+          "mbmi"
+        ],
+        "hrs": [
+          "bmi"
+        ],
+        "klosa": [
+          "bmi"
+        ],
+        "mhas": [
+          "bmi"
+        ],
+        "share": [
+          "bmi"
+        ]
+      },
+      "valid_range": [
+        15,
+        60
+      ],
+      "measurement_strata": {
+        "charls": "measured",
+        "elsa": "measured",
+        "hrs": "self_report",
+        "klosa": "self_report",
+        "mhas": "self_report",
+        "share": "self_report"
+      }
+    },
+    "systolic_bp_change": {
+      "family": "metabolic",
+      "type": "continuous_change",
+      "fields": {
+        "charls": [
+          "systo"
+        ],
+        "elsa": [
+          "systo"
+        ],
+        "hrs": [
+          "bpsys"
+        ]
+      },
+      "valid_range": [
+        70,
+        260
+      ],
+      "measurement": "measured"
+    },
+    "waist_change": {
+      "family": "metabolic",
+      "type": "continuous_change",
+      "fields": {
+        "charls": [
+          "mwaist"
+        ],
+        "elsa": [
+          "mwaist"
+        ],
+        "hrs": [
+          "mwaist"
+        ],
+        "mhas": [
+          "mwaist"
+        ]
+      },
+      "valid_range": [
+        40,
+        200
+      ],
+      "measurement": "measured_cm"
+    }
+  },
+  "external_biomarker_module": {
+    "status": "INVENTORIED_NOT_IN_CORE_SCAN",
+    "reason": "formal CSVs have no assay values; CHARLS and SHARE each have one assay wave, so baseline-adjusted change is not defined; ELSA repeated nurse assays require a separately frozen linkage/weighting module",
+    "inventory": "artifacts/biomarker_inventory_2026-08-20/biomarker_inventory.csv",
+    "elsa_candidate_waves": [
+      2,
+      4,
+      6,
+      8,
+      9
+    ]
+  },
+  "direct_unavailable_constructs": {
+    "driving_transition": "no verified repeated driving field in current formal release",
+    "dietary_transition": "no verified repeated diet field in current formal release",
+    "sleep_behavior_transition": "only an unmapped CHARLS wave-5 local sleep-duration field; no longitudinal state",
+    "polypharmacy_progression": "no verified repeated medication-count field",
+    "gi_bleeding": "no verified repeated GI-bleeding outcome",
+    "frailty_index": "no common formal FI field; four-cohort prior derived FI retained for a separately versioned enrichment"
+  }
+}

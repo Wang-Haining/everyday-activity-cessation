@@ -1,0 +1,10 @@
+cohort,loss_category,fried_category,intervals,people
+elsa,0,robust,7251,4689
+elsa,0,prefrail,4540,3476
+elsa,0,frail,515,463
+elsa,1,robust,1325,1243
+elsa,1,prefrail,1419,1300
+elsa,1,frail,320,309
+elsa,2_plus,robust,74,74
+elsa,2_plus,prefrail,125,125
+elsa,2_plus,frail,26,26

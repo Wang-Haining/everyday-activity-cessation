@@ -1,0 +1,4 @@
+cohort,cessation_group,n_intervals,people,conditions_at_first_interview_n,conditions_at_first_interview,conditions_at_landmark_n,conditions_at_landmark,conditions_gained_across_window_n,conditions_gained_across_window
+mhas,none,0,0,0,,0,,0,
+mhas,one,0,0,0,,0,,0,
+mhas,two_or_more,0,0,0,,0,,0,

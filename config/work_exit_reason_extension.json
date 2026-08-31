@@ -1,0 +1,61 @@
+{
+  "analysis_id": "bmc_absolute_risk_work_exit_extension_v0.2",
+  "frozen_at": "2026-08-25T14:59:30-04:00",
+  "frozen_before_first_effect_fit": true,
+  "design_path": "design/bmc_absolute_risk_work_exit_extension_v0.2.md",
+  "parent_extension_sha256": "7814ee0669d36ced3a4ce4ca093b48d4432463abcf3c60d8cefcfbc8f17a2308",
+  "parent_universe_config": "config/behavioral_transition_outcome_scan_universe_v0.1.json",
+  "parent_universe_sha256": "b952c94d1b7b87916366d867797512ca77f27c59a2d100ebecbbdb4239039fd6",
+  "parent_pilot_config": "config/multidomain_behavioral_withdrawal_pilot_v0.1.json",
+  "parent_pilot_sha256": "ba91bc2f0d15b3baafa32ea1d4b00538b496f352a79457c6fa696943b994944d",
+  "release_root": "Harmonized_final_8_18_2026",
+  "remote_root": "bmc_absolute_risk_work_exit_extension_v0.2",
+  "candidate_cohorts": [
+    "charls",
+    "elsa",
+    "hrs",
+    "klosa",
+    "mhas",
+    "share"
+  ],
+  "scope": "comparable_22_30_months",
+  "adjustment": "full",
+  "risk_exposure_model": "score_categorical",
+  "risk_probability_model": "binomial_logistic_cluster_robust",
+  "risk_scenarios": {
+    "withdrawal_0": {
+      "loss_1": 0,
+      "loss_2plus": 0
+    },
+    "withdrawal_1": {
+      "loss_1": 1,
+      "loss_2plus": 0
+    },
+    "withdrawal_2plus": {
+      "loss_1": 0,
+      "loss_2plus": 1
+    }
+  },
+  "risk_outcomes": [
+    "mortality",
+    "incident_any_adl",
+    "incident_any_iadl",
+    "multimorbidity_progression"
+  ],
+  "work_exit_exposure_model": "work_exit_phenotype",
+  "work_exit_outcomes": [
+    "incident_any_adl",
+    "mortality"
+  ],
+  "direct_contrast": "work_exit_no_retirement_minus_work_exit_retirement",
+  "standardized_risk_uncertainty": "delta_method_cluster_robust_covariance",
+  "pooled_risk_method": "REML_Hartung_Knapp_on_logit_standardized_risk",
+  "contrast_meta_method": "REML_Hartung_Knapp_on_log_RR",
+  "minimum_meta_cohorts": 2,
+  "prediction_range": [
+    0,
+    1
+  ],
+  "row_level_outputs_allowed": false,
+  "selection_by_p_value_allowed": false
+}

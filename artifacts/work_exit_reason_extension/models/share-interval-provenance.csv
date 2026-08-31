@@ -1,0 +1,5 @@
+cohort,t1,outcome_wave,scheduled_followup_months,observed_duration_n,observed_duration_p25,observed_duration_median,observed_duration_p75
+share,4,5,24.0,10943,23.0,24.0,25.0
+share,5,6,24.0,21965,22.0,24.0,26.0
+share,6,7,25.0,29900,23.0,25.0,26.0
+share,8,9,26.0,27463,24.0,25.0,27.0

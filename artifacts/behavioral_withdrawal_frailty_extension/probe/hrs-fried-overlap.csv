@@ -1,0 +1,10 @@
+cohort,loss_category,fried_category,intervals,people
+hrs,0,robust,6613,4967
+hrs,0,prefrail,5814,4783
+hrs,0,frail,689,653
+hrs,1,robust,1719,1623
+hrs,1,prefrail,2380,2223
+hrs,1,frail,644,628
+hrs,2_plus,robust,148,148
+hrs,2_plus,prefrail,276,276
+hrs,2_plus,frail,87,87

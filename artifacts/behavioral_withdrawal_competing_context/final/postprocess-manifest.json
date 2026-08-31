@@ -1,0 +1,16 @@
+{
+  "analysis_id": "behavioral_withdrawal_competing_context_v0.3",
+  "mode": "postprocess",
+  "synthesis": "cohort_specific_REML_Hartung_Knapp_prediction_interval",
+  "minimum_cohorts_for_pooling": 3,
+  "negative_results_retained": true,
+  "aggregate_only": true,
+  "respondent_rows_exported": 0,
+  "outputs": {
+    "composite": "composite-synthesis.csv",
+    "context": "context-synthesis.csv",
+    "reference": "reference-group-synthesis.csv",
+    "transitions": "transition-counts.csv",
+    "attenuation": "context-attenuation-by-cohort.csv"
+  }
+}

@@ -1,0 +1,4 @@
+cohort,cessation_group,n_intervals,people,conditions_at_first_interview_n,conditions_at_first_interview,conditions_at_landmark_n,conditions_at_landmark,conditions_gained_across_window_n,conditions_gained_across_window
+klosa,none,12143,4931,12137,0.963,12139,1.051,12135,0.088
+klosa,one,5197,3906,5197,1.158,5197,1.293,5197,0.134
+klosa,two_or_more,411,403,411,1.022,411,1.35,411,0.328

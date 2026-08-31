@@ -1,0 +1,37 @@
+{
+  "analysis_id": "multidomain_behavioral_withdrawal_pilot_v0.1",
+  "status": "PASS",
+  "checks": {
+    "all_six_cohorts_present": true,
+    "single_frozen_design_commit": true,
+    "aggregate_only": true,
+    "no_respondent_rows_exported": true,
+    "all_estimable_results_retained": true,
+    "formal_iwstat_not_used": true,
+    "estimate_ranges_valid": true
+  },
+  "model_status_counts": {
+    "PASS": 1178,
+    "NOT_EVALUABLE_CLUSTERS": 70,
+    "NOT_EVALUABLE_EPV": 55,
+    "NOT_EVALUABLE_LOSS_2PLUS_EVENTS": 46,
+    "NOT_EVALUABLE_ALCOHOL_LOSS_EVENTS": 18,
+    "NOT_EVALUABLE_WORK_EXIT_NO_RETIREMENT_EVENTS": 5,
+    "NOT_EVALUABLE_EXTENDED_LOSS_2PLUS_EVENTS": 4,
+    "NOT_EVALUABLE_LOSS_2PLUS_N": 1,
+    "NOT_EVALUABLE_ALCOHOL_LOSS_N": 1
+  },
+  "result_rows": 1378,
+  "primary_full_pass_rows": 219,
+  "meta_rows": 49,
+  "input_hashes": {
+    "charls-models.csv": "2e56b57376d57d2b750d981e391298c0d033cf1b010dd6839ad4abc8151a335a",
+    "elsa-models.csv": "b90973ce8f01a4d97e048b975f8a4d2c6cdd70ba69363df2060ada1a7eacafb4",
+    "hrs-models.csv": "96b64552e550759ae118f35815a1a301103fd6bb5beeeb2839821eea6c69b46b",
+    "klosa-models.csv": "ceafb1c396b6b70b5ce468e8605bd0d1e8cb5968184c9579a00032de88de0ead",
+    "mhas-models.csv": "953d825f592618ec35b2213c65116450c6663768460f7f7a9397523c0ed19e7f",
+    "share-models.csv": "1b9793f37f87f1c63d9679f9e398af2f72441184e464e50cca900c07cabc4db6"
+  },
+  "systematic_results_sha256": "84ac9964541d892fad7822c388e5affe92960b19188cfdcf53565423f959a1c5",
+  "cross_cohort_summary_sha256": "8fe4099b0e7f2870c6aa5d1450a82502cf7832c56954b0ba0733b04f947e75e5"
+}

@@ -1,0 +1,7 @@
+cohort,outcome_id,outcome_coding_status,n,people,events,loss_0_n,loss_0_events,loss_1_n,loss_1_events,loss_2_plus_n,loss_2_plus_events,any_withdrawal_n,any_withdrawal_events,diagnosis_or_death_n,diagnosis_or_death_events,state_alive_no_diagnosis_n,state_alive_new_diagnosis_n,state_death_n,state_unknown_n,score_support
+mhas,incident_diabetes,PASS_BASELINE_FREE_RISK_SET,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,NOT_EVALUABLE_CATEGORY_SUPPORT
+mhas,incident_stroke,PASS_BASELINE_FREE_RISK_SET,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,NOT_EVALUABLE_CATEGORY_SUPPORT
+mhas,incident_heart_disease,PASS_BASELINE_FREE_RISK_SET,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,NOT_EVALUABLE_CATEGORY_SUPPORT
+mhas,incident_hypertension,PASS_BASELINE_FREE_RISK_SET,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,NOT_EVALUABLE_CATEGORY_SUPPORT
+mhas,incident_cancer,PASS_BASELINE_FREE_RISK_SET,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,NOT_EVALUABLE_CATEGORY_SUPPORT
+mhas,incident_arthritis,PASS_BASELINE_FREE_RISK_SET,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,NOT_EVALUABLE_CATEGORY_SUPPORT

@@ -1,0 +1,10 @@
+cohort,loss_category,fried_category,intervals,people
+charls,0,robust,399,399
+charls,0,prefrail,365,365
+charls,0,frail,22,22
+charls,1,robust,181,181
+charls,1,prefrail,226,226
+charls,1,frail,39,39
+charls,2_plus,robust,36,36
+charls,2_plus,prefrail,52,52
+charls,2_plus,frail,11,11

@@ -1,0 +1,30 @@
+# The lint standard for this repository, stated rather than inherited.
+#
+# This is code that produced published estimates, so the rules selected here are
+# the ones that cannot change a result: import order, unused names, syntax and
+# obsolete idioms. Opinionated rewrites are deliberately not enabled — a lint
+# rule should not be able to alter a number in the paper.
+
+line-length = 100
+target-version = "py311"
+
+[lint]
+select = [
+    "E4", "E7", "E9",  # syntax and statement errors
+    "F",               # undefined names, unused imports, f-string mistakes
+    "I",               # import order
+    "W",               # trailing whitespace and blank-line issues
+    "UP",              # idioms that are obsolete on the target version
+]
+
+[lint.isort]
+known-first-party = [
+    "cohort_core",
+    "behavioral_withdrawal_frailty_core",
+    "multidomain_behavioral_withdrawal_core",
+    "house_style",
+    "status_labels",
+]
+
+[format]
+quote-style = "double"

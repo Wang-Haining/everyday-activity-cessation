@@ -1,0 +1,13 @@
+cohort,outcome_id,analysis_family,age_floor,outcome_coding_status,median_age,n,people,events,nonevents,parameters,matrix_rank,model_status,loss_1_n,loss_1_events,loss_1_nonevents,loss_2plus_n,loss_2plus_events,loss_2plus_nonevents
+charls,mortality,age_floor,60,PASS_SOURCE_STATUS,65.0,1262,1262,34,1228,13,13,NOT_EVALUABLE_EPV,,,,,,
+charls,mortality,age_floor,65,PASS_SOURCE_STATUS,70.0,702,702,25,677,13,13,NOT_EVALUABLE_EPV,,,,,,
+charls,mortality,age_floor,70,PASS_SOURCE_STATUS,73.5,360,360,20,340,13,13,NOT_EVALUABLE_EPV,,,,,,
+charls,incident_any_adl,age_floor,60,PASS_STRICT_COMPLETE_ITEM_COUNTS,65.0,966,966,153,813,13,13,NOT_EVALUABLE_LOSS_2PLUS_EVENTS,332.0,59.0,273.0,60.0,13.0,47.0
+charls,incident_any_adl,age_floor,65,PASS_STRICT_COMPLETE_ITEM_COUNTS,69.0,520,520,98,422,13,13,NOT_EVALUABLE_EPV,,,,,,
+charls,incident_any_adl,age_floor,70,PASS_STRICT_COMPLETE_ITEM_COUNTS,73.0,254,254,43,211,13,13,NOT_EVALUABLE_EPV,,,,,,
+charls,incident_any_iadl,age_floor,60,PASS_STRICT_COMPLETE_ITEM_COUNTS,65.0,917,917,152,765,13,13,NOT_EVALUABLE_LOSS_2PLUS_EVENTS,292.0,53.0,239.0,58.0,14.0,44.0
+charls,incident_any_iadl,age_floor,65,PASS_STRICT_COMPLETE_ITEM_COUNTS,69.0,488,488,95,393,13,13,NOT_EVALUABLE_EPV,,,,,,
+charls,incident_any_iadl,age_floor,70,PASS_STRICT_COMPLETE_ITEM_COUNTS,73.0,230,230,50,180,13,13,NOT_EVALUABLE_EPV,,,,,,
+charls,multimorbidity_progression,age_floor,60,PASS_STRICT_COMMON_SIX,65.0,1144,1144,125,1019,13,13,NOT_EVALUABLE_EPV,,,,,,
+charls,multimorbidity_progression,age_floor,65,PASS_STRICT_COMMON_SIX,70.0,638,638,66,572,13,13,NOT_EVALUABLE_EPV,,,,,,
+charls,multimorbidity_progression,age_floor,70,PASS_STRICT_COMMON_SIX,73.0,323,323,26,297,13,13,NOT_EVALUABLE_EPV,,,,,,

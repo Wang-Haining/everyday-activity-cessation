@@ -1,0 +1,4 @@
+cohort,cessation_group,n_intervals,people,conditions_at_first_interview_n,conditions_at_first_interview,conditions_at_landmark_n,conditions_at_landmark,conditions_gained_across_window_n,conditions_gained_across_window,frailty_index_at_landmark_n,frailty_index_at_landmark,frailty_index_change_n,frailty_index_change,self_rated_health_worsening_n,self_rated_health_worsening,transition_hospitalization_n,transition_hospitalization,cesd_worsening_n,cesd_worsening,bmi_or_weight_loss_n,bmi_or_weight_loss
+share,none,57487,37142,57454,1.211,57463,1.485,57431,0.274,56709,0.15,47575,0.008,57440,26.1,57474,14.7,0,,56855,5.6
+share,one,18603,16456,18598,1.377,18583,1.714,18578,0.337,17892,0.194,14145,0.023,18582,30.8,18580,20.5,0,,18222,9.4
+share,two_or_more,2157,2145,2154,1.355,2153,1.784,2150,0.429,2005,0.215,1511,0.041,2152,37.7,2152,28.2,0,,2101,14.0

@@ -1,0 +1,5 @@
+cohort,scope,adjustment,outcome_id,exposure_model,n,people,parameters,matrix_rank,events,outcome_coding_status,scenario,model_status,loss_1_n,loss_1_events,loss_1_nonevents,loss_2plus_n,loss_2plus_events,loss_2plus_nonevents
+charls,comparable_22_30_months,full,mortality,score_categorical,1262,1262,13,13,34,PASS_SOURCE_STATUS,__model__,NOT_EVALUABLE_EPV,,,,,,
+charls,comparable_22_30_months,full,incident_any_adl,score_categorical,966,966,13,13,153,PASS_STRICT_COMPLETE_ITEM_COUNTS,__model__,NOT_EVALUABLE_LOSS_2PLUS_EVENTS,332.0,59.0,273.0,60.0,13.0,47.0
+charls,comparable_22_30_months,full,incident_any_iadl,score_categorical,917,917,13,13,152,PASS_STRICT_COMPLETE_ITEM_COUNTS,__model__,NOT_EVALUABLE_LOSS_2PLUS_EVENTS,292.0,53.0,239.0,58.0,14.0,44.0
+charls,comparable_22_30_months,full,multimorbidity_progression,score_categorical,1144,1144,13,13,125,PASS_STRICT_COMMON_SIX,__model__,NOT_EVALUABLE_EPV,,,,,,

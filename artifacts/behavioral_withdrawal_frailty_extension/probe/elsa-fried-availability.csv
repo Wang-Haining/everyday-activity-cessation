@@ -1,0 +1,9 @@
+cohort,t1_wave,behavior_complete_n,shrinking_observed_n,shrinking_deficit_n,exhaustion_observed_n,exhaustion_deficit_n,weakness_observed_n,weakness_deficit_n,slowness_observed_n,slowness_deficit_n,low_activity_observed_n,low_activity_deficit_n,fried5_complete_n,fried_robust_n,fried_prefrail_n,fried_frail_n,fi_complete_n
+elsa,2,5256,4429,38,5233,1535,4677,986,4821,873,5256,464,4119,2239,1624,256,0
+elsa,3,4236,0,0,4226,1142,0,0,3975,666,4236,334,0,0,0,0,0
+elsa,4,4111,3646,216,4103,1035,3713,818,3825,692,4111,339,3421,1824,1359,238,0
+elsa,5,5529,0,0,5506,1443,0,0,5126,904,5528,430,0,0,0,0,0
+elsa,6,5845,5037,283,5825,1371,5128,1109,5371,992,5845,423,4663,2554,1833,276,0
+elsa,7,5657,0,0,5639,1330,0,0,5139,937,5657,404,0,0,0,0,5652
+elsa,8,5429,5027,376,5413,1348,4222,907,4984,905,5429,379,3850,2090,1525,235,5414
+elsa,9,5199,5066,281,5190,1271,0,0,4678,872,5199,379,0,0,0,0,5190
