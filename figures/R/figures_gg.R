@@ -83,7 +83,6 @@ outcome_forest <- function() {
   rows <- forest_rows(
     graded("Death", "Death"),
     graded("New ADL limitation", "New limitation in activities of daily living"),
-    graded("New IADL limitation", "New limitation in instrumental activities"),
     graded("Multimorbidity progression", "Multimorbidity progression"))
 
   # The lower limit was 0.84 to clear the hypertension interval, which reached
@@ -169,7 +168,7 @@ f3a <- work_exit_panel()
 
 # Every height is computed from the row count at one pitch, never chosen, so a
 # forest that gains a row grows instead of tightening.
-H_FC  <- forest_height(12, favours = TRUE)
+H_FC  <- forest_height(9, favours = TRUE)
 H_F2  <- forest_height(9,  favours = TRUE)
 H_F3A <- forest_height(9,  xlab = "Adjusted risk ratio versus continued work")
 H_RISK <- 3.00

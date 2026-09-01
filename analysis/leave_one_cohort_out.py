@@ -26,8 +26,6 @@ ROWS = [
     ("mortality", "score_categorical", "loss_2plus", "Death, two or more"),
     ("incident_any_adl", "score_categorical", "loss_1", "New ADL, one stopped"),
     ("incident_any_adl", "score_categorical", "loss_2plus", "New ADL, two or more"),
-    ("incident_any_iadl", "score_categorical", "loss_1", "New IADL, one stopped"),
-    ("incident_any_iadl", "score_categorical", "loss_2plus", "New IADL, two or more"),
     ("multimorbidity_progression", "score_categorical", "loss_1", "Multimorbidity, one stopped"),
     ("multimorbidity_progression", "score_categorical", "loss_2plus", "Multimorbidity, two or more"),
 ]

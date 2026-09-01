@@ -10,11 +10,8 @@ a recount: keep the people who died in the denominator and code them as
 non-events. Both quantities below follow in closed form from the published cell
 counts, given one assumption stated in the output.
 """
-import pathlib
-import sys
-
-import numpy as np
-import pandas as pd
+import sys, pathlib
+import numpy as np, pandas as pd
 
 sys.path.insert(0, str(pathlib.Path(__file__).resolve().parents[1] / "scripts"))
 from postprocess_behavior_outcome_landscape import reml_hk
@@ -53,7 +50,6 @@ def fmt(x):
 
 death = cells("mortality")
 OUTCOMES = [("incident_any_adl", "New ADL limitation"),
-            ("incident_any_iadl", "New IADL limitation"),
             ("multimorbidity_progression", "Multimorbidity progression")]
 TERMS = [("1", "loss_1", "One activity stopped"),
          ("2", "loss_2plus", "Two or more stopped")]
@@ -88,13 +84,10 @@ for outcome, olabel in OUTCOMES:
             rows_comp.append(logrr(N_g, e_g + D_g, N_0, e_0 + D_0))
             detail.append((cohort, p_g, p_0, D_g, D_0))
         def pool(rows):
-            y = np.array([r[0] for r in rows])
-            v = np.array([r[1] for r in rows])
+            y = np.array([r[0] for r in rows]); v = np.array([r[1] for r in rows])
             f = reml_hk(y, v)
             return np.exp(f["pooled"]), np.exp(f["ci_low"]), np.exp(f["ci_high"])
-        a = pool(rows_cur)
-        b = pool(rows_sub)
-        c = pool(rows_comp)
+        a = pool(rows_cur); b = pool(rows_sub); c = pool(rows_comp)
         pub = S[S.exposure_model.eq("score_categorical") & S.outcome_id.eq(outcome)
                 & S.term.eq(term)]
         pubrr = float(pub.pooled_estimate.iloc[0]) if len(pub) else float("nan")
@@ -146,8 +139,7 @@ def table() -> None:
                 rk.append(logrr(N_g, e_g + N_g - n_g, N_0, e_0 + N_0 - n_0))
 
             def pool(rows):
-                y = np.array([r[0] for r in rows])
-                v = np.array([r[1] for r in rows])
+                y = np.array([r[0] for r in rows]); v = np.array([r[1] for r in rows])
                 f = reml_hk(y, v)
                 return np.exp(f["pooled"]), np.exp(f["ci_low"]), np.exp(f["ci_high"])
 

@@ -16,7 +16,6 @@ OUT = ROOT / "manuscript/generated"
 LABEL = {
     "mortality": "Death",
     "incident_any_adl": "New ADL limitation",
-    "incident_any_iadl": "New IADL limitation",
     "multimorbidity_progression": "Multimorbidity progression",
 }
 TERM = {"loss_1": "One", "loss_2plus": "Two or more"}
@@ -71,7 +70,7 @@ def table(path: pathlib.Path, caption: str, label: str, header: str,
 c = pd.read_csv(FINAL / "composite-synthesis.csv")
 c = c[c.exposure_model.eq("graded") & c.state_adjustment.eq("unconditional")]
 body = []
-for outcome in ["incident_any_adl", "incident_any_iadl", "multimorbidity_progression"]:
+for outcome in ["incident_any_adl", "multimorbidity_progression"]:
     for term in ["loss_1", "loss_2plus"]:
         cells = []
         for model in ["survivors", "death_or_outcome"]:
@@ -95,8 +94,8 @@ table(
     r"and the composite then counts death as an event within that risk set. The "
     r"number of deaths added therefore differs by outcome, because freedom from an "
     r"activity-of-daily-living limitation at the landmark interview identifies a "
-    r"different group from freedom from an instrumental limitation, and "
-    r"multimorbidity progression excludes nobody at baseline. Both columns are the "
+    r"different group from the one multimorbidity progression starts with, which "
+    r"excludes nobody at baseline. Both columns are the "
     r"primary model with no adjustment for behavioural status at the landmark "
     r"interview, so the survivor column reproduces the main analysis.",
     "tab:composite",
@@ -106,7 +105,7 @@ table(
 # ------------------------------------------------------- reference group
 r = pd.read_csv(FINAL / "reference-group-synthesis.csv")
 body = []
-for outcome in ["mortality", "incident_any_adl", "incident_any_iadl"]:
+for outcome in ["mortality", "incident_any_adl"]:
     for domain in ["alcohol", "activity", "work"]:
         row = r[r.outcome_id.eq(outcome) & r.domain.eq(domain)
                 & r.model_id.eq("restricted_stopped_vs_continued")]

@@ -17,7 +17,7 @@ import pandas as pd
 
 ROOT = pathlib.Path(__file__).resolve().parents[1]
 PILOT = ROOT / "artifacts/multidomain_behavioral_withdrawal_pilot/final"
-EXT = ROOT / "artifacts/work_exit_reason_extension/final"
+EXT = ROOT / "artifacts/bmc_absolute_risk_work_exit_extension/final"
 CONTEXT = ROOT / "artifacts/behavioral_withdrawal_competing_context/final"
 OUT = ROOT / "figures/data"
 
@@ -64,7 +64,6 @@ def outcome_forest() -> None:
     s = pd.read_csv(PILOT / "cross-cohort-summary.csv")
     graded = [("mortality", "Death"),
               ("incident_any_adl", "New ADL limitation"),
-              ("incident_any_iadl", "New IADL limitation"),
               ("multimorbidity_progression", "Multimorbidity progression")]
     rows = []
     for outcome, label in graded:
@@ -75,7 +74,7 @@ def outcome_forest() -> None:
             rows.append({"row_label": label, "series": series, "block": "graded",
                          "estimate": r.pooled_estimate, "lo": r.ci_low,
                          "hi": r.ci_high, "cohorts": int(r.k_cohorts)})
-    write(pd.DataFrame(rows), "fig1c_outcome_forest.csv", 8)
+    write(pd.DataFrame(rows), "fig1c_outcome_forest.csv", 6)
 
 
 # ------------------------------------------------------------- figure 2 a,b

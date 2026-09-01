@@ -58,12 +58,32 @@ def main() -> None:
             problems.append(f"{stem}: {got_h:.2f} in tall does not fit a page")
         print(f"  {stem:36s} {got_w:.2f} x {got_h:.2f} in")
 
+    # A figure is drawn on Quartz and copied back, so nothing local rebuilds it
+    # and nothing local notices when it is behind. When an outcome left the
+    # paper the text, the tables and the exported data all moved in one commit
+    # and figure 1 kept drawing the outcome for as long as nobody happened to
+    # open it. A figure that disagrees with the text is worse than a missing
+    # one, because it looks finished.
+    sources = sorted((ROOT / "figures/data").glob("*.csv")) + \
+              sorted((ROOT / "figures/R").glob("*.R"))
+    for row in rows:
+        stem = row["stem"]
+        drawn = ROOT / "figures" / f"{stem}.pdf"
+        if not drawn.exists():
+            continue
+        behind = [s.name for s in sources if s.stat().st_mtime > drawn.stat().st_mtime]
+        if behind:
+            problems.append(
+                f"{stem}.pdf is older than {', '.join(behind)}. "
+                "Run `bash scripts/build_lancet_figures.sh` to redraw it on Quartz.")
+
     if problems:
-        print("\nfigures that do not match their layout:", file=sys.stderr)
+        print("\nfigures that do not match their layout or their data:", file=sys.stderr)
         for line in problems:
             print(f"  {line}", file=sys.stderr)
         sys.exit(1)
-    print(f"all {len(rows)} figures are the size their layout declares")
+    print(f"all {len(rows)} figures are the size their layout declares, "
+          "and none is older than the data it was drawn from")
 
 
 if __name__ == "__main__":

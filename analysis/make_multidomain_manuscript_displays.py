@@ -7,14 +7,18 @@ import sys
 from pathlib import Path
 
 import matplotlib.pyplot as plt
+from matplotlib import patches
+from matplotlib.lines import Line2D
+import numpy as np
 import pandas as pd
+
 
 ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(Path(__file__).resolve().parent))
-from status_labels import label as status_label  # noqa: E402  (needs the path above)
+from status_labels import label as status_label
 
 PILOT = ROOT / "artifacts/multidomain_behavioral_withdrawal_pilot/final"
-EXT = ROOT / "artifacts/work_exit_reason_extension/final"
+EXT = ROOT / "artifacts/bmc_absolute_risk_work_exit_extension/final"
 DESC = ROOT / "artifacts/behavioral_withdrawal_frailty_extension/manuscript_descriptive"
 FRAILTY = ROOT / "artifacts/behavioral_withdrawal_frailty_extension/final"
 FIG = ROOT / "figures/manuscript"
@@ -60,7 +64,6 @@ LABELS = {"charls": "CHARLS", "elsa": "ELSA", "hrs": "HRS", "klosa": "KLoSA", "m
 OUTCOMES = [
     ("multimorbidity_progression", "Multimorbidity progression"),
     ("incident_any_adl", "Incident ADL limitation"),
-    ("incident_any_iadl", "Incident IADL limitation"),
     ("mortality", "Mortality"),
 ]
 
@@ -179,31 +182,29 @@ def table2() -> None:
         r"\begin{table*}[t]", r"\caption{Recent cessation of everyday activities and subsequent clinical outcomes}",
         r"\label{tab:primary}", r"\centering\footnotesize",
         r"\makebox[\textwidth][c]{%",
-        r"\begin{tabular}{@{}lcccc@{}}", r"\toprule",
-        r"& Any cessation & One stopped & Two or more & Standardised risk \\",
-        r"Outcome & RR (95\% CI); cohorts & RR (95\% CI); cohorts & RR (95\% CI); cohorts & 0 / 1 / 2+ (\%); cohorts \\",
+        r"\begin{tabular}{@{}lcc@{}}", r"\toprule",
+        r"& Any cessation & Standardised risk \\",
+        r"Outcome & RR (95\% CI); cohorts & 0 / 1 / 2+ (\%); cohorts \\",
         r"\midrule",
     ]
-    graded = ["mortality", "incident_any_adl", "incident_any_iadl",
-              "multimorbidity_progression"]
+    graded = ["mortality", "incident_any_adl", "multimorbidity_progression"]
     by_id = dict(OUTCOMES)
     order = ([(o, by_id[o]) for o in graded]
-             + [(o, lab) for o, lab in OUTCOMES if o not in graded])
+             + [(o, l) for o, l in OUTCOMES if o not in graded])
     for outcome, label in order:
         assert outcome in graded, outcome
+        # The graded risk ratios are figure 1C's whole job, and printing them
+        # here as well left a reviewer asking which display to read. The table
+        # keeps what no figure carries: the any-cessation contrast, on a risk
+        # set of five cohorts rather than three or four, and the absolute risks
+        # as numbers a reader can quote.
         any_r = _row(summary, outcome, "any_withdrawal", "any_withdrawal")
-        one_r = _row(summary, outcome, "score_categorical", "loss_1")
-        two_r = _row(summary, outcome, "score_categorical", "loss_2plus")
-        cells = [_effect_with_k(any_r)]
-        if outcome in graded:
-            cells += [_effect_with_k(one_r), _effect_with_k(two_r),
-                      _absolute_risk_triplet(pooled_risks, outcome)]
-        else:
-            cells += ["", "", ""]
+        cells = [_effect_with_k(any_r),
+                 _absolute_risk_triplet(pooled_risks, outcome)]
         lines.append(f"{label} & " + " & ".join(cells) + r" \\")
     lines.extend([
         r"\bottomrule", r"\end{tabular}}",
-        r"\begin{flushleft}\footnotesize The last figure in each cell is the number of cohorts contributing to that estimate. It is not a number of participants or person-intervals, and it is given separately for each estimate because categorical support differed from the any-cessation model. Risk ratios were adjusted for age, sex, interview wave, education, economic position, smoking, prior disease burden, baseline behaviour opportunity and outcome-specific baseline status. Absolute risks are logistic-model standardised estimates from the same full risk set and covariates; they are shown only for the four prespecified absolute-risk outcomes.\end{flushleft}",
+        r"\begin{flushleft}\footnotesize The number after the semicolon is the number of cohorts contributing to that estimate. It is not a number of participants or person-intervals, and it is given separately for each estimate because categorical support differed from the any-cessation model. Risk ratios were adjusted for age, sex, interview wave, education, economic position, smoking, prior disease burden, baseline behaviour opportunity and outcome-specific baseline status. Absolute risks are logistic-model standardised estimates from the same full risk set and covariates. Risk ratios for one and for two or more activities stopped are in figure 1C.\end{flushleft}",
         r"\end{table*}", "",
     ])
     write_if_changed(GEN / "table2_multidomain_results.tex", "\n".join(lines))
@@ -250,7 +251,6 @@ def supplementary_tables() -> None:
     component_outcomes = [
         ("multimorbidity_progression", "Multimorbidity progression"),
         ("incident_any_adl", "ADL limitation"),
-        ("incident_any_iadl", "IADL limitation"),
         ("mortality", "Mortality"),
     ]
     components = [
@@ -281,7 +281,6 @@ def supplementary_tables() -> None:
     gradient_outcomes = [
         ("multimorbidity_progression", "Multimorbidity progression"),
         ("incident_any_adl", "Incident ADL limitation"),
-        ("incident_any_iadl", "Incident IADL limitation"),
         ("mortality", "Mortality"),
     ]
     lines = [
@@ -368,7 +367,6 @@ def extension_supplementary_tables() -> None:
     outcome_labels = {
         "mortality": "Mortality",
         "incident_any_adl": "Incident ADL limitation",
-        "incident_any_iadl": "Incident IADL limitation",
         "multimorbidity_progression": "Multimorbidity progression",
     }
 

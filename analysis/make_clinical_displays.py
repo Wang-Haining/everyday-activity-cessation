@@ -26,16 +26,16 @@ from pathlib import Path
 
 import matplotlib.pyplot as plt
 import matplotlib.transforms as mtransforms
+from matplotlib.patches import Ellipse, Rectangle
 import numpy as np
 import pandas as pd
-from matplotlib.patches import Ellipse, Rectangle
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 import house_style as hs
 
 ROOT = Path(__file__).resolve().parents[1]
 PILOT = ROOT / "artifacts/multidomain_behavioral_withdrawal_pilot/final"
-EXT = ROOT / "artifacts/work_exit_reason_extension/final"
+EXT = ROOT / "artifacts/bmc_absolute_risk_work_exit_extension/final"
 DESC = ROOT / "artifacts/behavioral_withdrawal_frailty_extension/manuscript_descriptive"
 OUT = ROOT / "figures/manuscript"
 
@@ -107,7 +107,6 @@ def forest_panel(ax) -> None:
     graded = [
         ("mortality", "Death"),
         ("incident_any_adl", "New ADL limitation"),
-        ("incident_any_iadl", "New IADL limitation"),
         ("multimorbidity_progression", "Multimorbidity progression"),
     ]
     OFF = 0.21
@@ -319,8 +318,7 @@ def flow_figure() -> None:
 
     y0 = 0.205
     outcomes = [("mortality", "Death"),
-                ("incident_any_adl", "New ADL limitation"),
-                ("incident_any_iadl", "New IADL limitation")]
+                ("incident_any_adl", "New ADL limitation")]
     bw = 0.285
     for j, (oid, label) in enumerate(outcomes):
         g = contrib[contrib.outcome_id.eq(oid)]

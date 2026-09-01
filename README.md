@@ -1,4 +1,4 @@
-# Recent cessation of everyday activities and near-term death and loss of independence in older adults
+# Recent cessation of everyday activities and two-year risks of death and loss of independence in older adults
 
 Code and frozen aggregate results for a coordinated multicohort study of six
 harmonised ageing cohorts: CHARLS, ELSA, HRS, KLoSA, MHAS and SHARE. Five
@@ -8,16 +8,19 @@ spacing. Under review.
 
 ## Outcomes
 
-Death is the primary outcome. New limitation in activities of daily living, new
-limitation in instrumental activities of daily living and multimorbidity
-progression are secondary.
+Death is the primary outcome. New limitation in activities of daily living and
+multimorbidity progression are secondary.
 
 The cohort models in `scripts/` fit a wider outcome set than the paper reports,
-and the frozen tables in `artifacts/` therefore carry estimates for four newly
-reported diagnoses as well. Those are not omitted results: the graded count was
-evaluable for them in two cohorts, below the prespecified minimum of three for a
+and the frozen tables in `artifacts/` therefore also carry estimates for four
+newly reported diagnoses and for new limitation in instrumental activities of
+daily living. Those are not omitted results. The graded count was evaluable for
+the diagnoses in two cohorts, below the prespecified minimum of three for a
 cross-cohort estimate, so they could only ever carry the binary any-cessation
-exposure and are reported separately. The model code is left as it ran, because
+exposure; and the instrumental-activity outcome carried a 95% prediction
+interval of 0.19 to 31.54 for two or more activities stopped, which crosses the
+null and supports no estimate of direction or magnitude in a new cohort. Both
+are reported separately. The model code is left as it ran, because
 it is what produced the tables here.
 
 ## Layout
@@ -46,12 +49,14 @@ Needs no data access.
 
     pip install -r requirements.txt
 
-    python analysis/make_multidomain_manuscript_displays.py   # main tables and panels
-    python analysis/make_clinical_displays.py                 # work-exit panel and the risk panels
-    python analysis/make_reference_figure.py                  # comparison groups
+    python analysis/make_multidomain_manuscript_displays.py   # main tables
+    python analysis/make_clinical_displays.py                 # work-exit and risk panels
+    python analysis/make_competing_context_tables.py          # concurrent health change
+    python analysis/make_age_floor_table.py                   # the age floor raised to 65 and 70
+    python analysis/make_opportunity_table.py                 # at least two activities available
+    python analysis/make_baseline_burden_table.py             # health before the window
     python analysis/leave_one_cohort_out.py                   # re-synthesis dropping each cohort
     python analysis/competing_risk_recount.py                 # competing-risk recount
-    python analysis/assemble_figures.py                       # composites from the panels
     python analysis/make_consort_drawio.py                    # the study flow diagram
 
 ## Drawing the three manuscript figures
@@ -61,6 +66,7 @@ artifacts, so nothing in the figures can disagree with the reported numbers.
 
     python analysis/export_figure_data.py     # figures/data/*.csv, row counts asserted
     Rscript figures/R/figures_gg.R            # needs ggplot2, patchwork, svglite, ragg
+    Rscript figures/R/appendix_gg.R           # the four appendix figures
     python analysis/check_r_figures.py        # every figure at its declared size
 
 `figures/R/figures_gg.R` reads `MS_ROOT` and defaults to the working

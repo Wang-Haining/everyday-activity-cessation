@@ -2,6 +2,7 @@
 """Appendix table for the age floor, the first question a reader asks."""
 from __future__ import annotations
 
+import glob
 import pathlib
 import sys
 
@@ -15,7 +16,6 @@ sys.path.insert(0, str(ROOT / "scripts"))
 from postprocess_behavior_outcome_landscape import reml_hk  # noqa: E402
 
 LABEL = {"mortality": "Death", "incident_any_adl": "New ADL limitation",
-         "incident_any_iadl": "New IADL limitation",
          "multimorbidity_progression": "Multimorbidity progression"}
 TERM = {"loss_1": "One", "loss_2plus": "Two or more"}
 DASH = "--"

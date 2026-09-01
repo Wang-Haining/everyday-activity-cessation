@@ -25,8 +25,9 @@ import pathlib
 import re
 import sys
 
-import lancet_numbers
 import pandas as pd
+
+import lancet_numbers
 
 ROOT = pathlib.Path(__file__).resolve().parents[1]
 DESC = ROOT / "artifacts/behavioral_withdrawal_frailty_extension/manuscript_descriptive"
@@ -47,8 +48,7 @@ STAGES = [
      "At least one activity present initially, with complete model covariates"),
 ]
 OUTCOMES = [("mortality", "Death"),
-            ("incident_any_adl", "New ADL limitation"),
-            ("incident_any_iadl", "New IADL limitation")]
+            ("incident_any_adl", "New ADL limitation")]
 
 # Geometry, in points. One width for every box in the spine, one for every
 # exclusion, so the diagram reads as a column rather than as a collage.
@@ -197,7 +197,6 @@ def build(check: bool = False) -> None:
                      + (f"  missing from the file: {', '.join(missing)}" if missing else ""))
         print(f"flow diagram: {len(counts)} counts all match the frozen release")
         return
-    OUT.parent.mkdir(parents=True, exist_ok=True)
     OUT.write_text(xml)
     # imported here rather than at the top: --check reads the file and needs no
     # drawing library, and a checker that cannot run without one is a checker
