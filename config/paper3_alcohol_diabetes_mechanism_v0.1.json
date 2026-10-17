@@ -1,0 +1,334 @@
+{
+  "analysis_id": "paper3_alcohol_diabetes_mechanism_v0.1",
+  "parent_universe_config": "config/behavioral_transition_outcome_scan_universe_v0.1.json",
+  "parent_universe_sha256": "df543d3c136785b63a035b083f85484338d94316fb6fac541a50606bbdceb564",
+  "parent_discovery_results": "artifacts/behavioral_transition_outcome_landscape_v0.1/phase1/synthesis/cross-cohort-summary.csv",
+  "release_root": "HARMONIZED_ROOT",
+  "row_level_outputs_allowed": false,
+  "minimum_age_at_t1": 60,
+  "comparable_window_months": [
+    22,
+    30
+  ],
+  "core_cohorts": [
+    "elsa",
+    "hrs",
+    "klosa",
+    "share"
+  ],
+  "support_limited_cohorts": [
+    "charls"
+  ],
+  "transport_cohorts": [
+    "mhas"
+  ],
+  "single_wave_cohorts": [
+    "lasi"
+  ],
+  "minimum_binary_cell_events": 20,
+  "minimum_binary_cell_nonevents": 20,
+  "minimum_continuous_total": 200,
+  "minimum_continuous_exposed": 50,
+  "events_per_parameter": 10,
+  "minimum_clusters": 100,
+  "attenuation_flag_fraction": 0.2,
+  "confidence_level": 0.95,
+  "bootstrap_replicates": 500,
+  "bootstrap_seed": 320260821,
+  "age_rcs_knots": [
+    60,
+    70,
+    80,
+    90
+  ],
+  "core_exposure": {
+    "transition_id": "alcohol_current",
+    "transition_state": "1_to_0",
+    "comparator_state": "1_to_1"
+  },
+  "core_outcome": "incident_diabetes",
+  "common_multimorbidity_fields": [
+    "cancre",
+    "diabe",
+    "hearte",
+    "hibpe",
+    "stroke",
+    "arthre"
+  ],
+  "trigger_domains": {
+    "incident_major_diagnosis": [
+      "cancre",
+      "hearte",
+      "stroke",
+      "hibpe",
+      "lunge"
+    ],
+    "functional_deterioration": [
+      "adl_count_increase_t0_t1",
+      "iadl_count_increase_t0_t1"
+    ],
+    "subjective_deterioration": [
+      "self_rated_health_worsening_t0_t1"
+    ],
+    "behavioral_withdrawal": [
+      "activity_withdrawal_t0_t1"
+    ],
+    "healthcare_contact": [
+      "hospitalization_overlapping_t0_t1"
+    ]
+  },
+  "extra_formal_fields_by_cohort": {
+    "charls": [
+      "smokev",
+      "bmi",
+      "drinkl"
+    ],
+    "elsa": [
+      "smokev",
+      "drinkd_e",
+      "drinkwn_e",
+      "mbmi",
+      "rxdiab"
+    ],
+    "hrs": [
+      "smokev",
+      "drinkd",
+      "bmi",
+      "hosp",
+      "rxdiab"
+    ],
+    "klosa": [
+      "smokev",
+      "drinkx",
+      "drinkn_k",
+      "bmi",
+      "hcfcl2y",
+      "rxdiab"
+    ],
+    "mhas": [
+      "smokev",
+      "drinkd",
+      "drinkn",
+      "bmi",
+      "hosp1y",
+      "rxdiab"
+    ],
+    "share": [
+      "smokev",
+      "drinkx",
+      "drinkb",
+      "bingedcat",
+      "bmi",
+      "hosp1y",
+      "rxdiab"
+    ]
+  },
+  "source_only_fields_by_cohort": {
+    "hrs": {
+      "drinkn": {
+        "wave_field_template": "r{wave}drinkn",
+        "source_label_contains": "drinks/day when drinks",
+        "valid_range": [
+          0,
+          98
+        ]
+      }
+    }
+  },
+  "dose_definitions": {
+    "elsa": {
+      "frequency_field": "drinkd_e",
+      "frequency_scale": "days_per_week",
+      "frequency_valid_range": [
+        0,
+        7
+      ],
+      "volume_field": "drinkwn_e",
+      "volume_scale": "reported_drinks_per_week"
+    },
+    "hrs": {
+      "frequency_field": "drinkd",
+      "frequency_scale": "days_per_week",
+      "frequency_valid_range": [
+        0,
+        7
+      ],
+      "amount_field": "drinkn",
+      "volume_formula": "drinkd_times_drinkn",
+      "volume_scale": "reported_drinks_per_week"
+    },
+    "klosa": {
+      "frequency_field": "drinkx",
+      "frequency_scale": "ordinal_higher_more_frequent",
+      "frequency_valid_range": [
+        0,
+        4
+      ],
+      "amount_field": "drinkn_k",
+      "amount_scale": "reported_drinks_per_drinking_day"
+    },
+    "mhas": {
+      "frequency_field": "drinkd",
+      "frequency_scale": "days_per_week",
+      "frequency_valid_range": [
+        0,
+        7
+      ],
+      "amount_field": "drinkn",
+      "volume_formula": "drinkd_times_drinkn",
+      "volume_scale": "reported_drinks_per_week"
+    },
+    "share": {
+      "frequency_field": "drinkx",
+      "frequency_scale": "ordinal_higher_more_frequent",
+      "frequency_valid_range": [
+        0,
+        4
+      ],
+      "binge_field": "bingedcat",
+      "binge_scale": "ordinal_higher_more_frequent"
+    }
+  },
+  "dose_categorizations": {
+    "days_per_week_high": 4,
+    "ordinal_weekly_or_more": 2,
+    "days_per_week_taper_decrease": 2,
+    "ordinal_taper_decrease": 1,
+    "hrs_reported_drinks_week_categories": [
+      7,
+      14
+    ]
+  },
+  "biomarker_thresholds": {
+    "hba1c_prediabetes_percent": 5.7,
+    "hba1c_biochemical_diabetes_percent": 6.5,
+    "fasting_glucose_diabetes_mmol_l": 7.0,
+    "fasting_glucose_diabetes_mg_dl": 126.0,
+    "obesity_bmi_kg_m2": 30.0,
+    "crp_high_mg_l": 3.0
+  },
+  "assay_covariate_anchor": {
+    "primary": "t0",
+    "sensitivity": "t1",
+    "sensitivity_requires_complete_interface": true
+  },
+  "biomarker_modules": {
+    "charls_pretransition": {
+      "status": "SUPPORT_PROBE_ONLY_UNTIL_GATE_PASSES",
+      "wave": 1,
+      "relative_path": "02_源数据备份/Raw原始数据/CHARLS/2011/supplements/Blood_20140429.zip",
+      "sha256": "e0d034d049dadabf8a776bd3bde3f8fc4dd296e8eea7081acd66153e14119f2d",
+      "inner_dta": "Blood_20140429.dta",
+      "id_field": "ID",
+      "linkage": {
+        "source_current_id_field": "ID",
+        "source_wave1_id_field": "ID_w1",
+        "source_wave1_label_contains": "wave 1 person identifier",
+        "required_blood_id_match_fraction": 1.0
+      },
+      "weight_field": "bloodweight",
+      "fasting_field": "qc1_va003",
+      "fields": {
+        "glucose_mg_dl": "newglu",
+        "hba1c_percent": "newhba1c",
+        "triglycerides_mg_dl": "newtg",
+        "hdl_mg_dl": "newhdl",
+        "ldl_mg_dl": "newldl",
+        "cholesterol_mg_dl": "newcho",
+        "crp_mg_l": "newcrp"
+      }
+    },
+    "elsa_landmark_repeated": {
+      "waves": [
+        2,
+        4,
+        6,
+        8,
+        9
+      ],
+      "relative_files": {
+        "2": "02_源数据备份/Raw原始数据/ELSA/UKDA_5050_Local_Archive/stata/stata13_se/wave_2_nurse_data_v2.dta",
+        "4": "02_源数据备份/Raw原始数据/ELSA/UKDA_5050_Local_Archive/stata/stata13_se/wave_4_nurse_data.dta",
+        "6": "02_源数据备份/Raw原始数据/ELSA/UKDA_5050_Local_Archive/stata/stata13_se/wave_6_elsa_nurse_data_v2.dta",
+        "8_9": "02_源数据备份/Raw原始数据/ELSA/UKDA_5050_Local_Archive/stata/stata13_se/elsa_nurse_w8w9_data_eul.dta"
+      },
+      "sha256": {
+        "2": "e0a37c97b673e93a358713057e0d6587fba826117154b10c5fba73cc5ba88bfa",
+        "4": "b9160d23f8f4632005d89cd5db93b2562a58c45d0b645e01a7a19e3c2941148b",
+        "6": "6bf7029a85fdcc87b33bdb427d75999de74397fc53860e18fb6b282ce4527a48",
+        "8_9": "75d4604e0ac888aee68473ae02504fbb0a1ff667af5ba6810becd10d1004e9f7"
+      },
+      "id_field": "idauniq",
+      "combined_wave_field": "wave",
+      "fields": {
+        "hba1c": "hba1c",
+        "fasting_glucose_mmol_l": "fglu",
+        "triglycerides_mmol_l": "trig",
+        "hdl_mmol_l": "hdl",
+        "crp_mg_l": "hscrp"
+      },
+      "fasting_fields": {
+        "2": "fasteli",
+        "4": "fastelig",
+        "6": "fastelig",
+        "8": "fastelig",
+        "9": "fastelig"
+      },
+      "hba1c_unit_by_wave": {
+        "2": "DCCT_percent",
+        "4": "DCCT_percent",
+        "6": "IFCC_mmol_per_mol",
+        "8": "IFCC_mmol_per_mol",
+        "9": "IFCC_mmol_per_mol"
+      },
+      "hba1c_ifcc_to_dcct": "x / 10.929 + 2.15"
+    },
+    "share_wave6_dbs": {
+      "wave": 6,
+      "relative_path": "02_源数据备份/Raw原始数据/SHARE/biomarkers_hcap/sharew6_rel2-0-0_dbs_stata.zip",
+      "sha256": "422413528573c2e74ab20e713ad11bd02452e2db18b6e94a5dcc03e7c4d348a8",
+      "inner_dta": "sharew6_rel2-0-0_dbs.dta",
+      "id_field": "mergeid",
+      "weight_field": "cciw_dbs",
+      "fields": {
+        "hba1c_percent": "a1c_final",
+        "triglycerides_mg_dl": "trg_final",
+        "hdl_mg_dl": "hdl_final",
+        "cholesterol_mg_dl": "cho_final",
+        "crp_mg_l": "crp_final",
+        "cystatin_c_mg_l": "cyc_final"
+      },
+      "prohibited_field_patterns": [
+        "*_raw",
+        "*_x1",
+        "*_x2",
+        "*_x3",
+        "*_x4"
+      ]
+    }
+  },
+  "event_time_lags": [
+    0,
+    1,
+    2
+  ],
+  "mechanism_classification": {
+    "supported_min_independent_sources": 2,
+    "labels": [
+      "SUPPORTED",
+      "PARTIALLY_SUPPORTED",
+      "NOT_SUPPORTED_WITH_INFORMATION",
+      "INCONCLUSIVE",
+      "NOT_EVALUABLE"
+    ]
+  },
+  "required_outputs": [
+    "core-flow.csv",
+    "mechanism-support-matrix.csv",
+    "trigger-joint-state-support.csv",
+    "dose-history-support.csv",
+    "event-time-support.csv",
+    "biomarker-linkage-support.csv",
+    "probe-manifest.json"
+  ]
+}

@@ -1,0 +1,37 @@
+Pre-window health measure,Cohort,Stopped versus none,"Person-intervals, A / B",A: estimate (95% CI),Fully adjusted B: estimate (95% CI)
+Self-rated-health worsening,ELSA,Two or more,"16,160 / 16,159",1.31 (1.08–1.59),1.50 (1.23–1.81)
+Self-rated-health worsening,HRS,Two or more,"69,976 / 69,961",1.24 (1.16–1.33),1.39 (1.29–1.49)
+Self-rated-health worsening,KLoSA,Two or more,"13,543 / 13,540",1.15 (0.98–1.35),1.23 (1.04–1.47)
+Self-rated-health worsening,SHARE,Two or more,"24,810 / 22,843",1.23 (1.12–1.37),1.40 (1.26–1.56)
+Self-rated-health worsening,Pooled,Two or more,"124,489 / 122,503",1.24 (1.14–1.35),1.38 (1.27–1.51)
+Self-rated-health worsening,Pooled,One,"124,489 / 122,503",1.12 (0.99–1.26),1.15 (0.99–1.34)
+ADL increase,ELSA,Two or more,"22,934 / 22,905",1.18 (0.85–1.63),1.65 (1.18–2.31)
+ADL increase,HRS,Two or more,"69,853 / 69,839",1.32 (1.16–1.51),1.87 (1.63–2.15)
+ADL increase,KLoSA,Two or more,"13,543 / 13,540",Not estimable,Not estimable
+ADL increase,SHARE,Two or more,"24,809 / 22,840",1.66 (1.29–2.15),2.08 (1.56–2.76)
+ADL increase,Pooled,Two or more,"117,596 / 115,584",1.38 (0.95–1.99),1.88 (1.45–2.43)
+ADL increase,Pooled,One,"117,596 / 115,584",1.39 (1.24–1.55),1.45 (1.30–1.62)
+Depressive worsening,ELSA,Two or more,"22,764 / 22,736",1.12 (0.95–1.33),1.22 (1.04–1.45)
+Depressive worsening,HRS,Two or more,"66,788 / 66,774",1.12 (1.05–1.21),1.21 (1.13–1.30)
+Depressive worsening,KLoSA,Two or more,"10,161 / 10,158",1.03 (0.82–1.28),1.13 (0.90–1.43)
+Depressive worsening,SHARE,Two or more,"24,831 / 22,858",1.15 (1.06–1.25),1.21 (1.10–1.32)
+Depressive worsening,Pooled,Two or more,"124,544 / 122,526",1.13 (1.04–1.22),1.21 (1.11–1.31)
+Depressive worsening,Pooled,One,"124,544 / 122,526",1.10 (1.07–1.14),1.12 (1.08–1.16)
+"Depressive change, SD",ELSA,Two or more,"22,764 / 22,736",0.07 (-0.04–0.18),0.13 (0.03–0.24)
+"Depressive change, SD",HRS,Two or more,"66,788 / 66,774",0.06 (0.02–0.10),0.10 (0.06–0.14)
+"Depressive change, SD",KLoSA,Two or more,"10,161 / 10,158",-0.01 (-0.12–0.10),0.05 (-0.07–0.16)
+"Depressive change, SD",SHARE,Two or more,"24,831 / 22,858",0.12 (0.06–0.19),0.17 (0.11–0.24)
+"Depressive change, SD",Pooled,Two or more,"124,544 / 122,526",0.07 (-0.01–0.15),0.12 (0.04–0.19)
+"Depressive change, SD",Pooled,One,"124,544 / 122,526",0.06 (0.02–0.09),0.07 (0.03–0.11)
+IADL increase,ELSA,Two or more,"22,934 / 22,905",Not estimable,Not estimable
+IADL increase,HRS,Two or more,"63,190 / 63,176",1.33 (1.12–1.56),2.05 (1.73–2.44)
+IADL increase,KLoSA,Two or more,"13,542 / 13,539",Not estimable,Not estimable
+IADL increase,SHARE,Two or more,"24,809 / 22,840",1.50 (1.06–2.14),2.86 (1.93–4.24)
+IADL increase,Pooled,Two or more,"87,999 / 86,016",Not estimable,Not estimable
+IADL increase,Pooled,One,"87,999 / 86,016",Not estimable,Not estimable
+Prior-period hospitalization,ELSA,Two or more,Not available,Not estimable,Not estimable
+Prior-period hospitalization,HRS,Two or more,"69,716 / 69,701",1.15 (1.08–1.24),1.25 (1.16–1.34)
+Prior-period hospitalization,KLoSA,Two or more,"13,465 / 13,462",1.00 (0.72–1.38),1.28 (0.91–1.80)
+Prior-period hospitalization,SHARE,Two or more,"24,802 / 22,832",1.19 (1.01–1.41),1.32 (1.10–1.58)
+Prior-period hospitalization,Pooled,Two or more,"107,983 / 105,995",Not estimable,Not estimable
+Prior-period hospitalization,Pooled,One,"107,983 / 105,995",Not estimable,Not estimable

@@ -1,0 +1,34 @@
+Outcome and comparison,Population and model,Comparison group person-intervals (events),Reference group person-intervals (events),RR (95% CI),Pooled RR (95% CI) or model
+Death: Started only versus neither,"All, one-stage","16,975 (563)","99,494 (3,420)",0.80 (0.73–0.87),0.80 (0.67–0.96)
+Death: Stopped only versus neither,"All, one-stage","41,237 (3,307)","99,494 (3,420)",1.88 (1.80–1.97),1.89 (1.73–2.07)
+Death: Stopped and started versus neither,"All, one-stage","4,876 (301)","99,494 (3,420)",1.36 (1.22–1.52),Not pooled
+Death: Stopped and started versus stopped only,"All, one-stage","4,876 (301)","41,237 (3,307)",0.72 (0.65–0.81),Not pooled
+"Death: One stopped, all initially engaged","All, one-stage","4,666 (287)","37,098 (2,840)",0.73 (0.65–0.82),Not pooled
+"Death: One stopped, able to start","All, one-stage","4,666 (287)","28,143 (2,682)",0.73 (0.65–0.81),Not pooled
+"Death: two or more stopped, able to start","All, one-stage",210 (14),"2,411 (369)",Not estimable,Insufficient events
+"Death: One stopped, adjusted for activity stopped","All, one-stage","4,666 (287)","28,143 (2,682)",0.74 (0.66–0.83),One-stage estimate
+"Death: One stopped, adjusted for activity stopped","Outside HRS, one-stage","2,176 (106)","14,772 (1,050)",0.77 (0.64–0.94),One-stage estimate
+"Death: One stopped, adjusted for activity stopped",SHARE,"1,165 (84)","7,653 (657)",0.94 (0.76–1.16),Cohort estimate
+"Death: One stopped, adjusted for activity stopped",HRS,"2,490 (181)","13,371 (1,632)",0.72 (0.63–0.84),Cohort estimate
+"Death: One stopped, adjusted for activity stopped",ELSA,403 (5),"3,246 (139)",Not estimable,Cohort estimate
+"Death: One stopped, adjusted for activity stopped",KLoSA,608 (17),"3,873 (254)",Not estimable,Cohort estimate
+"Death: One stopped, initial-pattern adjustment","All, one-stage","4,666 (287)","28,143 (2,682)",0.73 (0.64–0.82),One-stage estimate
+"Death: One stopped, initial-pattern adjustment","Outside HRS, one-stage","2,176 (106)","14,772 (1,050)",0.76 (0.62–0.92),One-stage estimate
+"Death: One stopped, initial-pattern adjustment",SHARE,"1,165 (84)","7,653 (657)",0.93 (0.74–1.15),Cohort estimate
+"Death: one stopped, able to start","Outside HRS, one-stage","2,176 (106)","14,772 (1,050)",0.75 (0.62–0.91),Primary covariates
+New ADL limitation: Started only versus neither,"All, one-stage","11,925 (1,046)","69,962 (5,301)",0.96 (0.90–1.02),0.95 (0.78–1.16)
+New ADL limitation: Stopped only versus neither,"All, one-stage","24,507 (2,874)","69,962 (5,301)",1.51 (1.45–1.58),1.52 (1.38–1.67)
+New ADL limitation: Stopped and started versus neither,"All, one-stage","2,974 (375)","69,962 (5,301)",1.41 (1.28–1.55),1.41 (1.14–1.74)
+New ADL limitation: Stopped and started versus stopped only,"All, one-stage","2,974 (375)","24,507 (2,874)",0.93 (0.84–1.03),0.93 (0.75–1.16)
+"New ADL limitation: One stopped, all initially engaged","All, one-stage","2,846 (356)","22,176 (2,573)",0.91 (0.82–1.01),0.91 (0.73–1.15)
+"New ADL limitation: One stopped, able to start","All, one-stage","2,846 (356)","15,108 (2,206)",0.90 (0.81–1.00),0.91 (0.72–1.14)
+"New ADL limitation: two or more stopped, able to start","All, one-stage",128 (19),"1,131 (208)",Not estimable,Insufficient events
+"New ADL limitation: One stopped, adjusted for activity stopped","All, one-stage","2,846 (356)","15,108 (2,206)",0.96 (0.86–1.07),One-stage estimate
+"New ADL limitation: One stopped, adjusted for activity stopped","Outside HRS, one-stage","1,101 (127)","6,866 (960)",0.97 (0.80–1.16),One-stage estimate
+"New ADL limitation: One stopped, adjusted for activity stopped",SHARE,804 (87),"4,813 (584)",1.06 (0.85–1.32),Cohort estimate
+"New ADL limitation: One stopped, adjusted for activity stopped",HRS,"1,745 (229)","8,242 (1,246)",0.95 (0.83–1.09),Cohort estimate
+"New ADL limitation: One stopped, adjusted for activity stopped",ELSA,297 (40),"2,053 (376)",0.79 (0.57–1.10),Cohort estimate
+"New ADL limitation: One stopped, initial-pattern adjustment","All, one-stage","2,846 (356)","15,108 (2,206)",0.89 (0.80–1.00),One-stage estimate
+"New ADL limitation: One stopped, initial-pattern adjustment","Outside HRS, one-stage","1,101 (127)","6,866 (960)",0.87 (0.72–1.06),One-stage estimate
+"New ADL limitation: One stopped, initial-pattern adjustment",SHARE,804 (87),"4,813 (584)",0.94 (0.75–1.18),Cohort estimate
+"New ADL limitation: one stopped, able to start","Outside HRS, one-stage","1,101 (127)","6,866 (960)",0.88 (0.73–1.05),Primary covariates

@@ -1,0 +1,149 @@
+{
+  "analysis_id": "behavioral_contraction_biomarker_pilot_v0.1",
+  "parent_universe_config": "config/behavioral_transition_outcome_scan_universe_v0.1.json",
+  "parent_universe_sha256": "df543d3c136785b63a035b083f85484338d94316fb6fac541a50606bbdceb564",
+  "assay_parent_config": "config/paper3_alcohol_diabetes_mechanism_v0.1.json",
+  "assay_parent_sha256": "24f9842f790abfcd784a0dc02181a46dfe451c1303005962df646d2fa8e3b79d",
+  "release_root": "HARMONIZED_ROOT",
+  "candidate_cohorts": [
+    "charls",
+    "elsa",
+    "hrs",
+    "klosa",
+    "mhas",
+    "share"
+  ],
+  "assay_cohorts": [
+    "charls",
+    "elsa",
+    "share"
+  ],
+  "single_wave_not_evaluable": [
+    "lasi"
+  ],
+  "minimum_age_at_t1": 60,
+  "comparable_window_months": [
+    22,
+    30
+  ],
+  "primary_behavior_ids": [
+    "alcohol_current",
+    "moderate_or_vigorous_activity"
+  ],
+  "component_transition": "1_to_0",
+  "primary_binary_outcomes": [
+    "incident_stroke",
+    "incident_diabetes",
+    "incident_heart_disease",
+    "multimorbidity_progression",
+    "incident_hypertension",
+    "incident_any_adl",
+    "adl_count_increase",
+    "incident_any_iadl",
+    "iadl_count_increase",
+    "mortality"
+  ],
+  "primary_continuous_outcomes": [
+    "word_recall_change"
+  ],
+  "two_cohort_outcomes": [
+    "incident_dementia"
+  ],
+  "secondary_transition_ids": [
+    "paid_work",
+    "social_participation",
+    "smoking_current"
+  ],
+  "minimum_exposed_events": 20,
+  "minimum_exposed_nonevents": 20,
+  "minimum_joint_state_events": 10,
+  "minimum_joint_state_nonevents": 10,
+  "events_per_parameter": 10,
+  "minimum_clusters": 30,
+  "minimum_continuous_n": 200,
+  "minimum_continuous_group_n": 100,
+  "minimum_meta_cohorts": 3,
+  "age_rcs_knots": [
+    60,
+    70,
+    80,
+    90
+  ],
+  "crp_log_offset": 0.1,
+  "crp_acute_inflammation_cutoff_mg_l": 10.0,
+  "high_burden_quantile": 0.75,
+  "minimum_burden_components": 3,
+  "primary_burden_components": [
+    "log_crp",
+    "hba1c",
+    "log_triglycerides",
+    "negative_hdl"
+  ],
+  "assay_landmarks": {
+    "charls": [
+      {
+        "t0": 1,
+        "t1": 2,
+        "t2": 3,
+        "scope": "comparable"
+      }
+    ],
+    "elsa": [
+      {
+        "t0": 2,
+        "t1": 3,
+        "t2": 4,
+        "scope": "comparable"
+      },
+      {
+        "t0": 4,
+        "t1": 5,
+        "t2": 6,
+        "scope": "comparable"
+      },
+      {
+        "t0": 6,
+        "t1": 7,
+        "t2": 8,
+        "scope": "comparable"
+      },
+      {
+        "t0": 8,
+        "t1": 9,
+        "t2": 10,
+        "scope": "comparable"
+      }
+    ],
+    "share": [
+      {
+        "t0": 6,
+        "t1": 7,
+        "t2": 8,
+        "scope": "off_window_transport"
+      }
+    ]
+  },
+  "model_layers": {
+    "basic": [
+      "loss_count_2",
+      "age_rcs",
+      "sex",
+      "t1_wave",
+      "baseline_engagement_count"
+    ],
+    "full_additional": [
+      "education_rank",
+      "income_rank",
+      "smoking_ever",
+      "smoking_current",
+      "baseline_multimorbidity"
+    ]
+  },
+  "binary_model": "modified_poisson_log_link_cluster_robust_by_respondent",
+  "continuous_model": "linear_cluster_robust_baseline_adjusted",
+  "meta_analysis": "REML_unmodified_Hartung_Knapp_prediction_interval",
+  "row_level_outputs_allowed": false,
+  "formal_iwstat_allowed": false,
+  "selection_by_p_value_allowed": false,
+  "negative_results_retained": true
+}

@@ -1,0 +1,13 @@
+cohort,domain,transition_state,n,people,deaths
+klosa,alcohol,0_to_0,9314,3690,318
+klosa,alcohol,0_to_1,206,202,5
+klosa,alcohol,1_to_0,946,927,84
+klosa,alcohol,1_to_1,7285,2450,207
+klosa,activity,0_to_0,7042,2958,271
+klosa,activity,0_to_1,1617,1461,27
+klosa,activity,1_to_0,3154,2768,180
+klosa,activity,1_to_1,5938,2781,136
+klosa,work,0_to_0,8293,3421,407
+klosa,work,0_to_1,450,434,7
+klosa,work,1_to_0,1936,1825,81
+klosa,work,1_to_1,7072,2749,119

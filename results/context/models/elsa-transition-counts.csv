@@ -1,0 +1,13 @@
+cohort,domain,transition_state,n,people,deaths
+elsa,alcohol,0_to_0,2178,1009,44
+elsa,alcohol,0_to_1,489,454,11
+elsa,alcohol,1_to_0,1353,1213,50
+elsa,alcohol,1_to_1,30635,9292,479
+elsa,activity,0_to_0,3340,1938,168
+elsa,activity,0_to_1,2665,2338,40
+elsa,activity,1_to_0,3951,3361,145
+elsa,activity,1_to_1,24699,8295,231
+elsa,work,0_to_0,25112,8060,520
+elsa,work,0_to_1,545,514,1
+elsa,work,1_to_0,2684,2548,29
+elsa,work,1_to_1,6314,3012,34

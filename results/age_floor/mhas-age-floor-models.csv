@@ -1,0 +1,13 @@
+cohort,outcome_id,analysis_family,age_floor,outcome_coding_status,median_age,n,people,events,nonevents,parameters,matrix_rank,model_status
+mhas,mortality,age_floor,60,PASS_SOURCE_STATUS,,0,0,0,0,16,0,NOT_EVALUABLE_CLUSTERS
+mhas,mortality,age_floor,65,PASS_SOURCE_STATUS,,0,0,0,0,16,0,NOT_EVALUABLE_CLUSTERS
+mhas,mortality,age_floor,70,PASS_SOURCE_STATUS,,0,0,0,0,16,0,NOT_EVALUABLE_CLUSTERS
+mhas,incident_any_adl,age_floor,60,PASS_STRICT_COMPLETE_ITEM_COUNTS,,0,0,0,0,16,0,NOT_EVALUABLE_CLUSTERS
+mhas,incident_any_adl,age_floor,65,PASS_STRICT_COMPLETE_ITEM_COUNTS,,0,0,0,0,16,0,NOT_EVALUABLE_CLUSTERS
+mhas,incident_any_adl,age_floor,70,PASS_STRICT_COMPLETE_ITEM_COUNTS,,0,0,0,0,16,0,NOT_EVALUABLE_CLUSTERS
+mhas,incident_any_iadl,age_floor,60,PASS_STRICT_COMPLETE_ITEM_COUNTS,,0,0,0,0,16,0,NOT_EVALUABLE_CLUSTERS
+mhas,incident_any_iadl,age_floor,65,PASS_STRICT_COMPLETE_ITEM_COUNTS,,0,0,0,0,16,0,NOT_EVALUABLE_CLUSTERS
+mhas,incident_any_iadl,age_floor,70,PASS_STRICT_COMPLETE_ITEM_COUNTS,,0,0,0,0,16,0,NOT_EVALUABLE_CLUSTERS
+mhas,multimorbidity_progression,age_floor,60,PASS_STRICT_COMMON_SIX,,0,0,0,0,16,0,NOT_EVALUABLE_CLUSTERS
+mhas,multimorbidity_progression,age_floor,65,PASS_STRICT_COMMON_SIX,,0,0,0,0,16,0,NOT_EVALUABLE_CLUSTERS
+mhas,multimorbidity_progression,age_floor,70,PASS_STRICT_COMMON_SIX,,0,0,0,0,16,0,NOT_EVALUABLE_CLUSTERS

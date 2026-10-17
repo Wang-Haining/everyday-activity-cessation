@@ -1,0 +1,42 @@
+Population and timing,Cohort,Model person-intervals (deaths) or dated / total deaths,One stopped RR (95% CI),Two or more stopped RR (95% CI),Support or method
+Valid preceding-health measurements,ELSA,"16,294 (125)",Not estimable,Not estimable,Insufficient events per parameter
+Valid preceding-health measurements,HRS,"69,783 (4,350)",1.72 (1.63–1.83),3.46 (3.06–3.91),Full adjustment
+Valid preceding-health measurements,KLoSA,"13,599 (466)",1.97 (1.64–2.37),3.13 (1.97–4.97),Full adjustment
+Valid preceding-health measurements,SHARE,"24,801 (1,070)",1.93 (1.71–2.18),3.66 (2.86–4.68),Full adjustment
+Stable measured prior health,ELSA,"10,333 (50)",Not estimable,Not estimable,Insufficient events per parameter
+Stable measured prior health,HRS,"47,100 (2,305)",1.71 (1.57–1.85),3.52 (2.98–4.15),Full adjustment
+Stable measured prior health,KLoSA,"10,126 (321)",Not estimable,Not estimable,Insufficient multiple-stopped deaths
+Stable measured prior health,SHARE,"16,513 (594)",1.91 (1.61–2.26),3.84 (2.74–5.37),Full adjustment
+Other measured prior health,ELSA,"5,961 (75)",Not estimable,Not estimable,Insufficient events per parameter
+Other measured prior health,HRS,"22,683 (2,045)",1.70 (1.56–1.84),3.24 (2.70–3.89),Full adjustment
+Other measured prior health,KLoSA,"3,473 (145)",Not estimable,Not estimable,Insufficient events per parameter
+Other measured prior health,SHARE,"8,288 (476)",1.91 (1.60–2.29),3.35 (2.36–4.76),Full adjustment
+"All primary, no delay",HRS,"72,729 (4,498)",1.72 (1.62–1.82),3.34 (2.96–3.78),Dated deaths only
+"All primary, no delay",KLoSA,"17,183 (601)",1.81 (1.54–2.13),3.52 (2.39–5.19),Dated deaths only
+"All primary, no delay",SHARE,"43,430 (1,670)",1.91 (1.73–2.11),3.45 (2.82–4.22),Dated deaths only
+"All primary, no delay",Summary,See cohort rows,1.79 (1.52–2.12),3.38 (2.71–4.22),Random effects
+"All primary, six-month delay",HRS,"71,909 (3,678)",1.64 (1.54–1.75),2.64 (2.28–3.07),Dated deaths only
+"All primary, six-month delay",KLoSA,"17,050 (468)",1.77 (1.47–2.13),3.06 (1.93–4.88),Dated deaths only
+"All primary, six-month delay",SHARE,"43,134 (1,374)",1.81 (1.62–2.03),2.90 (2.30–3.66),Dated deaths only
+"All primary, six-month delay",Summary,See cohort rows,1.71 (1.45–2.02),2.74 (2.10–3.58),Random effects
+"All primary, twelve-month delay",HRS,"70,923 (2,692)",1.62 (1.50–1.75),2.64 (2.20–3.16),Dated deaths only
+"All primary, twelve-month delay",KLoSA,"16,533 (319)",1.67 (1.34–2.09),Not estimable,14 multiple-stopped deaths
+"All primary, twelve-month delay",SHARE,"42,722 (962)",1.82 (1.59–2.08),2.50 (1.86–3.37),Dated deaths only
+"All primary, twelve-month delay",Summary,See cohort rows,1.68 (1.40–2.02),2.60 (2.23–3.04),Two or more: fixed effect
+"Stable measured prior health, no delay",HRS,"47,074 (2,279)",1.71 (1.57–1.86),3.53 (2.99–4.16),Dated deaths only
+"Stable measured prior health, no delay",KLoSA,"9,875 (301)",1.84 (1.47–2.31),Not estimable,13 multiple-stopped deaths
+"Stable measured prior health, no delay",SHARE,"16,413 (494)",2.03 (1.69–2.44),4.10 (2.84–5.91),Dated deaths only
+"Stable measured prior health, no delay",Summary,See cohort rows,1.81 (1.42–2.31),3.62 (3.11–4.21),Two or more: fixed effect
+"Stable measured prior health, six-month delay",HRS,"46,675 (1,880)",1.61 (1.47–1.76),2.84 (2.32–3.48),Dated deaths only
+"Stable measured prior health, six-month delay",KLoSA,"9,823 (249)",1.85 (1.45–2.37),Not estimable,7 multiple-stopped deaths
+"Stable measured prior health, six-month delay",SHARE,"16,326 (407)",1.89 (1.54–2.32),3.55 (2.34–5.37),Dated deaths only
+"Stable measured prior health, six-month delay",Summary,See cohort rows,1.72 (1.32–2.23),2.97 (2.47–3.56),Two or more: fixed effect
+"Stable measured prior health, twelve-month delay",HRS,"46,194 (1,399)",1.56 (1.40–1.74),2.84 (2.23–3.62),Dated deaths only
+"Stable measured prior health, twelve-month delay",KLoSA,"9,751 (177)",1.72 (1.28–2.31),Not estimable,6 multiple-stopped deaths
+"Stable measured prior health, twelve-month delay",SHARE,"15,780 (264)",1.96 (1.53–2.52),Not estimable,17 multiple-stopped deaths
+"Stable measured prior health, twelve-month delay",Summary,See cohort rows,1.68 (1.22–2.30),Not estimable,Two or more: HRS only
+"All primary, no delay",HRS and SHARE,See cohort rows,1.76 (1.68–1.85),3.37 (3.04–3.74),Fixed effect
+Death-date completeness,ELSA,0 / 509,Not applicable,Not applicable,0.0% month-resolved
+Death-date completeness,HRS,"4,498 / 4,554",Not applicable,Not applicable,98.8% month-resolved
+Death-date completeness,KLoSA,601 / 611,Not applicable,Not applicable,98.4% month-resolved
+Death-date completeness,SHARE,"1,670 / 1,917",Not applicable,Not applicable,87.1% month-resolved

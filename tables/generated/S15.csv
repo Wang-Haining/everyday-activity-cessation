@@ -1,0 +1,17 @@
+Outcome / model,Activities stopped,"Cohorts, n",Estimate,Unmodified HK 95% CI,Safeguarded HK 95% CI,Safeguarded 95% PI
+Death,One,4,1.79,1.65–1.94,1.62–1.98,1.45–2.20
+Death,Two or more,4,3.41,3.27–3.56,2.92–3.98,2.76–4.21
+New ADL limitation,One,3,1.48,1.39–1.57,1.35–1.62,1.13–1.94
+New ADL limitation,Two or more,3,1.99,1.71–2.32,1.57–2.53,0.98–4.05
+Multimorbidity progression,One,4,1.12,1.05–1.18,1.05–1.18,1.03–1.21
+Multimorbidity progression,Two or more,4,1.29,1.13–1.48,1.13–1.48,1.08–1.55
+New IADL limitation,One,3,1.52,1.20–1.92,1.20–1.92,0.45–5.09
+New IADL limitation,Two or more,3,2.45,1.51–3.97,1.47–4.08,0.18–33.08
+IADL count increase,One,4,1.46,1.27–1.69,1.27–1.69,1.02–2.10
+IADL count increase,Two or more,4,2.17,1.43–3.30,1.43–3.30,0.78–6.04
+"Word-recall change, SD",One,4,-0.06,-0.09–-0.03,-0.09–-0.03,-0.13–0.00
+"Word-recall change, SD",Two or more,4,-0.13,-0.20–-0.05,-0.20–-0.05,-0.29–0.04
+"Death, matched unconditional",One,3,1.79,1.56–2.05,1.52–2.10,0.86–3.72
+"Death, matched unconditional",Two or more,3,3.39,3.23–3.56,2.73–4.21,1.78–6.44
+"Death, current status held",One,3,1.22,1.00–1.48,1.00–1.48,0.69–2.16
+"Death, current status held",Two or more,3,1.80,1.46–2.22,1.23–2.63,0.59–5.50

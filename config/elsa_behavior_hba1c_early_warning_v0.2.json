@@ -1,0 +1,66 @@
+{
+  "analysis_id": "elsa_behavior_hba1c_early_warning_v0.2",
+  "release_root": "HARMONIZED_ROOT",
+  "cohort": "elsa",
+  "minimum_age_at_transition_end": 60,
+  "landmarks": [
+    {
+      "t0": 2,
+      "t1": 3,
+      "t2": 4
+    },
+    {
+      "t0": 4,
+      "t1": 5,
+      "t2": 6
+    },
+    {
+      "t0": 6,
+      "t1": 7,
+      "t2": 8
+    }
+  ],
+  "hba1c_thresholds_percent": {
+    "prediabetes": 5.7,
+    "diabetes_range": 6.5
+  },
+  "fasting_glucose_diabetes_mmol_l": 7.0,
+  "primary_exposure": "any_contraction",
+  "minimum_baseline_engagement": 1,
+  "minimum_clusters": 30,
+  "minimum_exposed_events": 20,
+  "minimum_exposed_nonevents": 20,
+  "events_per_parameter": 10,
+  "minimum_continuous_n": 200,
+  "minimum_continuous_group_n": 100,
+  "age_rcs_knots": [
+    60,
+    70,
+    80,
+    90
+  ],
+  "source_sha256": {
+    "formal_elsa_csv": "b7141c949ed30f2758b6760703a40aa4c12d5ad39a0cda57a9301536711e8105",
+    "nurse_wave_2": "e0a37c97b673e93a358713057e0d6587fba826117154b10c5fba73cc5ba88bfa",
+    "nurse_wave_4": "b9160d23f8f4632005d89cd5db93b2562a58c45d0b645e01a7a19e3c2941148b",
+    "nurse_wave_6": "6bf7029a85fdcc87b33bdb427d75999de74397fc53860e18fb6b282ce4527a48",
+    "nurse_wave_8_9": "75d4604e0ac888aee68473ae02504fbb0a1ff667af5ba6810becd10d1004e9f7",
+    "variable_lookup": "75aa3cb7ecc07a04f1fbc6f14d170f2d6d255e7b3b76f5797c16cdef65819a5f"
+  },
+  "parent_sha256": {
+    "universe_config": "df543d3c136785b63a035b083f85484338d94316fb6fac541a50606bbdceb564",
+    "pilot_config": "81b47994c001b7ec756f1f122f801b63777d9b4ee669f20bea7211d401851a91",
+    "assay_config": "24f9842f790abfcd784a0dc02181a46dfe451c1303005962df646d2fa8e3b79d"
+  },
+  "clinical_core_specification": {
+    "full_model_remains_primary": true,
+    "secondary_clinical_core_outcome": "incident_diabetes_range_hba1c",
+    "secondary_clinical_core_covariates": [
+      "baseline_hba1c",
+      "age_rcs",
+      "sex",
+      "transition_wave",
+      "baseline_behavior_opportunity"
+    ]
+  }
+}

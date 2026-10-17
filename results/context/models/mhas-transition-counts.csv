@@ -1,0 +1,13 @@
+cohort,domain,transition_state,n,people,deaths
+mhas,alcohol,0_to_0,0,0,0
+mhas,alcohol,0_to_1,0,0,0
+mhas,alcohol,1_to_0,0,0,0
+mhas,alcohol,1_to_1,0,0,0
+mhas,activity,0_to_0,0,0,0
+mhas,activity,0_to_1,0,0,0
+mhas,activity,1_to_0,0,0,0
+mhas,activity,1_to_1,0,0,0
+mhas,work,0_to_0,0,0,0
+mhas,work,0_to_1,0,0,0
+mhas,work,1_to_0,0,0,0
+mhas,work,1_to_1,0,0,0

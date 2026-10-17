@@ -1,0 +1,4241 @@
+[
+  {
+    "id": "S9",
+    "title": "Inclusion weighting and sensitivity analyses",
+    "columns": [
+      "Analysis and outcome",
+      "Cohorts",
+      "Person-intervals",
+      "None",
+      "One",
+      "Two or more"
+    ],
+    "rows": [
+      [
+        "Complete case; death",
+        {
+          "text": "4",
+          "sources": [
+            {
+              "path": "results/sensitivity/c_weighted_models.csv",
+              "row": 128,
+              "field": "k",
+              "raw": "4.0"
+            }
+          ]
+        },
+        {
+          "text": "162,582",
+          "sources": [
+            {
+              "path": "results/sensitivity/c_weighted_models.csv",
+              "row": 2,
+              "field": "n",
+              "raw": "28927.0"
+            },
+            {
+              "path": "results/sensitivity/c_weighted_models.csv",
+              "row": 38,
+              "field": "n",
+              "raw": "72785.0"
+            },
+            {
+              "path": "results/sensitivity/c_weighted_models.csv",
+              "row": 74,
+              "field": "n",
+              "raw": "17193.0"
+            },
+            {
+              "path": "results/sensitivity/c_weighted_models.csv",
+              "row": 92,
+              "field": "n",
+              "raw": "43677.0"
+            }
+          ]
+        },
+        "Reference",
+        {
+          "text": "1.79 (1.62 to 1.98)",
+          "sources": [
+            {
+              "path": "results/sensitivity/c_weighted_models.csv",
+              "row": 128,
+              "field": "rr",
+              "raw": "1.7887435441715356"
+            },
+            {
+              "path": "results/sensitivity/c_weighted_models.csv",
+              "row": 128,
+              "field": "ci_low",
+              "raw": "1.6150913615569873"
+            },
+            {
+              "path": "results/sensitivity/c_weighted_models.csv",
+              "row": 128,
+              "field": "ci_high",
+              "raw": "1.9810665470533202"
+            }
+          ]
+        },
+        {
+          "text": "3.41 (2.92 to 3.98)",
+          "sources": [
+            {
+              "path": "results/sensitivity/c_weighted_models.csv",
+              "row": 129,
+              "field": "rr",
+              "raw": "3.409987985996066"
+            },
+            {
+              "path": "results/sensitivity/c_weighted_models.csv",
+              "row": 129,
+              "field": "ci_low",
+              "raw": "2.91896574919387"
+            },
+            {
+              "path": "results/sensitivity/c_weighted_models.csv",
+              "row": 129,
+              "field": "ci_high",
+              "raw": "3.9836089436297124"
+            }
+          ]
+        }
+      ],
+      [
+        "Complete case; new ADL limitation",
+        {
+          "text": "3",
+          "sources": [
+            {
+              "path": "results/sensitivity/c_weighted_models.csv",
+              "row": 140,
+              "field": "k",
+              "raw": "3.0"
+            }
+          ]
+        },
+        {
+          "text": "109,368",
+          "sources": [
+            {
+              "path": "results/sensitivity/c_weighted_models.csv",
+              "row": 20,
+              "field": "n",
+              "raw": "23018.0"
+            },
+            {
+              "path": "results/sensitivity/c_weighted_models.csv",
+              "row": 56,
+              "field": "n",
+              "raw": "54427.0"
+            },
+            {
+              "path": "results/sensitivity/c_weighted_models.csv",
+              "row": 110,
+              "field": "n",
+              "raw": "31923.0"
+            }
+          ]
+        },
+        "Reference",
+        {
+          "text": "1.48 (1.35 to 1.62)",
+          "sources": [
+            {
+              "path": "results/sensitivity/c_weighted_models.csv",
+              "row": 140,
+              "field": "rr",
+              "raw": "1.4755226433841535"
+            },
+            {
+              "path": "results/sensitivity/c_weighted_models.csv",
+              "row": 140,
+              "field": "ci_low",
+              "raw": "1.3460600648559804"
+            },
+            {
+              "path": "results/sensitivity/c_weighted_models.csv",
+              "row": 140,
+              "field": "ci_high",
+              "raw": "1.61743679051373"
+            }
+          ]
+        },
+        {
+          "text": "1.99 (1.57 to 2.53)",
+          "sources": [
+            {
+              "path": "results/sensitivity/c_weighted_models.csv",
+              "row": 141,
+              "field": "rr",
+              "raw": "1.991662031877817"
+            },
+            {
+              "path": "results/sensitivity/c_weighted_models.csv",
+              "row": 141,
+              "field": "ci_low",
+              "raw": "1.5666789681906081"
+            },
+            {
+              "path": "results/sensitivity/c_weighted_models.csv",
+              "row": 141,
+              "field": "ci_high",
+              "raw": "2.5319275548869618"
+            }
+          ]
+        }
+      ],
+      [
+        "Inclusion weights, truncated; death",
+        {
+          "text": "4",
+          "sources": [
+            {
+              "path": "results/sensitivity/c_weighted_models.csv",
+              "row": 130,
+              "field": "k",
+              "raw": "4.0"
+            }
+          ]
+        },
+        {
+          "text": "162,582",
+          "sources": [
+            {
+              "path": "results/sensitivity/c_weighted_models.csv",
+              "row": 4,
+              "field": "n",
+              "raw": "28927.0"
+            },
+            {
+              "path": "results/sensitivity/c_weighted_models.csv",
+              "row": 40,
+              "field": "n",
+              "raw": "72785.0"
+            },
+            {
+              "path": "results/sensitivity/c_weighted_models.csv",
+              "row": 76,
+              "field": "n",
+              "raw": "17193.0"
+            },
+            {
+              "path": "results/sensitivity/c_weighted_models.csv",
+              "row": 94,
+              "field": "n",
+              "raw": "43677.0"
+            }
+          ]
+        },
+        "Reference",
+        {
+          "text": "1.79 (1.62 to 1.98)",
+          "sources": [
+            {
+              "path": "results/sensitivity/c_weighted_models.csv",
+              "row": 130,
+              "field": "rr",
+              "raw": "1.786597786211344"
+            },
+            {
+              "path": "results/sensitivity/c_weighted_models.csv",
+              "row": 130,
+              "field": "ci_low",
+              "raw": "1.6151635465623013"
+            },
+            {
+              "path": "results/sensitivity/c_weighted_models.csv",
+              "row": 130,
+              "field": "ci_high",
+              "raw": "1.9762281389330216"
+            }
+          ]
+        },
+        {
+          "text": "3.41 (2.91 to 3.98)",
+          "sources": [
+            {
+              "path": "results/sensitivity/c_weighted_models.csv",
+              "row": 131,
+              "field": "rr",
+              "raw": "3.405224206793831"
+            },
+            {
+              "path": "results/sensitivity/c_weighted_models.csv",
+              "row": 131,
+              "field": "ci_low",
+              "raw": "2.9149350002560586"
+            },
+            {
+              "path": "results/sensitivity/c_weighted_models.csv",
+              "row": 131,
+              "field": "ci_high",
+              "raw": "3.977979576737073"
+            }
+          ]
+        }
+      ],
+      [
+        "Inclusion weights, truncated; new ADL limitation",
+        {
+          "text": "3",
+          "sources": [
+            {
+              "path": "results/sensitivity/c_weighted_models.csv",
+              "row": 142,
+              "field": "k",
+              "raw": "3.0"
+            }
+          ]
+        },
+        {
+          "text": "109,368",
+          "sources": [
+            {
+              "path": "results/sensitivity/c_weighted_models.csv",
+              "row": 22,
+              "field": "n",
+              "raw": "23018.0"
+            },
+            {
+              "path": "results/sensitivity/c_weighted_models.csv",
+              "row": 58,
+              "field": "n",
+              "raw": "54427.0"
+            },
+            {
+              "path": "results/sensitivity/c_weighted_models.csv",
+              "row": 112,
+              "field": "n",
+              "raw": "31923.0"
+            }
+          ]
+        },
+        "Reference",
+        {
+          "text": "1.47 (1.34 to 1.62)",
+          "sources": [
+            {
+              "path": "results/sensitivity/c_weighted_models.csv",
+              "row": 142,
+              "field": "rr",
+              "raw": "1.4735057974643584"
+            },
+            {
+              "path": "results/sensitivity/c_weighted_models.csv",
+              "row": 142,
+              "field": "ci_low",
+              "raw": "1.3441268134923097"
+            },
+            {
+              "path": "results/sensitivity/c_weighted_models.csv",
+              "row": 142,
+              "field": "ci_high",
+              "raw": "1.6153381610770892"
+            }
+          ]
+        },
+        {
+          "text": "2.00 (1.57 to 2.55)",
+          "sources": [
+            {
+              "path": "results/sensitivity/c_weighted_models.csv",
+              "row": 143,
+              "field": "rr",
+              "raw": "2.0017646388482726"
+            },
+            {
+              "path": "results/sensitivity/c_weighted_models.csv",
+              "row": 143,
+              "field": "ci_low",
+              "raw": "1.574405096693457"
+            },
+            {
+              "path": "results/sensitivity/c_weighted_models.csv",
+              "row": 143,
+              "field": "ci_high",
+              "raw": "2.545127475615347"
+            }
+          ]
+        }
+      ],
+      [
+        "Inclusion weights, untruncated; death",
+        {
+          "text": "4",
+          "sources": [
+            {
+              "path": "results/sensitivity/c_weighted_models.csv",
+              "row": 132,
+              "field": "k",
+              "raw": "4.0"
+            }
+          ]
+        },
+        {
+          "text": "162,582",
+          "sources": [
+            {
+              "path": "results/sensitivity/c_weighted_models.csv",
+              "row": 6,
+              "field": "n",
+              "raw": "28927.0"
+            },
+            {
+              "path": "results/sensitivity/c_weighted_models.csv",
+              "row": 42,
+              "field": "n",
+              "raw": "72785.0"
+            },
+            {
+              "path": "results/sensitivity/c_weighted_models.csv",
+              "row": 78,
+              "field": "n",
+              "raw": "17193.0"
+            },
+            {
+              "path": "results/sensitivity/c_weighted_models.csv",
+              "row": 96,
+              "field": "n",
+              "raw": "43677.0"
+            }
+          ]
+        },
+        "Reference",
+        {
+          "text": "1.74 (1.58 to 1.91)",
+          "sources": [
+            {
+              "path": "results/sensitivity/c_weighted_models.csv",
+              "row": 132,
+              "field": "rr",
+              "raw": "1.738023649514318"
+            },
+            {
+              "path": "results/sensitivity/c_weighted_models.csv",
+              "row": 132,
+              "field": "ci_low",
+              "raw": "1.5846833215765068"
+            },
+            {
+              "path": "results/sensitivity/c_weighted_models.csv",
+              "row": 132,
+              "field": "ci_high",
+              "raw": "1.9062018039452377"
+            }
+          ]
+        },
+        {
+          "text": "3.40 (2.84 to 4.08)",
+          "sources": [
+            {
+              "path": "results/sensitivity/c_weighted_models.csv",
+              "row": 133,
+              "field": "rr",
+              "raw": "3.402557503944063"
+            },
+            {
+              "path": "results/sensitivity/c_weighted_models.csv",
+              "row": 133,
+              "field": "ci_low",
+              "raw": "2.8377500741572117"
+            },
+            {
+              "path": "results/sensitivity/c_weighted_models.csv",
+              "row": 133,
+              "field": "ci_high",
+              "raw": "4.079780553290777"
+            }
+          ]
+        }
+      ],
+      [
+        "Inclusion weights, untruncated; new ADL limitation",
+        {
+          "text": "3",
+          "sources": [
+            {
+              "path": "results/sensitivity/c_weighted_models.csv",
+              "row": 144,
+              "field": "k",
+              "raw": "3.0"
+            }
+          ]
+        },
+        {
+          "text": "109,368",
+          "sources": [
+            {
+              "path": "results/sensitivity/c_weighted_models.csv",
+              "row": 24,
+              "field": "n",
+              "raw": "23018.0"
+            },
+            {
+              "path": "results/sensitivity/c_weighted_models.csv",
+              "row": 60,
+              "field": "n",
+              "raw": "54427.0"
+            },
+            {
+              "path": "results/sensitivity/c_weighted_models.csv",
+              "row": 114,
+              "field": "n",
+              "raw": "31923.0"
+            }
+          ]
+        },
+        "Reference",
+        {
+          "text": "1.46 (1.31 to 1.62)",
+          "sources": [
+            {
+              "path": "results/sensitivity/c_weighted_models.csv",
+              "row": 144,
+              "field": "rr",
+              "raw": "1.4587945880400226"
+            },
+            {
+              "path": "results/sensitivity/c_weighted_models.csv",
+              "row": 144,
+              "field": "ci_low",
+              "raw": "1.3134516677689678"
+            },
+            {
+              "path": "results/sensitivity/c_weighted_models.csv",
+              "row": 144,
+              "field": "ci_high",
+              "raw": "1.620220752933851"
+            }
+          ]
+        },
+        {
+          "text": "2.02 (1.38 to 2.96)",
+          "sources": [
+            {
+              "path": "results/sensitivity/c_weighted_models.csv",
+              "row": 145,
+              "field": "rr",
+              "raw": "2.0211433050887506"
+            },
+            {
+              "path": "results/sensitivity/c_weighted_models.csv",
+              "row": 145,
+              "field": "ci_low",
+              "raw": "1.3820746039031713"
+            },
+            {
+              "path": "results/sensitivity/c_weighted_models.csv",
+              "row": 145,
+              "field": "ci_high",
+              "raw": "2.9557161734745807"
+            }
+          ]
+        }
+      ],
+      [
+        "Inclusion weights, exposure numerator; death",
+        {
+          "text": "4",
+          "sources": [
+            {
+              "path": "results/sensitivity/c_weighted_models.csv",
+              "row": 134,
+              "field": "k",
+              "raw": "4.0"
+            }
+          ]
+        },
+        {
+          "text": "162,582",
+          "sources": [
+            {
+              "path": "results/sensitivity/c_weighted_models.csv",
+              "row": 8,
+              "field": "n",
+              "raw": "28927.0"
+            },
+            {
+              "path": "results/sensitivity/c_weighted_models.csv",
+              "row": 44,
+              "field": "n",
+              "raw": "72785.0"
+            },
+            {
+              "path": "results/sensitivity/c_weighted_models.csv",
+              "row": 80,
+              "field": "n",
+              "raw": "17193.0"
+            },
+            {
+              "path": "results/sensitivity/c_weighted_models.csv",
+              "row": 98,
+              "field": "n",
+              "raw": "43677.0"
+            }
+          ]
+        },
+        "Reference",
+        {
+          "text": "1.79 (1.61 to 1.98)",
+          "sources": [
+            {
+              "path": "results/sensitivity/c_weighted_models.csv",
+              "row": 134,
+              "field": "rr",
+              "raw": "1.7879165749866799"
+            },
+            {
+              "path": "results/sensitivity/c_weighted_models.csv",
+              "row": 134,
+              "field": "ci_low",
+              "raw": "1.6144714861601195"
+            },
+            {
+              "path": "results/sensitivity/c_weighted_models.csv",
+              "row": 134,
+              "field": "ci_high",
+              "raw": "1.9799951293751525"
+            }
+          ]
+        },
+        {
+          "text": "3.41 (2.92 to 3.98)",
+          "sources": [
+            {
+              "path": "results/sensitivity/c_weighted_models.csv",
+              "row": 135,
+              "field": "rr",
+              "raw": "3.409002597766157"
+            },
+            {
+              "path": "results/sensitivity/c_weighted_models.csv",
+              "row": 135,
+              "field": "ci_low",
+              "raw": "2.91819291179492"
+            },
+            {
+              "path": "results/sensitivity/c_weighted_models.csv",
+              "row": 135,
+              "field": "ci_high",
+              "raw": "3.982361366380124"
+            }
+          ]
+        }
+      ],
+      [
+        "Inclusion weights, exposure numerator; new ADL limitation",
+        {
+          "text": "3",
+          "sources": [
+            {
+              "path": "results/sensitivity/c_weighted_models.csv",
+              "row": 146,
+              "field": "k",
+              "raw": "3.0"
+            }
+          ]
+        },
+        {
+          "text": "109,368",
+          "sources": [
+            {
+              "path": "results/sensitivity/c_weighted_models.csv",
+              "row": 26,
+              "field": "n",
+              "raw": "23018.0"
+            },
+            {
+              "path": "results/sensitivity/c_weighted_models.csv",
+              "row": 62,
+              "field": "n",
+              "raw": "54427.0"
+            },
+            {
+              "path": "results/sensitivity/c_weighted_models.csv",
+              "row": 116,
+              "field": "n",
+              "raw": "31923.0"
+            }
+          ]
+        },
+        "Reference",
+        {
+          "text": "1.47 (1.34 to 1.62)",
+          "sources": [
+            {
+              "path": "results/sensitivity/c_weighted_models.csv",
+              "row": 146,
+              "field": "rr",
+              "raw": "1.4736182631407828"
+            },
+            {
+              "path": "results/sensitivity/c_weighted_models.csv",
+              "row": 146,
+              "field": "ci_low",
+              "raw": "1.3442157776400967"
+            },
+            {
+              "path": "results/sensitivity/c_weighted_models.csv",
+              "row": 146,
+              "field": "ci_high",
+              "raw": "1.615477828473661"
+            }
+          ]
+        },
+        {
+          "text": "2.00 (1.58 to 2.55)",
+          "sources": [
+            {
+              "path": "results/sensitivity/c_weighted_models.csv",
+              "row": 147,
+              "field": "rr",
+              "raw": "2.003204824771118"
+            },
+            {
+              "path": "results/sensitivity/c_weighted_models.csv",
+              "row": 147,
+              "field": "ci_low",
+              "raw": "1.575485707004227"
+            },
+            {
+              "path": "results/sensitivity/c_weighted_models.csv",
+              "row": 147,
+              "field": "ci_high",
+              "raw": "2.5470428275840393"
+            }
+          ]
+        }
+      ],
+      [
+        "Minimal covariates, all eligible; death",
+        {
+          "text": "4",
+          "sources": [
+            {
+              "path": "results/sensitivity/c_weighted_models.csv",
+              "row": 136,
+              "field": "k",
+              "raw": "4.0"
+            }
+          ]
+        },
+        {
+          "text": "196,211",
+          "sources": [
+            {
+              "path": "results/sensitivity/c_weighted_models.csv",
+              "row": 10,
+              "field": "n",
+              "raw": "31775.0"
+            },
+            {
+              "path": "results/sensitivity/c_weighted_models.csv",
+              "row": 46,
+              "field": "n",
+              "raw": "72785.0"
+            },
+            {
+              "path": "results/sensitivity/c_weighted_models.csv",
+              "row": 82,
+              "field": "n",
+              "raw": "17193.0"
+            },
+            {
+              "path": "results/sensitivity/c_weighted_models.csv",
+              "row": 100,
+              "field": "n",
+              "raw": "74458.0"
+            }
+          ]
+        },
+        "Reference",
+        {
+          "text": "1.76 (1.64 to 1.88)",
+          "sources": [
+            {
+              "path": "results/sensitivity/c_weighted_models.csv",
+              "row": 136,
+              "field": "rr",
+              "raw": "1.7578235095310275"
+            },
+            {
+              "path": "results/sensitivity/c_weighted_models.csv",
+              "row": 136,
+              "field": "ci_low",
+              "raw": "1.643728803999859"
+            },
+            {
+              "path": "results/sensitivity/c_weighted_models.csv",
+              "row": 136,
+              "field": "ci_high",
+              "raw": "1.8798377707690541"
+            }
+          ]
+        },
+        {
+          "text": "3.36 (2.91 to 3.87)",
+          "sources": [
+            {
+              "path": "results/sensitivity/c_weighted_models.csv",
+              "row": 137,
+              "field": "rr",
+              "raw": "3.3577082623449184"
+            },
+            {
+              "path": "results/sensitivity/c_weighted_models.csv",
+              "row": 137,
+              "field": "ci_low",
+              "raw": "2.9099507000936717"
+            },
+            {
+              "path": "results/sensitivity/c_weighted_models.csv",
+              "row": 137,
+              "field": "ci_high",
+              "raw": "3.874362811251893"
+            }
+          ]
+        }
+      ],
+      [
+        "Minimal covariates, all eligible; new ADL limitation",
+        {
+          "text": "3",
+          "sources": [
+            {
+              "path": "results/sensitivity/c_weighted_models.csv",
+              "row": 148,
+              "field": "k",
+              "raw": "3.0"
+            }
+          ]
+        },
+        {
+          "text": "135,223",
+          "sources": [
+            {
+              "path": "results/sensitivity/c_weighted_models.csv",
+              "row": 28,
+              "field": "n",
+              "raw": "25222.0"
+            },
+            {
+              "path": "results/sensitivity/c_weighted_models.csv",
+              "row": 64,
+              "field": "n",
+              "raw": "54427.0"
+            },
+            {
+              "path": "results/sensitivity/c_weighted_models.csv",
+              "row": 118,
+              "field": "n",
+              "raw": "55574.0"
+            }
+          ]
+        },
+        "Reference",
+        {
+          "text": "1.45 (1.34 to 1.58)",
+          "sources": [
+            {
+              "path": "results/sensitivity/c_weighted_models.csv",
+              "row": 148,
+              "field": "rr",
+              "raw": "1.454760697660596"
+            },
+            {
+              "path": "results/sensitivity/c_weighted_models.csv",
+              "row": 148,
+              "field": "ci_low",
+              "raw": "1.3364905480835838"
+            },
+            {
+              "path": "results/sensitivity/c_weighted_models.csv",
+              "row": 148,
+              "field": "ci_high",
+              "raw": "1.5834969356817252"
+            }
+          ]
+        },
+        {
+          "text": "2.03 (1.63 to 2.52)",
+          "sources": [
+            {
+              "path": "results/sensitivity/c_weighted_models.csv",
+              "row": 149,
+              "field": "rr",
+              "raw": "2.028403254355868"
+            },
+            {
+              "path": "results/sensitivity/c_weighted_models.csv",
+              "row": 149,
+              "field": "ci_low",
+              "raw": "1.6296883472240196"
+            },
+            {
+              "path": "results/sensitivity/c_weighted_models.csv",
+              "row": 149,
+              "field": "ci_high",
+              "raw": "2.524666614503258"
+            }
+          ]
+        }
+      ],
+      [
+        "Minimal covariates, complete cases; death",
+        {
+          "text": "4",
+          "sources": [
+            {
+              "path": "results/sensitivity/c_weighted_models.csv",
+              "row": 138,
+              "field": "k",
+              "raw": "4.0"
+            }
+          ]
+        },
+        {
+          "text": "162,582",
+          "sources": [
+            {
+              "path": "results/sensitivity/c_weighted_models.csv",
+              "row": 12,
+              "field": "n",
+              "raw": "28927.0"
+            },
+            {
+              "path": "results/sensitivity/c_weighted_models.csv",
+              "row": 48,
+              "field": "n",
+              "raw": "72785.0"
+            },
+            {
+              "path": "results/sensitivity/c_weighted_models.csv",
+              "row": 84,
+              "field": "n",
+              "raw": "17193.0"
+            },
+            {
+              "path": "results/sensitivity/c_weighted_models.csv",
+              "row": 102,
+              "field": "n",
+              "raw": "43677.0"
+            }
+          ]
+        },
+        "Reference",
+        {
+          "text": "1.79 (1.62 to 1.99)",
+          "sources": [
+            {
+              "path": "results/sensitivity/c_weighted_models.csv",
+              "row": 138,
+              "field": "rr",
+              "raw": "1.7935249187923077"
+            },
+            {
+              "path": "results/sensitivity/c_weighted_models.csv",
+              "row": 138,
+              "field": "ci_low",
+              "raw": "1.6152448174154743"
+            },
+            {
+              "path": "results/sensitivity/c_weighted_models.csv",
+              "row": 138,
+              "field": "ci_high",
+              "raw": "1.9914824054201212"
+            }
+          ]
+        },
+        {
+          "text": "3.42 (2.93 to 3.99)",
+          "sources": [
+            {
+              "path": "results/sensitivity/c_weighted_models.csv",
+              "row": 139,
+              "field": "rr",
+              "raw": "3.419333971750007"
+            },
+            {
+              "path": "results/sensitivity/c_weighted_models.csv",
+              "row": 139,
+              "field": "ci_low",
+              "raw": "2.9268391698624727"
+            },
+            {
+              "path": "results/sensitivity/c_weighted_models.csv",
+              "row": 139,
+              "field": "ci_high",
+              "raw": "3.994700129325199"
+            }
+          ]
+        }
+      ],
+      [
+        "Minimal covariates, complete cases; new ADL limitation",
+        {
+          "text": "3",
+          "sources": [
+            {
+              "path": "results/sensitivity/c_weighted_models.csv",
+              "row": 150,
+              "field": "k",
+              "raw": "3.0"
+            }
+          ]
+        },
+        {
+          "text": "109,368",
+          "sources": [
+            {
+              "path": "results/sensitivity/c_weighted_models.csv",
+              "row": 30,
+              "field": "n",
+              "raw": "23018.0"
+            },
+            {
+              "path": "results/sensitivity/c_weighted_models.csv",
+              "row": 66,
+              "field": "n",
+              "raw": "54427.0"
+            },
+            {
+              "path": "results/sensitivity/c_weighted_models.csv",
+              "row": 120,
+              "field": "n",
+              "raw": "31923.0"
+            }
+          ]
+        },
+        "Reference",
+        {
+          "text": "1.48 (1.35 to 1.62)",
+          "sources": [
+            {
+              "path": "results/sensitivity/c_weighted_models.csv",
+              "row": 150,
+              "field": "rr",
+              "raw": "1.477246240504708"
+            },
+            {
+              "path": "results/sensitivity/c_weighted_models.csv",
+              "row": 150,
+              "field": "ci_low",
+              "raw": "1.3476459962782432"
+            },
+            {
+              "path": "results/sensitivity/c_weighted_models.csv",
+              "row": 150,
+              "field": "ci_high",
+              "raw": "1.6193098640978203"
+            }
+          ]
+        },
+        {
+          "text": "2.00 (1.57 to 2.54)",
+          "sources": [
+            {
+              "path": "results/sensitivity/c_weighted_models.csv",
+              "row": 151,
+              "field": "rr",
+              "raw": "1.9967774074890243"
+            },
+            {
+              "path": "results/sensitivity/c_weighted_models.csv",
+              "row": 151,
+              "field": "ci_low",
+              "raw": "1.5708325241522965"
+            },
+            {
+              "path": "results/sensitivity/c_weighted_models.csv",
+              "row": 151,
+              "field": "ci_high",
+              "raw": "2.538220945743562"
+            }
+          ]
+        }
+      ],
+      [
+        "Common-population risk, complete case; death",
+        {
+          "text": "4",
+          "sources": [
+            {
+              "path": "results/sensitivity/c_weighted_models.csv",
+              "row": 152,
+              "field": "k",
+              "raw": "4.0"
+            }
+          ]
+        },
+        {
+          "text": "100,012",
+          "sources": [
+            {
+              "path": "results/sensitivity/c_weighted_models.csv",
+              "row": 14,
+              "field": "n_target_rows",
+              "raw": "23086.0"
+            },
+            {
+              "path": "results/sensitivity/c_weighted_models.csv",
+              "row": 50,
+              "field": "n_target_rows",
+              "raw": "43877.0"
+            },
+            {
+              "path": "results/sensitivity/c_weighted_models.csv",
+              "row": 86,
+              "field": "n_target_rows",
+              "raw": "7175.0"
+            },
+            {
+              "path": "results/sensitivity/c_weighted_models.csv",
+              "row": 104,
+              "field": "n_target_rows",
+              "raw": "25874.0"
+            }
+          ]
+        },
+        {
+          "text": "1.8 (0.90 to 3.66)",
+          "sources": [
+            {
+              "path": "results/sensitivity/c_weighted_models.csv",
+              "row": 152,
+              "field": "risk",
+              "raw": "0.01825871515163786"
+            },
+            {
+              "path": "results/sensitivity/c_weighted_models.csv",
+              "row": 152,
+              "field": "ci_low",
+              "raw": "0.009014553413407194"
+            },
+            {
+              "path": "results/sensitivity/c_weighted_models.csv",
+              "row": 152,
+              "field": "ci_high",
+              "raw": "0.03663207829646395"
+            }
+          ]
+        },
+        {
+          "text": "3.4 (1.66 to 6.84)",
+          "sources": [
+            {
+              "path": "results/sensitivity/c_weighted_models.csv",
+              "row": 153,
+              "field": "risk",
+              "raw": "0.03402745039260659"
+            },
+            {
+              "path": "results/sensitivity/c_weighted_models.csv",
+              "row": 153,
+              "field": "ci_low",
+              "raw": "0.01662880904268213"
+            },
+            {
+              "path": "results/sensitivity/c_weighted_models.csv",
+              "row": 153,
+              "field": "ci_high",
+              "raw": "0.06836464238015133"
+            }
+          ]
+        },
+        {
+          "text": "6.9 (3.50 to 13.02)",
+          "sources": [
+            {
+              "path": "results/sensitivity/c_weighted_models.csv",
+              "row": 154,
+              "field": "risk",
+              "raw": "0.06859556185058875"
+            },
+            {
+              "path": "results/sensitivity/c_weighted_models.csv",
+              "row": 154,
+              "field": "ci_low",
+              "raw": "0.0349599565011418"
+            },
+            {
+              "path": "results/sensitivity/c_weighted_models.csv",
+              "row": 154,
+              "field": "ci_high",
+              "raw": "0.1302256349394275"
+            }
+          ]
+        }
+      ],
+      [
+        "Common-population risk, complete case; new ADL limitation",
+        {
+          "text": "3",
+          "sources": [
+            {
+              "path": "results/sensitivity/c_weighted_models.csv",
+              "row": 158,
+              "field": "k",
+              "raw": "3.0"
+            }
+          ]
+        },
+        {
+          "text": "74,757",
+          "sources": [
+            {
+              "path": "results/sensitivity/c_weighted_models.csv",
+              "row": 32,
+              "field": "n_target_rows",
+              "raw": "19474.0"
+            },
+            {
+              "path": "results/sensitivity/c_weighted_models.csv",
+              "row": 68,
+              "field": "n_target_rows",
+              "raw": "35465.0"
+            },
+            {
+              "path": "results/sensitivity/c_weighted_models.csv",
+              "row": 122,
+              "field": "n_target_rows",
+              "raw": "19818.0"
+            }
+          ]
+        },
+        {
+          "text": "5.8 (3.32 to 9.96)",
+          "sources": [
+            {
+              "path": "results/sensitivity/c_weighted_models.csv",
+              "row": 158,
+              "field": "risk",
+              "raw": "0.05807681615628974"
+            },
+            {
+              "path": "results/sensitivity/c_weighted_models.csv",
+              "row": 158,
+              "field": "ci_low",
+              "raw": "0.033210146184730664"
+            },
+            {
+              "path": "results/sensitivity/c_weighted_models.csv",
+              "row": 158,
+              "field": "ci_high",
+              "raw": "0.09964380031072657"
+            }
+          ]
+        },
+        {
+          "text": "8.8 (5.28 to 14.28)",
+          "sources": [
+            {
+              "path": "results/sensitivity/c_weighted_models.csv",
+              "row": 159,
+              "field": "risk",
+              "raw": "0.0878801998402429"
+            },
+            {
+              "path": "results/sensitivity/c_weighted_models.csv",
+              "row": 159,
+              "field": "ci_low",
+              "raw": "0.05277428249907012"
+            },
+            {
+              "path": "results/sensitivity/c_weighted_models.csv",
+              "row": 159,
+              "field": "ci_high",
+              "raw": "0.1428178714057997"
+            }
+          ]
+        },
+        {
+          "text": "11.5 (5.52 to 22.59)",
+          "sources": [
+            {
+              "path": "results/sensitivity/c_weighted_models.csv",
+              "row": 160,
+              "field": "risk",
+              "raw": "0.11548077407537424"
+            },
+            {
+              "path": "results/sensitivity/c_weighted_models.csv",
+              "row": 160,
+              "field": "ci_low",
+              "raw": "0.0551872557587174"
+            },
+            {
+              "path": "results/sensitivity/c_weighted_models.csv",
+              "row": 160,
+              "field": "ci_high",
+              "raw": "0.22589701984511248"
+            }
+          ]
+        }
+      ],
+      [
+        "Common-population risk, inclusion weighted; death",
+        {
+          "text": "4",
+          "sources": [
+            {
+              "path": "results/sensitivity/c_weighted_models.csv",
+              "row": 155,
+              "field": "k",
+              "raw": "4.0"
+            }
+          ]
+        },
+        {
+          "text": "100,012",
+          "sources": [
+            {
+              "path": "results/sensitivity/c_weighted_models.csv",
+              "row": 17,
+              "field": "n_target_rows",
+              "raw": "23086.0"
+            },
+            {
+              "path": "results/sensitivity/c_weighted_models.csv",
+              "row": 53,
+              "field": "n_target_rows",
+              "raw": "43877.0"
+            },
+            {
+              "path": "results/sensitivity/c_weighted_models.csv",
+              "row": 89,
+              "field": "n_target_rows",
+              "raw": "7175.0"
+            },
+            {
+              "path": "results/sensitivity/c_weighted_models.csv",
+              "row": 107,
+              "field": "n_target_rows",
+              "raw": "25874.0"
+            }
+          ]
+        },
+        {
+          "text": "1.8 (0.90 to 3.69)",
+          "sources": [
+            {
+              "path": "results/sensitivity/c_weighted_models.csv",
+              "row": 155,
+              "field": "risk",
+              "raw": "0.01828553237051841"
+            },
+            {
+              "path": "results/sensitivity/c_weighted_models.csv",
+              "row": 155,
+              "field": "ci_low",
+              "raw": "0.008984073809627366"
+            },
+            {
+              "path": "results/sensitivity/c_weighted_models.csv",
+              "row": 155,
+              "field": "ci_high",
+              "raw": "0.036858875788267915"
+            }
+          ]
+        },
+        {
+          "text": "3.4 (1.65 to 6.89)",
+          "sources": [
+            {
+              "path": "results/sensitivity/c_weighted_models.csv",
+              "row": 156,
+              "field": "risk",
+              "raw": "0.034028369831817944"
+            },
+            {
+              "path": "results/sensitivity/c_weighted_models.csv",
+              "row": 156,
+              "field": "ci_low",
+              "raw": "0.016490433226755287"
+            },
+            {
+              "path": "results/sensitivity/c_weighted_models.csv",
+              "row": 156,
+              "field": "ci_high",
+              "raw": "0.06891140068196913"
+            }
+          ]
+        },
+        {
+          "text": "6.8 (3.44 to 13.15)",
+          "sources": [
+            {
+              "path": "results/sensitivity/c_weighted_models.csv",
+              "row": 157,
+              "field": "risk",
+              "raw": "0.0683767984572464"
+            },
+            {
+              "path": "results/sensitivity/c_weighted_models.csv",
+              "row": 157,
+              "field": "ci_low",
+              "raw": "0.03436270419231817"
+            },
+            {
+              "path": "results/sensitivity/c_weighted_models.csv",
+              "row": 157,
+              "field": "ci_high",
+              "raw": "0.13147572964854226"
+            }
+          ]
+        }
+      ],
+      [
+        "Common-population risk, inclusion weighted; new ADL limitation",
+        {
+          "text": "3",
+          "sources": [
+            {
+              "path": "results/sensitivity/c_weighted_models.csv",
+              "row": 161,
+              "field": "k",
+              "raw": "3.0"
+            }
+          ]
+        },
+        {
+          "text": "74,757",
+          "sources": [
+            {
+              "path": "results/sensitivity/c_weighted_models.csv",
+              "row": 35,
+              "field": "n_target_rows",
+              "raw": "19474.0"
+            },
+            {
+              "path": "results/sensitivity/c_weighted_models.csv",
+              "row": 71,
+              "field": "n_target_rows",
+              "raw": "35465.0"
+            },
+            {
+              "path": "results/sensitivity/c_weighted_models.csv",
+              "row": 125,
+              "field": "n_target_rows",
+              "raw": "19818.0"
+            }
+          ]
+        },
+        {
+          "text": "5.8 (3.36 to 9.95)",
+          "sources": [
+            {
+              "path": "results/sensitivity/c_weighted_models.csv",
+              "row": 161,
+              "field": "risk",
+              "raw": "0.05839683771865035"
+            },
+            {
+              "path": "results/sensitivity/c_weighted_models.csv",
+              "row": 161,
+              "field": "ci_low",
+              "raw": "0.03363655793353506"
+            },
+            {
+              "path": "results/sensitivity/c_weighted_models.csv",
+              "row": 161,
+              "field": "ci_high",
+              "raw": "0.0995066896660096"
+            }
+          ]
+        },
+        {
+          "text": "8.8 (5.33 to 14.27)",
+          "sources": [
+            {
+              "path": "results/sensitivity/c_weighted_models.csv",
+              "row": 162,
+              "field": "risk",
+              "raw": "0.08826290888213717"
+            },
+            {
+              "path": "results/sensitivity/c_weighted_models.csv",
+              "row": 162,
+              "field": "ci_low",
+              "raw": "0.05328343148969673"
+            },
+            {
+              "path": "results/sensitivity/c_weighted_models.csv",
+              "row": 162,
+              "field": "ci_high",
+              "raw": "0.14274334899920368"
+            }
+          ]
+        },
+        {
+          "text": "11.7 (5.73 to 22.34)",
+          "sources": [
+            {
+              "path": "results/sensitivity/c_weighted_models.csv",
+              "row": 163,
+              "field": "risk",
+              "raw": "0.1167638471878109"
+            },
+            {
+              "path": "results/sensitivity/c_weighted_models.csv",
+              "row": 163,
+              "field": "ci_low",
+              "raw": "0.057280416232301415"
+            },
+            {
+              "path": "results/sensitivity/c_weighted_models.csv",
+              "row": 163,
+              "field": "ci_high",
+              "raw": "0.22338150391425263"
+            }
+          ]
+        }
+      ],
+      [
+        "Omit England; death",
+        {
+          "text": "3",
+          "sources": [
+            {
+              "path": "results/primary/hk_pooled.csv",
+              "row": 351,
+              "field": "k",
+              "raw": "3"
+            }
+          ]
+        },
+        {
+          "text": "133,655",
+          "sources": [
+            {
+              "path": "results/primary/hk_pooled.csv",
+              "row": 351,
+              "field": "n",
+              "raw": "133655.0"
+            }
+          ]
+        },
+        "Reference",
+        {
+          "text": "1.79 (1.53 to 2.10)",
+          "sources": [
+            {
+              "path": "results/primary/hk_pooled.csv",
+              "row": 351,
+              "field": "pooled",
+              "raw": "1.7928056833638344"
+            },
+            {
+              "path": "results/primary/hk_pooled.csv",
+              "row": 351,
+              "field": "ci_low_safeguarded",
+              "raw": "1.5290024932006991"
+            },
+            {
+              "path": "results/primary/hk_pooled.csv",
+              "row": 351,
+              "field": "ci_high_safeguarded",
+              "raw": "2.102123595347055"
+            }
+          ]
+        },
+        {
+          "text": "3.40 (2.74 to 4.22)",
+          "sources": [
+            {
+              "path": "results/primary/hk_pooled.csv",
+              "row": 355,
+              "field": "pooled",
+              "raw": "3.403437874621585"
+            },
+            {
+              "path": "results/primary/hk_pooled.csv",
+              "row": 355,
+              "field": "ci_low_safeguarded",
+              "raw": "2.7442956451593625"
+            },
+            {
+              "path": "results/primary/hk_pooled.csv",
+              "row": 355,
+              "field": "ci_high_safeguarded",
+              "raw": "4.220897040317258"
+            }
+          ]
+        }
+      ],
+      [
+        "Omit United States; death",
+        {
+          "text": "3",
+          "sources": [
+            {
+              "path": "results/primary/hk_pooled.csv",
+              "row": 352,
+              "field": "k",
+              "raw": "3"
+            }
+          ]
+        },
+        {
+          "text": "89,797",
+          "sources": [
+            {
+              "path": "results/primary/hk_pooled.csv",
+              "row": 352,
+              "field": "n",
+              "raw": "89797.0"
+            }
+          ]
+        },
+        "Reference",
+        {
+          "text": "1.86 (1.59 to 2.19)",
+          "sources": [
+            {
+              "path": "results/primary/hk_pooled.csv",
+              "row": 352,
+              "field": "pooled",
+              "raw": "1.8636056498846751"
+            },
+            {
+              "path": "results/primary/hk_pooled.csv",
+              "row": 352,
+              "field": "ci_low_safeguarded",
+              "raw": "1.5858006484667595"
+            },
+            {
+              "path": "results/primary/hk_pooled.csv",
+              "row": 352,
+              "field": "ci_high_safeguarded",
+              "raw": "2.1900773099317354"
+            }
+          ]
+        },
+        {
+          "text": "3.50 (2.49 to 4.93)",
+          "sources": [
+            {
+              "path": "results/primary/hk_pooled.csv",
+              "row": 356,
+              "field": "pooled",
+              "raw": "3.5041083402810282"
+            },
+            {
+              "path": "results/primary/hk_pooled.csv",
+              "row": 356,
+              "field": "ci_low_safeguarded",
+              "raw": "2.4894498877000224"
+            },
+            {
+              "path": "results/primary/hk_pooled.csv",
+              "row": 356,
+              "field": "ci_high_safeguarded",
+              "raw": "4.932324736117223"
+            }
+          ]
+        }
+      ],
+      [
+        "Omit Korea; death",
+        {
+          "text": "3",
+          "sources": [
+            {
+              "path": "results/primary/hk_pooled.csv",
+              "row": 353,
+              "field": "k",
+              "raw": "3"
+            }
+          ]
+        },
+        {
+          "text": "145,389",
+          "sources": [
+            {
+              "path": "results/primary/hk_pooled.csv",
+              "row": 353,
+              "field": "n",
+              "raw": "145389.0"
+            }
+          ]
+        },
+        "Reference",
+        {
+          "text": "1.79 (1.52 to 2.10)",
+          "sources": [
+            {
+              "path": "results/primary/hk_pooled.csv",
+              "row": 353,
+              "field": "pooled",
+              "raw": "1.786918369078301"
+            },
+            {
+              "path": "results/primary/hk_pooled.csv",
+              "row": 353,
+              "field": "ci_low_safeguarded",
+              "raw": "1.5175156337910056"
+            },
+            {
+              "path": "results/primary/hk_pooled.csv",
+              "row": 353,
+              "field": "ci_high_safeguarded",
+              "raw": "2.104147849714483"
+            }
+          ]
+        },
+        {
+          "text": "3.40 (2.73 to 4.22)",
+          "sources": [
+            {
+              "path": "results/primary/hk_pooled.csv",
+              "row": 357,
+              "field": "pooled",
+              "raw": "3.3960673665019883"
+            },
+            {
+              "path": "results/primary/hk_pooled.csv",
+              "row": 357,
+              "field": "ci_low_safeguarded",
+              "raw": "2.733264246343969"
+            },
+            {
+              "path": "results/primary/hk_pooled.csv",
+              "row": 357,
+              "field": "ci_high_safeguarded",
+              "raw": "4.219596979416362"
+            }
+          ]
+        }
+      ],
+      [
+        "Omit continental Europe; death",
+        {
+          "text": "3",
+          "sources": [
+            {
+              "path": "results/primary/hk_pooled.csv",
+              "row": 354,
+              "field": "k",
+              "raw": "3"
+            }
+          ]
+        },
+        {
+          "text": "118,905",
+          "sources": [
+            {
+              "path": "results/primary/hk_pooled.csv",
+              "row": 354,
+              "field": "n",
+              "raw": "118905.0"
+            }
+          ]
+        },
+        "Reference",
+        {
+          "text": "1.73 (1.55 to 1.94)",
+          "sources": [
+            {
+              "path": "results/primary/hk_pooled.csv",
+              "row": 354,
+              "field": "pooled",
+              "raw": "1.7334620065029855"
+            },
+            {
+              "path": "results/primary/hk_pooled.csv",
+              "row": 354,
+              "field": "ci_low_safeguarded",
+              "raw": "1.5481339981989903"
+            },
+            {
+              "path": "results/primary/hk_pooled.csv",
+              "row": 354,
+              "field": "ci_high_safeguarded",
+              "raw": "1.940975736909772"
+            }
+          ]
+        },
+        {
+          "text": "3.39 (2.65 to 4.33)",
+          "sources": [
+            {
+              "path": "results/primary/hk_pooled.csv",
+              "row": 358,
+              "field": "pooled",
+              "raw": "3.3884778688155244"
+            },
+            {
+              "path": "results/primary/hk_pooled.csv",
+              "row": 358,
+              "field": "ci_low_safeguarded",
+              "raw": "2.6499034630072638"
+            },
+            {
+              "path": "results/primary/hk_pooled.csv",
+              "row": 358,
+              "field": "ci_high_safeguarded",
+              "raw": "4.332905869115098"
+            }
+          ]
+        }
+      ],
+      [
+        {
+          "text": "Age \u226565 years; death",
+          "sources": [
+            {
+              "path": "results/primary/hk_pooled.csv",
+              "row": 291,
+              "field": "key",
+              "raw": "{\"age_floor\": 65, \"outcome_id\": \"mortality\", \"term\": \"loss_1\"}"
+            }
+          ]
+        },
+        {
+          "text": "3",
+          "sources": [
+            {
+              "path": "results/primary/hk_pooled.csv",
+              "row": 291,
+              "field": "k",
+              "raw": "3"
+            }
+          ]
+        },
+        {
+          "text": "101,641",
+          "sources": [
+            {
+              "path": "results/primary/hk_pooled.csv",
+              "row": 291,
+              "field": "n",
+              "raw": "101641.0"
+            }
+          ]
+        },
+        "Reference",
+        {
+          "text": "1.79 (1.49 to 2.14)",
+          "sources": [
+            {
+              "path": "results/primary/hk_pooled.csv",
+              "row": 291,
+              "field": "pooled",
+              "raw": "1.78548710840332"
+            },
+            {
+              "path": "results/primary/hk_pooled.csv",
+              "row": 291,
+              "field": "ci_low_safeguarded",
+              "raw": "1.4889177049635955"
+            },
+            {
+              "path": "results/primary/hk_pooled.csv",
+              "row": 291,
+              "field": "ci_high_safeguarded",
+              "raw": "2.14112855508854"
+            }
+          ]
+        },
+        {
+          "text": "3.36 (2.69 to 4.20)",
+          "sources": [
+            {
+              "path": "results/primary/hk_pooled.csv",
+              "row": 294,
+              "field": "pooled",
+              "raw": "3.3601046767663716"
+            },
+            {
+              "path": "results/primary/hk_pooled.csv",
+              "row": 294,
+              "field": "ci_low_safeguarded",
+              "raw": "2.6862893860134207"
+            },
+            {
+              "path": "results/primary/hk_pooled.csv",
+              "row": 294,
+              "field": "ci_high_safeguarded",
+              "raw": "4.202936399038743"
+            }
+          ]
+        }
+      ],
+      [
+        {
+          "text": "Age \u226565 years; new ADL limitation",
+          "sources": [
+            {
+              "path": "results/primary/hk_pooled.csv",
+              "row": 281,
+              "field": "key",
+              "raw": "{\"age_floor\": 65, \"outcome_id\": \"incident_any_adl\", \"term\": \"loss_1\"}"
+            }
+          ]
+        },
+        {
+          "text": "3",
+          "sources": [
+            {
+              "path": "results/primary/hk_pooled.csv",
+              "row": 281,
+              "field": "k",
+              "raw": "3"
+            }
+          ]
+        },
+        {
+          "text": "81,228",
+          "sources": [
+            {
+              "path": "results/primary/hk_pooled.csv",
+              "row": 281,
+              "field": "n",
+              "raw": "81228.0"
+            }
+          ]
+        },
+        "Reference",
+        {
+          "text": "1.48 (1.34 to 1.64)",
+          "sources": [
+            {
+              "path": "results/primary/hk_pooled.csv",
+              "row": 281,
+              "field": "pooled",
+              "raw": "1.48489930649707"
+            },
+            {
+              "path": "results/primary/hk_pooled.csv",
+              "row": 281,
+              "field": "ci_low_safeguarded",
+              "raw": "1.3441211016181667"
+            },
+            {
+              "path": "results/primary/hk_pooled.csv",
+              "row": 281,
+              "field": "ci_high_safeguarded",
+              "raw": "1.6404220927571207"
+            }
+          ]
+        },
+        {
+          "text": "2.05 (1.57 to 2.67)",
+          "sources": [
+            {
+              "path": "results/primary/hk_pooled.csv",
+              "row": 284,
+              "field": "pooled",
+              "raw": "2.047874410216826"
+            },
+            {
+              "path": "results/primary/hk_pooled.csv",
+              "row": 284,
+              "field": "ci_low_safeguarded",
+              "raw": "1.5678231376155034"
+            },
+            {
+              "path": "results/primary/hk_pooled.csv",
+              "row": 284,
+              "field": "ci_high_safeguarded",
+              "raw": "2.6749124307472796"
+            }
+          ]
+        }
+      ],
+      [
+        {
+          "text": "Age \u226570 years; death",
+          "sources": [
+            {
+              "path": "results/primary/hk_pooled.csv",
+              "row": 292,
+              "field": "key",
+              "raw": "{\"age_floor\": 70, \"outcome_id\": \"mortality\", \"term\": \"loss_1\"}"
+            }
+          ]
+        },
+        {
+          "text": "3",
+          "sources": [
+            {
+              "path": "results/primary/hk_pooled.csv",
+              "row": 292,
+              "field": "k",
+              "raw": "3"
+            }
+          ]
+        },
+        {
+          "text": "71,417",
+          "sources": [
+            {
+              "path": "results/primary/hk_pooled.csv",
+              "row": 292,
+              "field": "n",
+              "raw": "71417.0"
+            }
+          ]
+        },
+        "Reference",
+        {
+          "text": "1.76 (1.48 to 2.10)",
+          "sources": [
+            {
+              "path": "results/primary/hk_pooled.csv",
+              "row": 292,
+              "field": "pooled",
+              "raw": "1.762433062552506"
+            },
+            {
+              "path": "results/primary/hk_pooled.csv",
+              "row": 292,
+              "field": "ci_low_safeguarded",
+              "raw": "1.4759699676438376"
+            },
+            {
+              "path": "results/primary/hk_pooled.csv",
+              "row": 292,
+              "field": "ci_high_safeguarded",
+              "raw": "2.1044942431564078"
+            }
+          ]
+        },
+        {
+          "text": "3.14 (2.47 to 3.99)",
+          "sources": [
+            {
+              "path": "results/primary/hk_pooled.csv",
+              "row": 295,
+              "field": "pooled",
+              "raw": "3.140389761430026"
+            },
+            {
+              "path": "results/primary/hk_pooled.csv",
+              "row": 295,
+              "field": "ci_low_safeguarded",
+              "raw": "2.470822404902308"
+            },
+            {
+              "path": "results/primary/hk_pooled.csv",
+              "row": 295,
+              "field": "ci_high_safeguarded",
+              "raw": "3.991402957220822"
+            }
+          ]
+        }
+      ],
+      [
+        {
+          "text": "Age \u226570 years; new ADL limitation",
+          "sources": [
+            {
+              "path": "results/primary/hk_pooled.csv",
+              "row": 282,
+              "field": "key",
+              "raw": "{\"age_floor\": 70, \"outcome_id\": \"incident_any_adl\", \"term\": \"loss_1\"}"
+            }
+          ]
+        },
+        {
+          "text": "3",
+          "sources": [
+            {
+              "path": "results/primary/hk_pooled.csv",
+              "row": 282,
+              "field": "k",
+              "raw": "3"
+            }
+          ]
+        },
+        {
+          "text": "54,431",
+          "sources": [
+            {
+              "path": "results/primary/hk_pooled.csv",
+              "row": 282,
+              "field": "n",
+              "raw": "54431.0"
+            }
+          ]
+        },
+        "Reference",
+        {
+          "text": "1.51 (1.35 to 1.68)",
+          "sources": [
+            {
+              "path": "results/primary/hk_pooled.csv",
+              "row": 282,
+              "field": "pooled",
+              "raw": "1.505424908563286"
+            },
+            {
+              "path": "results/primary/hk_pooled.csv",
+              "row": 282,
+              "field": "ci_low_safeguarded",
+              "raw": "1.3486478224800342"
+            },
+            {
+              "path": "results/primary/hk_pooled.csv",
+              "row": 282,
+              "field": "ci_high_safeguarded",
+              "raw": "1.6804269562051135"
+            }
+          ]
+        },
+        {
+          "text": "1.91 (1.29 to 2.83)",
+          "sources": [
+            {
+              "path": "results/primary/hk_pooled.csv",
+              "row": 285,
+              "field": "pooled",
+              "raw": "1.9084896792932737"
+            },
+            {
+              "path": "results/primary/hk_pooled.csv",
+              "row": 285,
+              "field": "ci_low_safeguarded",
+              "raw": "1.286465458603353"
+            },
+            {
+              "path": "results/primary/hk_pooled.csv",
+              "row": 285,
+              "field": "ci_high_safeguarded",
+              "raw": "2.8312713968420335"
+            }
+          ]
+        }
+      ],
+      [
+        "Smoking omitted, expanded sample; death",
+        {
+          "text": "4",
+          "sources": [
+            {
+              "path": "results/primary/hk_pooled.csv",
+              "row": 319,
+              "field": "k",
+              "raw": "4"
+            }
+          ]
+        },
+        {
+          "text": "194,607",
+          "sources": [
+            {
+              "path": "results/primary/hk_pooled.csv",
+              "row": 319,
+              "field": "n",
+              "raw": "194607.0"
+            }
+          ]
+        },
+        "Reference",
+        {
+          "text": "1.76 (1.63 to 1.90)",
+          "sources": [
+            {
+              "path": "results/primary/hk_pooled.csv",
+              "row": 319,
+              "field": "pooled",
+              "raw": "1.7601283702985921"
+            },
+            {
+              "path": "results/primary/hk_pooled.csv",
+              "row": 319,
+              "field": "ci_low_safeguarded",
+              "raw": "1.626640057713443"
+            },
+            {
+              "path": "results/primary/hk_pooled.csv",
+              "row": 319,
+              "field": "ci_high_safeguarded",
+              "raw": "1.9045712450269352"
+            }
+          ]
+        },
+        {
+          "text": "3.37 (2.92 to 3.89)",
+          "sources": [
+            {
+              "path": "results/primary/hk_pooled.csv",
+              "row": 323,
+              "field": "pooled",
+              "raw": "3.372560402810629"
+            },
+            {
+              "path": "results/primary/hk_pooled.csv",
+              "row": 323,
+              "field": "ci_low_safeguarded",
+              "raw": "2.92472600045576"
+            },
+            {
+              "path": "results/primary/hk_pooled.csv",
+              "row": 323,
+              "field": "ci_high_safeguarded",
+              "raw": "3.888967263543236"
+            }
+          ]
+        }
+      ],
+      [
+        "Smoking omitted, expanded sample; new ADL limitation",
+        {
+          "text": "4",
+          "sources": [
+            {
+              "path": "results/primary/hk_pooled.csv",
+              "row": 303,
+              "field": "k",
+              "raw": "4"
+            }
+          ]
+        },
+        {
+          "text": "135,225",
+          "sources": [
+            {
+              "path": "results/primary/hk_pooled.csv",
+              "row": 303,
+              "field": "n",
+              "raw": "135225.0"
+            }
+          ]
+        },
+        "Reference",
+        {
+          "text": "1.45 (1.35 to 1.56)",
+          "sources": [
+            {
+              "path": "results/primary/hk_pooled.csv",
+              "row": 303,
+              "field": "pooled",
+              "raw": "1.4490965271248089"
+            },
+            {
+              "path": "results/primary/hk_pooled.csv",
+              "row": 303,
+              "field": "ci_low_safeguarded",
+              "raw": "1.3486963912429222"
+            },
+            {
+              "path": "results/primary/hk_pooled.csv",
+              "row": 303,
+              "field": "ci_high_safeguarded",
+              "raw": "1.5569706855892071"
+            }
+          ]
+        },
+        {
+          "text": "1.99 (1.68 to 2.36)",
+          "sources": [
+            {
+              "path": "results/primary/hk_pooled.csv",
+              "row": 307,
+              "field": "pooled",
+              "raw": "1.9874334764862625"
+            },
+            {
+              "path": "results/primary/hk_pooled.csv",
+              "row": 307,
+              "field": "ci_low_safeguarded",
+              "raw": "1.6757183481427493"
+            },
+            {
+              "path": "results/primary/hk_pooled.csv",
+              "row": 307,
+              "field": "ci_high_safeguarded",
+              "raw": "2.357133481193936"
+            }
+          ]
+        }
+      ],
+      [
+        "Demographic adjustment, expanded sample; death",
+        {
+          "text": "4",
+          "sources": [
+            {
+              "path": "results/primary/hk_pooled.csv",
+              "row": 318,
+              "field": "k",
+              "raw": "4"
+            }
+          ]
+        },
+        {
+          "text": "198,069",
+          "sources": [
+            {
+              "path": "results/primary/hk_pooled.csv",
+              "row": 318,
+              "field": "n",
+              "raw": "198069.0"
+            }
+          ]
+        },
+        "Reference",
+        {
+          "text": "1.93 (1.80 to 2.06)",
+          "sources": [
+            {
+              "path": "results/primary/hk_pooled.csv",
+              "row": 318,
+              "field": "pooled",
+              "raw": "1.9255085065497866"
+            },
+            {
+              "path": "results/primary/hk_pooled.csv",
+              "row": 318,
+              "field": "ci_low_safeguarded",
+              "raw": "1.8020608093609634"
+            },
+            {
+              "path": "results/primary/hk_pooled.csv",
+              "row": 318,
+              "field": "ci_high_safeguarded",
+              "raw": "2.0574128184444294"
+            }
+          ]
+        },
+        {
+          "text": "4.10 (3.56 to 4.71)",
+          "sources": [
+            {
+              "path": "results/primary/hk_pooled.csv",
+              "row": 322,
+              "field": "pooled",
+              "raw": "4.09757232002088"
+            },
+            {
+              "path": "results/primary/hk_pooled.csv",
+              "row": 322,
+              "field": "ci_low_safeguarded",
+              "raw": "3.5613385542504057"
+            },
+            {
+              "path": "results/primary/hk_pooled.csv",
+              "row": 322,
+              "field": "ci_high_safeguarded",
+              "raw": "4.714547258575727"
+            }
+          ]
+        }
+      ],
+      [
+        "Demographic adjustment, expanded sample; new ADL limitation",
+        {
+          "text": "4",
+          "sources": [
+            {
+              "path": "results/primary/hk_pooled.csv",
+              "row": 302,
+              "field": "k",
+              "raw": "4"
+            }
+          ]
+        },
+        {
+          "text": "137,876",
+          "sources": [
+            {
+              "path": "results/primary/hk_pooled.csv",
+              "row": 302,
+              "field": "n",
+              "raw": "137876.0"
+            }
+          ]
+        },
+        "Reference",
+        {
+          "text": "1.61 (1.48 to 1.76)",
+          "sources": [
+            {
+              "path": "results/primary/hk_pooled.csv",
+              "row": 302,
+              "field": "pooled",
+              "raw": "1.6135875742070889"
+            },
+            {
+              "path": "results/primary/hk_pooled.csv",
+              "row": 302,
+              "field": "ci_low_safeguarded",
+              "raw": "1.4790155040997621"
+            },
+            {
+              "path": "results/primary/hk_pooled.csv",
+              "row": 302,
+              "field": "ci_high_safeguarded",
+              "raw": "1.7604040339119367"
+            }
+          ]
+        },
+        {
+          "text": "2.48 (1.98 to 3.09)",
+          "sources": [
+            {
+              "path": "results/primary/hk_pooled.csv",
+              "row": 306,
+              "field": "pooled",
+              "raw": "2.47607273889655"
+            },
+            {
+              "path": "results/primary/hk_pooled.csv",
+              "row": 306,
+              "field": "ci_low_safeguarded",
+              "raw": "1.9827687686016038"
+            },
+            {
+              "path": "results/primary/hk_pooled.csv",
+              "row": 306,
+              "field": "ci_high_safeguarded",
+              "raw": "3.0921085228867393"
+            }
+          ]
+        }
+      ],
+      [
+        "New ADL limitation, survivors",
+        {
+          "text": "3",
+          "sources": [
+            {
+              "path": "results/primary/hk_pooled.csv",
+              "row": 125,
+              "field": "k",
+              "raw": "3"
+            }
+          ]
+        },
+        {
+          "text": "109,368",
+          "sources": [
+            {
+              "path": "results/primary/hk_pooled.csv",
+              "row": 125,
+              "field": "n",
+              "raw": "109368.0"
+            }
+          ]
+        },
+        "Reference",
+        {
+          "text": "1.48 (1.35 to 1.62)",
+          "sources": [
+            {
+              "path": "results/primary/hk_pooled.csv",
+              "row": 125,
+              "field": "pooled",
+              "raw": "1.4755226433841546"
+            },
+            {
+              "path": "results/primary/hk_pooled.csv",
+              "row": 125,
+              "field": "ci_low_safeguarded",
+              "raw": "1.3460600648559815"
+            },
+            {
+              "path": "results/primary/hk_pooled.csv",
+              "row": 125,
+              "field": "ci_high_safeguarded",
+              "raw": "1.617436790513731"
+            }
+          ]
+        },
+        {
+          "text": "1.99 (1.57 to 2.53)",
+          "sources": [
+            {
+              "path": "results/primary/hk_pooled.csv",
+              "row": 126,
+              "field": "pooled",
+              "raw": "1.991662031877818"
+            },
+            {
+              "path": "results/primary/hk_pooled.csv",
+              "row": 126,
+              "field": "ci_low_safeguarded",
+              "raw": "1.5666789681906097"
+            },
+            {
+              "path": "results/primary/hk_pooled.csv",
+              "row": 126,
+              "field": "ci_high_safeguarded",
+              "raw": "2.5319275548869618"
+            }
+          ]
+        }
+      ],
+      [
+        "Death or new ADL limitation",
+        {
+          "text": "4",
+          "sources": [
+            {
+              "path": "results/primary/hk_pooled.csv",
+              "row": 121,
+              "field": "k",
+              "raw": "4"
+            }
+          ]
+        },
+        {
+          "text": "130,290",
+          "sources": [
+            {
+              "path": "results/primary/hk_pooled.csv",
+              "row": 121,
+              "field": "n",
+              "raw": "130290.0"
+            }
+          ]
+        },
+        "Reference",
+        {
+          "text": "1.48 (1.39 to 1.58)",
+          "sources": [
+            {
+              "path": "results/primary/hk_pooled.csv",
+              "row": 121,
+              "field": "pooled",
+              "raw": "1.4840279235129359"
+            },
+            {
+              "path": "results/primary/hk_pooled.csv",
+              "row": 121,
+              "field": "ci_low_safeguarded",
+              "raw": "1.3895151413643148"
+            },
+            {
+              "path": "results/primary/hk_pooled.csv",
+              "row": 121,
+              "field": "ci_high_safeguarded",
+              "raw": "1.5849693264973848"
+            }
+          ]
+        },
+        {
+          "text": "2.16 (1.90 to 2.45)",
+          "sources": [
+            {
+              "path": "results/primary/hk_pooled.csv",
+              "row": 122,
+              "field": "pooled",
+              "raw": "2.1589724966552994"
+            },
+            {
+              "path": "results/primary/hk_pooled.csv",
+              "row": 122,
+              "field": "ci_low_safeguarded",
+              "raw": "1.900471095275628"
+            },
+            {
+              "path": "results/primary/hk_pooled.csv",
+              "row": 122,
+              "field": "ci_high_safeguarded",
+              "raw": "2.452635166565373"
+            }
+          ]
+        }
+      ],
+      [
+        "United States, survey weighted; death",
+        "One",
+        {
+          "text": "71,877",
+          "sources": [
+            {
+              "path": "results/sensitivity/design/hrs-design-sensitivity.csv",
+              "row": 4,
+              "field": "n",
+              "raw": "71877"
+            }
+          ]
+        },
+        "Reference",
+        {
+          "text": "1.63 (1.52 to 1.76)",
+          "sources": [
+            {
+              "path": "results/sensitivity/design/hrs-design-sensitivity.csv",
+              "row": 4,
+              "field": "estimate",
+              "raw": "1.6346486405440934"
+            },
+            {
+              "path": "results/sensitivity/design/hrs-design-sensitivity.csv",
+              "row": 4,
+              "field": "ci_low",
+              "raw": "1.5173243067349045"
+            },
+            {
+              "path": "results/sensitivity/design/hrs-design-sensitivity.csv",
+              "row": 4,
+              "field": "ci_high",
+              "raw": "1.7610448644183603"
+            }
+          ]
+        },
+        {
+          "text": "3.48 (2.98 to 4.08)",
+          "sources": [
+            {
+              "path": "results/sensitivity/design/hrs-design-sensitivity.csv",
+              "row": 5,
+              "field": "estimate",
+              "raw": "3.484676563563649"
+            },
+            {
+              "path": "results/sensitivity/design/hrs-design-sensitivity.csv",
+              "row": 5,
+              "field": "ci_low",
+              "raw": "2.976266881094595"
+            },
+            {
+              "path": "results/sensitivity/design/hrs-design-sensitivity.csv",
+              "row": 5,
+              "field": "ci_high",
+              "raw": "4.079933432644282"
+            }
+          ]
+        }
+      ],
+      [
+        "United States, unweighted, survey-weight sample; death",
+        "One",
+        {
+          "text": "71,877",
+          "sources": [
+            {
+              "path": "results/sensitivity/design/hrs-design-sensitivity.csv",
+              "row": 6,
+              "field": "n",
+              "raw": "71877"
+            }
+          ]
+        },
+        "Reference",
+        {
+          "text": "1.65 (1.56 to 1.76)",
+          "sources": [
+            {
+              "path": "results/sensitivity/design/hrs-design-sensitivity.csv",
+              "row": 6,
+              "field": "estimate",
+              "raw": "1.6548304349110574"
+            },
+            {
+              "path": "results/sensitivity/design/hrs-design-sensitivity.csv",
+              "row": 6,
+              "field": "ci_low",
+              "raw": "1.5577797999159995"
+            },
+            {
+              "path": "results/sensitivity/design/hrs-design-sensitivity.csv",
+              "row": 6,
+              "field": "ci_high",
+              "raw": "1.7579273838674672"
+            }
+          ]
+        },
+        {
+          "text": "3.28 (2.89 to 3.74)",
+          "sources": [
+            {
+              "path": "results/sensitivity/design/hrs-design-sensitivity.csv",
+              "row": 7,
+              "field": "estimate",
+              "raw": "3.2842630510827573"
+            },
+            {
+              "path": "results/sensitivity/design/hrs-design-sensitivity.csv",
+              "row": 7,
+              "field": "ci_low",
+              "raw": "2.8857048696769754"
+            },
+            {
+              "path": "results/sensitivity/design/hrs-design-sensitivity.csv",
+              "row": 7,
+              "field": "ci_high",
+              "raw": "3.7378679649644306"
+            }
+          ]
+        }
+      ],
+      [
+        "Continental Europe, country-clustered variance; death",
+        "One",
+        {
+          "text": "43,677",
+          "sources": [
+            {
+              "path": "results/sensitivity/design/share-design-sensitivity.csv",
+              "row": 4,
+              "field": "n",
+              "raw": "43677"
+            }
+          ]
+        },
+        "Reference",
+        {
+          "text": "1.90 (1.71 to 2.11)",
+          "sources": [
+            {
+              "path": "results/sensitivity/design/share-design-sensitivity.csv",
+              "row": 4,
+              "field": "estimate",
+              "raw": "1.8963378058484939"
+            },
+            {
+              "path": "results/sensitivity/design/share-design-sensitivity.csv",
+              "row": 4,
+              "field": "ci_low",
+              "raw": "1.7073437637652435"
+            },
+            {
+              "path": "results/sensitivity/design/share-design-sensitivity.csv",
+              "row": 4,
+              "field": "ci_high",
+              "raw": "2.1062525018158773"
+            }
+          ]
+        },
+        {
+          "text": "3.47 (2.88 to 4.17)",
+          "sources": [
+            {
+              "path": "results/sensitivity/design/share-design-sensitivity.csv",
+              "row": 5,
+              "field": "estimate",
+              "raw": "3.469139228752359"
+            },
+            {
+              "path": "results/sensitivity/design/share-design-sensitivity.csv",
+              "row": 5,
+              "field": "ci_low",
+              "raw": "2.8831351017837963"
+            },
+            {
+              "path": "results/sensitivity/design/share-design-sensitivity.csv",
+              "row": 5,
+              "field": "ci_high",
+              "raw": "4.174250100532056"
+            }
+          ]
+        }
+      ],
+      [
+        "Continental Europe, country fixed effects; death",
+        "One",
+        {
+          "text": "43,677",
+          "sources": [
+            {
+              "path": "results/sensitivity/design/share-design-sensitivity.csv",
+              "row": 6,
+              "field": "n",
+              "raw": "43677"
+            }
+          ]
+        },
+        "Reference",
+        {
+          "text": "1.88 (1.72 to 2.07)",
+          "sources": [
+            {
+              "path": "results/sensitivity/design/share-design-sensitivity.csv",
+              "row": 6,
+              "field": "estimate",
+              "raw": "1.8848500876198029"
+            },
+            {
+              "path": "results/sensitivity/design/share-design-sensitivity.csv",
+              "row": 6,
+              "field": "ci_low",
+              "raw": "1.7167167624678181"
+            },
+            {
+              "path": "results/sensitivity/design/share-design-sensitivity.csv",
+              "row": 6,
+              "field": "ci_high",
+              "raw": "2.069450203126899"
+            }
+          ]
+        },
+        {
+          "text": "3.43 (2.85 to 4.13)",
+          "sources": [
+            {
+              "path": "results/sensitivity/design/share-design-sensitivity.csv",
+              "row": 7,
+              "field": "estimate",
+              "raw": "3.426266873591171"
+            },
+            {
+              "path": "results/sensitivity/design/share-design-sensitivity.csv",
+              "row": 7,
+              "field": "ci_low",
+              "raw": "2.845645509689882"
+            },
+            {
+              "path": "results/sensitivity/design/share-design-sensitivity.csv",
+              "row": 7,
+              "field": "ci_high",
+              "raw": "4.125357374660333"
+            }
+          ]
+        }
+      ],
+      [
+        "Mexico, wider follow-up; death",
+        "One",
+        {
+          "text": "18,174",
+          "sources": [
+            {
+              "path": "results/primary/systematic-results-matrix.csv",
+              "row": 1038,
+              "field": "n",
+              "raw": "18174"
+            }
+          ]
+        },
+        "Reference",
+        {
+          "text": "1.30 (1.19 to 1.42)",
+          "sources": [
+            {
+              "path": "results/primary/systematic-results-matrix.csv",
+              "row": 1038,
+              "field": "estimate",
+              "raw": "1.300105661803079"
+            },
+            {
+              "path": "results/primary/systematic-results-matrix.csv",
+              "row": 1038,
+              "field": "ci_low",
+              "raw": "1.1908893827990985"
+            },
+            {
+              "path": "results/primary/systematic-results-matrix.csv",
+              "row": 1038,
+              "field": "ci_high",
+              "raw": "1.4193381486696566"
+            }
+          ]
+        },
+        {
+          "text": "1.66 (1.45 to 1.90)",
+          "sources": [
+            {
+              "path": "results/primary/systematic-results-matrix.csv",
+              "row": 1039,
+              "field": "estimate",
+              "raw": "1.662745235250289"
+            },
+            {
+              "path": "results/primary/systematic-results-matrix.csv",
+              "row": 1039,
+              "field": "ci_low",
+              "raw": "1.4514839965197293"
+            },
+            {
+              "path": "results/primary/systematic-results-matrix.csv",
+              "row": 1039,
+              "field": "ci_high",
+              "raw": "1.904755218780643"
+            }
+          ]
+        }
+      ],
+      [
+        "Mexico, wider follow-up; new ADL limitation",
+        "One",
+        {
+          "text": "12,797",
+          "sources": [
+            {
+              "path": "results/primary/systematic-results-matrix.csv",
+              "row": 1006,
+              "field": "n",
+              "raw": "12797"
+            }
+          ]
+        },
+        "Reference",
+        {
+          "text": "1.18 (1.07 to 1.30)",
+          "sources": [
+            {
+              "path": "results/primary/systematic-results-matrix.csv",
+              "row": 1006,
+              "field": "estimate",
+              "raw": "1.180395572575484"
+            },
+            {
+              "path": "results/primary/systematic-results-matrix.csv",
+              "row": 1006,
+              "field": "ci_low",
+              "raw": "1.0748512002904504"
+            },
+            {
+              "path": "results/primary/systematic-results-matrix.csv",
+              "row": 1006,
+              "field": "ci_high",
+              "raw": "1.2963038115222765"
+            }
+          ]
+        },
+        {
+          "text": "1.36 (1.17 to 1.58)",
+          "sources": [
+            {
+              "path": "results/primary/systematic-results-matrix.csv",
+              "row": 1007,
+              "field": "estimate",
+              "raw": "1.3583664289373318"
+            },
+            {
+              "path": "results/primary/systematic-results-matrix.csv",
+              "row": 1007,
+              "field": "ci_low",
+              "raw": "1.1667045756675771"
+            },
+            {
+              "path": "results/primary/systematic-results-matrix.csv",
+              "row": 1007,
+              "field": "ci_high",
+              "raw": "1.5815137728487754"
+            }
+          ]
+        }
+      ]
+    ],
+    "footnotes": [
+      "Columns denote number of activities stopped. Values are risk ratios (95% confidence intervals), except common-population risks, shown as percentages. ADL, activities of daily living.",
+      "Pooled intervals use safeguarded Hartung\u2013Knapp uncertainty. Common-population risks share an attainable target population; category-specific risks use different eligible populations. Mexico had no comparable interval."
+    ],
+    "methods": [
+      "Inclusion models predicted complete-case retention from age, sex, interview wave, initial engagement, activities stopped and started, prior self-rated health, functional limitations, depressive symptoms, multimorbidity, education, income, smoking, and availability of an earlier interview. Missing predictors entered with missing indicators. Stabilized weights used the marginal retention probability divided by the fitted inclusion probability. We truncated weights at the first and ninety-ninth percentiles and normalized them to mean one. Sensitivities used untruncated weights and a numerator specific to the number of activities stopped. Minimal-covariate models included optional covariates only when they were observed in at least ninety-five percent of outcome-observed eligible person-intervals.",
+      "Weighted standardized risks averaged fitted probabilities over participants initially engaged in at least two activities, giving an attainable common target for all three categories. Person-interval counts in these rows describe the target population. Category-specific standardization instead uses the population eligible for each category and is reported separately. Inclusion weighting addresses measured differences in retention and does not remove selection through survival to the second interview. New ADL limitation also requires survival and observed follow-up.",
+      "Death estimates were examined after omitting each contributing cohort. New ADL limitation had only three supporting cohorts, so each omission left fewer than three and did not support random-effects synthesis. England did not meet the required event support for the two-or-more category at the higher age thresholds. Smoking-omitted models included otherwise eligible participants, including the SHARE wave with structurally unavailable smoking data. Country structure and survey-weight analyses were confined to their supported cohorts. MHAS had no comparable interval and contributed only to wider-follow-up sensitivity analyses."
+    ]
+  },
+  {
+    "id": "S12",
+    "title": "Biomarker and repeated-assay findings",
+    "columns": [
+      "Cohort",
+      "Measure and timing",
+      "Person-intervals",
+      "Scale",
+      "Estimate (95% CI)"
+    ],
+    "rows": [
+      [
+        "CHARLS",
+        "Immunometabolic burden before stopping an activity",
+        {
+          "text": "1,675",
+          "sources": [
+            {
+              "path": "results/biomarkers/systematic-biomarker-results.csv",
+              "row": 214,
+              "field": "n",
+              "raw": "1675.0"
+            }
+          ]
+        },
+        "RR per SD",
+        {
+          "text": "1.09 (1.00 to 1.18)",
+          "sources": [
+            {
+              "path": "results/biomarkers/systematic-biomarker-results.csv",
+              "row": 214,
+              "field": "estimate",
+              "raw": "1.0858463393729627"
+            },
+            {
+              "path": "results/biomarkers/systematic-biomarker-results.csv",
+              "row": 214,
+              "field": "ci_low",
+              "raw": "1.0026597598200042"
+            },
+            {
+              "path": "results/biomarkers/systematic-biomarker-results.csv",
+              "row": 214,
+              "field": "ci_high",
+              "raw": "1.1759345692115208"
+            }
+          ]
+        }
+      ],
+      [
+        "CHARLS",
+        "C-reactive protein before stopping an activity",
+        {
+          "text": "1,675",
+          "sources": [
+            {
+              "path": "results/biomarkers/systematic-biomarker-results.csv",
+              "row": 215,
+              "field": "n",
+              "raw": "1675.0"
+            }
+          ]
+        },
+        "RR per SD",
+        {
+          "text": "1.07 (0.99 to 1.15)",
+          "sources": [
+            {
+              "path": "results/biomarkers/systematic-biomarker-results.csv",
+              "row": 215,
+              "field": "estimate",
+              "raw": "1.0690961568185116"
+            },
+            {
+              "path": "results/biomarkers/systematic-biomarker-results.csv",
+              "row": 215,
+              "field": "ci_low",
+              "raw": "0.9930848501820312"
+            },
+            {
+              "path": "results/biomarkers/systematic-biomarker-results.csv",
+              "row": 215,
+              "field": "ci_high",
+              "raw": "1.1509254141925611"
+            }
+          ]
+        }
+      ],
+      [
+        "CHARLS",
+        "Glycated hemoglobin before stopping an activity",
+        {
+          "text": "1,691",
+          "sources": [
+            {
+              "path": "results/biomarkers/systematic-biomarker-results.csv",
+              "row": 216,
+              "field": "n",
+              "raw": "1691.0"
+            }
+          ]
+        },
+        "RR per SD",
+        {
+          "text": "1.02 (0.92 to 1.12)",
+          "sources": [
+            {
+              "path": "results/biomarkers/systematic-biomarker-results.csv",
+              "row": 216,
+              "field": "estimate",
+              "raw": "1.0161814411003396"
+            },
+            {
+              "path": "results/biomarkers/systematic-biomarker-results.csv",
+              "row": 216,
+              "field": "ci_low",
+              "raw": "0.9244729911054276"
+            },
+            {
+              "path": "results/biomarkers/systematic-biomarker-results.csv",
+              "row": 216,
+              "field": "ci_high",
+              "raw": "1.1169874416796253"
+            }
+          ]
+        }
+      ],
+      [
+        "CHARLS",
+        "Triglycerides before stopping an activity",
+        {
+          "text": "1,673",
+          "sources": [
+            {
+              "path": "results/biomarkers/systematic-biomarker-results.csv",
+              "row": 217,
+              "field": "n",
+              "raw": "1673.0"
+            }
+          ]
+        },
+        "RR per SD",
+        {
+          "text": "1.01 (0.94 to 1.09)",
+          "sources": [
+            {
+              "path": "results/biomarkers/systematic-biomarker-results.csv",
+              "row": 217,
+              "field": "estimate",
+              "raw": "1.010015648466002"
+            },
+            {
+              "path": "results/biomarkers/systematic-biomarker-results.csv",
+              "row": 217,
+              "field": "ci_low",
+              "raw": "0.9353930918111522"
+            },
+            {
+              "path": "results/biomarkers/systematic-biomarker-results.csv",
+              "row": 217,
+              "field": "ci_high",
+              "raw": "1.090591345047216"
+            }
+          ]
+        }
+      ],
+      [
+        "CHARLS",
+        "HDL, adverse orientation before stopping an activity",
+        {
+          "text": "1,675",
+          "sources": [
+            {
+              "path": "results/biomarkers/systematic-biomarker-results.csv",
+              "row": 218,
+              "field": "n",
+              "raw": "1675.0"
+            }
+          ]
+        },
+        "RR per SD",
+        {
+          "text": "1.11 (1.03 to 1.21)",
+          "sources": [
+            {
+              "path": "results/biomarkers/systematic-biomarker-results.csv",
+              "row": 218,
+              "field": "estimate",
+              "raw": "1.1139455232026627"
+            },
+            {
+              "path": "results/biomarkers/systematic-biomarker-results.csv",
+              "row": 218,
+              "field": "ci_low",
+              "raw": "1.029162131642104"
+            },
+            {
+              "path": "results/biomarkers/systematic-biomarker-results.csv",
+              "row": 218,
+              "field": "ci_high",
+              "raw": "1.205713454189523"
+            }
+          ]
+        }
+      ],
+      [
+        "CHARLS",
+        "Burden, excluding high C-reactive protein",
+        {
+          "text": "1,595",
+          "sources": [
+            {
+              "path": "results/biomarkers/systematic-biomarker-results.csv",
+              "row": 219,
+              "field": "n",
+              "raw": "1595.0"
+            }
+          ]
+        },
+        "RR per SD",
+        {
+          "text": "1.08 (0.99 to 1.17)",
+          "sources": [
+            {
+              "path": "results/biomarkers/systematic-biomarker-results.csv",
+              "row": 219,
+              "field": "estimate",
+              "raw": "1.0754264220527467"
+            },
+            {
+              "path": "results/biomarkers/systematic-biomarker-results.csv",
+              "row": 219,
+              "field": "ci_low",
+              "raw": "0.9886514176716602"
+            },
+            {
+              "path": "results/biomarkers/systematic-biomarker-results.csv",
+              "row": 219,
+              "field": "ci_high",
+              "raw": "1.169817762435324"
+            }
+          ]
+        }
+      ],
+      [
+        "ELSA",
+        "Immunometabolic burden before stopping an activity",
+        {
+          "text": "11,581",
+          "sources": [
+            {
+              "path": "results/biomarkers/systematic-biomarker-results.csv",
+              "row": 528,
+              "field": "n",
+              "raw": "11581.0"
+            }
+          ]
+        },
+        "RR per SD",
+        {
+          "text": "1.26 (1.20 to 1.33)",
+          "sources": [
+            {
+              "path": "results/biomarkers/systematic-biomarker-results.csv",
+              "row": 528,
+              "field": "estimate",
+              "raw": "1.2630818295359387"
+            },
+            {
+              "path": "results/biomarkers/systematic-biomarker-results.csv",
+              "row": 528,
+              "field": "ci_low",
+              "raw": "1.2029050279181464"
+            },
+            {
+              "path": "results/biomarkers/systematic-biomarker-results.csv",
+              "row": 528,
+              "field": "ci_high",
+              "raw": "1.3262690495732257"
+            }
+          ]
+        }
+      ],
+      [
+        "ELSA",
+        "C-reactive protein before stopping an activity",
+        {
+          "text": "11,583",
+          "sources": [
+            {
+              "path": "results/biomarkers/systematic-biomarker-results.csv",
+              "row": 529,
+              "field": "n",
+              "raw": "11583.0"
+            }
+          ]
+        },
+        "RR per SD",
+        {
+          "text": "1.21 (1.15 to 1.26)",
+          "sources": [
+            {
+              "path": "results/biomarkers/systematic-biomarker-results.csv",
+              "row": 529,
+              "field": "estimate",
+              "raw": "1.2070042895689437"
+            },
+            {
+              "path": "results/biomarkers/systematic-biomarker-results.csv",
+              "row": 529,
+              "field": "ci_low",
+              "raw": "1.1540464767688878"
+            },
+            {
+              "path": "results/biomarkers/systematic-biomarker-results.csv",
+              "row": 529,
+              "field": "ci_high",
+              "raw": "1.262392273070978"
+            }
+          ]
+        }
+      ],
+      [
+        "ELSA",
+        "Glycated hemoglobin before stopping an activity",
+        {
+          "text": "11,426",
+          "sources": [
+            {
+              "path": "results/biomarkers/systematic-biomarker-results.csv",
+              "row": 530,
+              "field": "n",
+              "raw": "11426.0"
+            }
+          ]
+        },
+        "RR per SD",
+        {
+          "text": "1.13 (1.09 to 1.17)",
+          "sources": [
+            {
+              "path": "results/biomarkers/systematic-biomarker-results.csv",
+              "row": 530,
+              "field": "estimate",
+              "raw": "1.1288181494927565"
+            },
+            {
+              "path": "results/biomarkers/systematic-biomarker-results.csv",
+              "row": 530,
+              "field": "ci_low",
+              "raw": "1.086423980176927"
+            },
+            {
+              "path": "results/biomarkers/systematic-biomarker-results.csv",
+              "row": 530,
+              "field": "ci_high",
+              "raw": "1.1728666136555077"
+            }
+          ]
+        }
+      ],
+      [
+        "ELSA",
+        "Triglycerides before stopping an activity",
+        {
+          "text": "11,583",
+          "sources": [
+            {
+              "path": "results/biomarkers/systematic-biomarker-results.csv",
+              "row": 531,
+              "field": "n",
+              "raw": "11583.0"
+            }
+          ]
+        },
+        "RR per SD",
+        {
+          "text": "1.13 (1.08 to 1.18)",
+          "sources": [
+            {
+              "path": "results/biomarkers/systematic-biomarker-results.csv",
+              "row": 531,
+              "field": "estimate",
+              "raw": "1.1287085354119528"
+            },
+            {
+              "path": "results/biomarkers/systematic-biomarker-results.csv",
+              "row": 531,
+              "field": "ci_low",
+              "raw": "1.07599599014462"
+            },
+            {
+              "path": "results/biomarkers/systematic-biomarker-results.csv",
+              "row": 531,
+              "field": "ci_high",
+              "raw": "1.1840034438609432"
+            }
+          ]
+        }
+      ],
+      [
+        "ELSA",
+        "HDL, adverse orientation before stopping an activity",
+        {
+          "text": "11,579",
+          "sources": [
+            {
+              "path": "results/biomarkers/systematic-biomarker-results.csv",
+              "row": 532,
+              "field": "n",
+              "raw": "11579.0"
+            }
+          ]
+        },
+        "RR per SD",
+        {
+          "text": "1.14 (1.07 to 1.20)",
+          "sources": [
+            {
+              "path": "results/biomarkers/systematic-biomarker-results.csv",
+              "row": 532,
+              "field": "estimate",
+              "raw": "1.135510684727648"
+            },
+            {
+              "path": "results/biomarkers/systematic-biomarker-results.csv",
+              "row": 532,
+              "field": "ci_low",
+              "raw": "1.0727836915821132"
+            },
+            {
+              "path": "results/biomarkers/systematic-biomarker-results.csv",
+              "row": 532,
+              "field": "ci_high",
+              "raw": "1.2019054029700071"
+            }
+          ]
+        }
+      ],
+      [
+        "ELSA",
+        "Burden, excluding high C-reactive protein",
+        {
+          "text": "10,900",
+          "sources": [
+            {
+              "path": "results/biomarkers/systematic-biomarker-results.csv",
+              "row": 533,
+              "field": "n",
+              "raw": "10900.0"
+            }
+          ]
+        },
+        "RR per SD",
+        {
+          "text": "1.26 (1.20 to 1.34)",
+          "sources": [
+            {
+              "path": "results/biomarkers/systematic-biomarker-results.csv",
+              "row": 533,
+              "field": "estimate",
+              "raw": "1.2642192185185877"
+            },
+            {
+              "path": "results/biomarkers/systematic-biomarker-results.csv",
+              "row": 533,
+              "field": "ci_low",
+              "raw": "1.196884998546165"
+            },
+            {
+              "path": "results/biomarkers/systematic-biomarker-results.csv",
+              "row": 533,
+              "field": "ci_high",
+              "raw": "1.3353415193716314"
+            }
+          ]
+        }
+      ],
+      [
+        "ELSA",
+        "C-reactive protein, repeat assay",
+        {
+          "text": "5,803",
+          "sources": [
+            {
+              "path": "results/biomarkers/systematic-biomarker-results.csv",
+              "row": 538,
+              "field": "n",
+              "raw": "5803.0"
+            }
+          ]
+        },
+        "Difference, SD",
+        {
+          "text": "0.040 (-0.03 to 0.11)",
+          "sources": [
+            {
+              "path": "results/biomarkers/systematic-biomarker-results.csv",
+              "row": 538,
+              "field": "estimate",
+              "raw": "0.0399353154375036"
+            },
+            {
+              "path": "results/biomarkers/systematic-biomarker-results.csv",
+              "row": 538,
+              "field": "ci_low",
+              "raw": "-0.0279937123486658"
+            },
+            {
+              "path": "results/biomarkers/systematic-biomarker-results.csv",
+              "row": 538,
+              "field": "ci_high",
+              "raw": "0.1078643432236731"
+            }
+          ]
+        }
+      ],
+      [
+        "ELSA",
+        "Glycated hemoglobin, repeat assay",
+        {
+          "text": "5,669",
+          "sources": [
+            {
+              "path": "results/biomarkers/systematic-biomarker-results.csv",
+              "row": 539,
+              "field": "n",
+              "raw": "5669.0"
+            }
+          ]
+        },
+        "Difference, SD",
+        {
+          "text": "0.025 (-0.03 to 0.08)",
+          "sources": [
+            {
+              "path": "results/biomarkers/systematic-biomarker-results.csv",
+              "row": 539,
+              "field": "estimate",
+              "raw": "0.0249549261311449"
+            },
+            {
+              "path": "results/biomarkers/systematic-biomarker-results.csv",
+              "row": 539,
+              "field": "ci_low",
+              "raw": "-0.0321105602394204"
+            },
+            {
+              "path": "results/biomarkers/systematic-biomarker-results.csv",
+              "row": 539,
+              "field": "ci_high",
+              "raw": "0.0820204125017104"
+            }
+          ]
+        }
+      ],
+      [
+        "ELSA",
+        "Triglycerides, repeat assay",
+        {
+          "text": "5,801",
+          "sources": [
+            {
+              "path": "results/biomarkers/systematic-biomarker-results.csv",
+              "row": 540,
+              "field": "n",
+              "raw": "5801.0"
+            }
+          ]
+        },
+        "Difference, SD",
+        {
+          "text": "0.052 (-0.01 to 0.11)",
+          "sources": [
+            {
+              "path": "results/biomarkers/systematic-biomarker-results.csv",
+              "row": 540,
+              "field": "estimate",
+              "raw": "0.051755462404057"
+            },
+            {
+              "path": "results/biomarkers/systematic-biomarker-results.csv",
+              "row": 540,
+              "field": "ci_low",
+              "raw": "-0.0100842895025807"
+            },
+            {
+              "path": "results/biomarkers/systematic-biomarker-results.csv",
+              "row": 540,
+              "field": "ci_high",
+              "raw": "0.1135952143106949"
+            }
+          ]
+        }
+      ],
+      [
+        "ELSA",
+        "HDL, repeat assay",
+        {
+          "text": "5,797",
+          "sources": [
+            {
+              "path": "results/biomarkers/systematic-biomarker-results.csv",
+              "row": 541,
+              "field": "n",
+              "raw": "5797.0"
+            }
+          ]
+        },
+        "Difference, SD",
+        {
+          "text": "-0.052 (-0.10 to 0.00)",
+          "sources": [
+            {
+              "path": "results/biomarkers/systematic-biomarker-results.csv",
+              "row": 541,
+              "field": "estimate",
+              "raw": "-0.0520940560781907"
+            },
+            {
+              "path": "results/biomarkers/systematic-biomarker-results.csv",
+              "row": 541,
+              "field": "ci_low",
+              "raw": "-0.0992350579186753"
+            },
+            {
+              "path": "results/biomarkers/systematic-biomarker-results.csv",
+              "row": 541,
+              "field": "ci_high",
+              "raw": "-0.004953054237706"
+            }
+          ]
+        }
+      ],
+      [
+        "ELSA",
+        "Glycated hemoglobin, native-unit repeat assay",
+        {
+          "text": "4,965",
+          "sources": [
+            {
+              "path": "results/biomarkers/hba1c_summary.csv",
+              "row": 2,
+              "field": "n_person_intervals",
+              "raw": "4965"
+            }
+          ]
+        },
+        "Difference, percentage points",
+        {
+          "text": "0.004 (-0.02 to 0.03)",
+          "sources": [
+            {
+              "path": "results/biomarkers/hba1c_summary.csv",
+              "row": 2,
+              "field": "estimate",
+              "raw": "0.003577057604869658"
+            },
+            {
+              "path": "results/biomarkers/hba1c_summary.csv",
+              "row": 2,
+              "field": "ci_low",
+              "raw": "-0.020248026461278282"
+            },
+            {
+              "path": "results/biomarkers/hba1c_summary.csv",
+              "row": 2,
+              "field": "ci_high",
+              "raw": "0.0274021416710176"
+            }
+          ]
+        }
+      ],
+      [
+        "SHARE",
+        "Burden, outside the core window",
+        {
+          "text": "21",
+          "sources": [
+            {
+              "path": "results/biomarkers/systematic-biomarker-results.csv",
+              "row": 782,
+              "field": "n",
+              "raw": "21.0"
+            }
+          ]
+        },
+        "RR per SD",
+        "Unavailable: insufficient events"
+      ],
+      [
+        "HRS, KLoSA, MHAS",
+        "No assay results in the available analysis inputs",
+        "Unavailable",
+        "Unavailable",
+        "Unavailable"
+      ]
+    ],
+    "footnotes": [
+      "CI, confidence interval; SD, standard deviation; RR, risk ratio; HDL, high-density lipoprotein; CHARLS, China Health and Retirement Longitudinal Study; ELSA, English Longitudinal Study of Ageing.",
+      "HRS, Health and Retirement Study; KLoSA, Korean Longitudinal Study of Aging; MHAS, Mexican Health and Aging Study; SHARE, Survey of Health, Ageing and Retirement in Europe.",
+      "Exposure covers drinking or regular physical activity. Repeated assays compare stopping an activity with neither activity stopped, adjusting for the first assay. Glycated-hemoglobin samples differ by scale. The unrounded HDL upper confidence limit is below zero."
+    ],
+    "methods": [
+      "The biomarker analysis assessed stopping drinking or regular physical activity. Immunometabolic burden combined standardized inflammatory, glycemic, and lipid measures from the first interview, with high-density lipoprotein oriented so that lower levels indicated greater burden. Antecedent-marker models related each measure to subsequently stopping an activity. Separate repeated-assay models compared follow-up measures by whether an activity stopped while adjusting for the first assay and available covariates. ELSA repeated assays spanned the first interview to the outcome visit, approximately four years. The glycated-hemoglobin analysis in native percentage-point units used a separate covariate-complete sample. These assay-specific populations and mixed findings do not establish a common biological mechanism for the three-activity measure."
+    ]
+  },
+  {
+    "id": "S13",
+    "title": "Disease-specific outcomes",
+    "columns": [
+      "New diagnosis",
+      "Model",
+      "Cohorts",
+      "Person-intervals",
+      "Risk ratio (95% CI)"
+    ],
+    "rows": [
+      [
+        "Diabetes",
+        "Standard adjustment",
+        {
+          "text": "4",
+          "sources": [
+            {
+              "path": "results/primary/hk_pooled.csv",
+              "row": 197,
+              "field": "k",
+              "raw": "4"
+            }
+          ]
+        },
+        {
+          "text": "115,483",
+          "sources": [
+            {
+              "path": "results/primary/hk_pooled.csv",
+              "row": 197,
+              "field": "n",
+              "raw": "115483.0"
+            }
+          ]
+        },
+        {
+          "text": "1.26 (1.12 to 1.43)",
+          "sources": [
+            {
+              "path": "results/primary/hk_pooled.csv",
+              "row": 197,
+              "field": "pooled",
+              "raw": "1.2645372472097998"
+            },
+            {
+              "path": "results/primary/hk_pooled.csv",
+              "row": 197,
+              "field": "ci_low_safeguarded",
+              "raw": "1.1217229325843139"
+            },
+            {
+              "path": "results/primary/hk_pooled.csv",
+              "row": 197,
+              "field": "ci_high_safeguarded",
+              "raw": "1.425534241238084"
+            }
+          ]
+        }
+      ],
+      [
+        "Diabetes",
+        "Current engagement also held",
+        {
+          "text": "4",
+          "sources": [
+            {
+              "path": "results/primary/hk_pooled.csv",
+              "row": 234,
+              "field": "k",
+              "raw": "4"
+            }
+          ]
+        },
+        {
+          "text": "115,483",
+          "sources": [
+            {
+              "path": "results/primary/hk_pooled.csv",
+              "row": 234,
+              "field": "n",
+              "raw": "115483.0"
+            }
+          ]
+        },
+        {
+          "text": "1.05 (0.86 to 1.28)",
+          "sources": [
+            {
+              "path": "results/primary/hk_pooled.csv",
+              "row": 234,
+              "field": "pooled",
+              "raw": "1.0510393277357744"
+            },
+            {
+              "path": "results/primary/hk_pooled.csv",
+              "row": 234,
+              "field": "ci_low_safeguarded",
+              "raw": "0.8601861844293547"
+            },
+            {
+              "path": "results/primary/hk_pooled.csv",
+              "row": 234,
+              "field": "ci_high_safeguarded",
+              "raw": "1.2842378643643442"
+            }
+          ]
+        }
+      ],
+      [
+        "Heart disease",
+        "Standard adjustment",
+        {
+          "text": "4",
+          "sources": [
+            {
+              "path": "results/primary/hk_pooled.csv",
+              "row": 198,
+              "field": "k",
+              "raw": "4"
+            }
+          ]
+        },
+        {
+          "text": "112,395",
+          "sources": [
+            {
+              "path": "results/primary/hk_pooled.csv",
+              "row": 198,
+              "field": "n",
+              "raw": "112395.0"
+            }
+          ]
+        },
+        {
+          "text": "1.15 (1.04 to 1.27)",
+          "sources": [
+            {
+              "path": "results/primary/hk_pooled.csv",
+              "row": 198,
+              "field": "pooled",
+              "raw": "1.1529350929262838"
+            },
+            {
+              "path": "results/primary/hk_pooled.csv",
+              "row": 198,
+              "field": "ci_low_safeguarded",
+              "raw": "1.0430954372642396"
+            },
+            {
+              "path": "results/primary/hk_pooled.csv",
+              "row": 198,
+              "field": "ci_high_safeguarded",
+              "raw": "1.27434104398657"
+            }
+          ]
+        }
+      ],
+      [
+        "Heart disease",
+        "Current engagement also held",
+        {
+          "text": "4",
+          "sources": [
+            {
+              "path": "results/primary/hk_pooled.csv",
+              "row": 235,
+              "field": "k",
+              "raw": "4"
+            }
+          ]
+        },
+        {
+          "text": "112,395",
+          "sources": [
+            {
+              "path": "results/primary/hk_pooled.csv",
+              "row": 235,
+              "field": "n",
+              "raw": "112395.0"
+            }
+          ]
+        },
+        {
+          "text": "0.96 (0.81 to 1.14)",
+          "sources": [
+            {
+              "path": "results/primary/hk_pooled.csv",
+              "row": 235,
+              "field": "pooled",
+              "raw": "0.9619115224113552"
+            },
+            {
+              "path": "results/primary/hk_pooled.csv",
+              "row": 235,
+              "field": "ci_low_safeguarded",
+              "raw": "0.8105645859279893"
+            },
+            {
+              "path": "results/primary/hk_pooled.csv",
+              "row": 235,
+              "field": "ci_high_safeguarded",
+              "raw": "1.1415176446284228"
+            }
+          ]
+        }
+      ],
+      [
+        "Stroke",
+        "Standard adjustment",
+        {
+          "text": "4",
+          "sources": [
+            {
+              "path": "results/primary/hk_pooled.csv",
+              "row": 200,
+              "field": "k",
+              "raw": "4"
+            }
+          ]
+        },
+        {
+          "text": "132,608",
+          "sources": [
+            {
+              "path": "results/primary/hk_pooled.csv",
+              "row": 200,
+              "field": "n",
+              "raw": "132608.0"
+            }
+          ]
+        },
+        {
+          "text": "1.24 (1.07 to 1.43)",
+          "sources": [
+            {
+              "path": "results/primary/hk_pooled.csv",
+              "row": 200,
+              "field": "pooled",
+              "raw": "1.238878722697878"
+            },
+            {
+              "path": "results/primary/hk_pooled.csv",
+              "row": 200,
+              "field": "ci_low_safeguarded",
+              "raw": "1.0726552125359567"
+            },
+            {
+              "path": "results/primary/hk_pooled.csv",
+              "row": 200,
+              "field": "ci_high_safeguarded",
+              "raw": "1.4308609808783983"
+            }
+          ]
+        }
+      ],
+      [
+        "Stroke",
+        "Current engagement also held",
+        {
+          "text": "4",
+          "sources": [
+            {
+              "path": "results/primary/hk_pooled.csv",
+              "row": 237,
+              "field": "k",
+              "raw": "4"
+            }
+          ]
+        },
+        {
+          "text": "132,608",
+          "sources": [
+            {
+              "path": "results/primary/hk_pooled.csv",
+              "row": 237,
+              "field": "n",
+              "raw": "132608.0"
+            }
+          ]
+        },
+        {
+          "text": "1.01 (0.79 to 1.29)",
+          "sources": [
+            {
+              "path": "results/primary/hk_pooled.csv",
+              "row": 237,
+              "field": "pooled",
+              "raw": "1.0092029872845452"
+            },
+            {
+              "path": "results/primary/hk_pooled.csv",
+              "row": 237,
+              "field": "ci_low_safeguarded",
+              "raw": "0.7874132505349825"
+            },
+            {
+              "path": "results/primary/hk_pooled.csv",
+              "row": 237,
+              "field": "ci_high_safeguarded",
+              "raw": "1.2934639706051039"
+            }
+          ]
+        }
+      ],
+      [
+        "Hypertension",
+        "Standard adjustment",
+        {
+          "text": "4",
+          "sources": [
+            {
+              "path": "results/primary/hk_pooled.csv",
+              "row": 199,
+              "field": "k",
+              "raw": "4"
+            }
+          ]
+        },
+        {
+          "text": "63,808",
+          "sources": [
+            {
+              "path": "results/primary/hk_pooled.csv",
+              "row": 199,
+              "field": "n",
+              "raw": "63808.0"
+            }
+          ]
+        },
+        {
+          "text": "1.05 (0.88 to 1.27)",
+          "sources": [
+            {
+              "path": "results/primary/hk_pooled.csv",
+              "row": 199,
+              "field": "pooled",
+              "raw": "1.0547380032359204"
+            },
+            {
+              "path": "results/primary/hk_pooled.csv",
+              "row": 199,
+              "field": "ci_low_safeguarded",
+              "raw": "0.8784262189102058"
+            },
+            {
+              "path": "results/primary/hk_pooled.csv",
+              "row": 199,
+              "field": "ci_high_safeguarded",
+              "raw": "1.2664378994177259"
+            }
+          ]
+        }
+      ],
+      [
+        "Hypertension",
+        "Current engagement also held",
+        {
+          "text": "4",
+          "sources": [
+            {
+              "path": "results/primary/hk_pooled.csv",
+              "row": 236,
+              "field": "k",
+              "raw": "4"
+            }
+          ]
+        },
+        {
+          "text": "63,808",
+          "sources": [
+            {
+              "path": "results/primary/hk_pooled.csv",
+              "row": 236,
+              "field": "n",
+              "raw": "63808.0"
+            }
+          ]
+        },
+        {
+          "text": "1.07 (0.89 to 1.28)",
+          "sources": [
+            {
+              "path": "results/primary/hk_pooled.csv",
+              "row": 236,
+              "field": "pooled",
+              "raw": "1.0669590165836182"
+            },
+            {
+              "path": "results/primary/hk_pooled.csv",
+              "row": 236,
+              "field": "ci_low_safeguarded",
+              "raw": "0.8862765352835653"
+            },
+            {
+              "path": "results/primary/hk_pooled.csv",
+              "row": 236,
+              "field": "ci_high_safeguarded",
+              "raw": "1.284476681654275"
+            }
+          ]
+        }
+      ],
+      [
+        "Cancer",
+        "Standard adjustment",
+        {
+          "text": "4",
+          "sources": [
+            {
+              "path": "results/primary/hk_pooled.csv",
+              "row": 196,
+              "field": "k",
+              "raw": "4"
+            }
+          ]
+        },
+        {
+          "text": "124,102",
+          "sources": [
+            {
+              "path": "results/primary/hk_pooled.csv",
+              "row": 196,
+              "field": "n",
+              "raw": "124102.0"
+            }
+          ]
+        },
+        {
+          "text": "1.12 (0.95 to 1.32)",
+          "sources": [
+            {
+              "path": "results/primary/hk_pooled.csv",
+              "row": 196,
+              "field": "pooled",
+              "raw": "1.1202747603605516"
+            },
+            {
+              "path": "results/primary/hk_pooled.csv",
+              "row": 196,
+              "field": "ci_low_safeguarded",
+              "raw": "0.9535698898591891"
+            },
+            {
+              "path": "results/primary/hk_pooled.csv",
+              "row": 196,
+              "field": "ci_high_safeguarded",
+              "raw": "1.316123287917801"
+            }
+          ]
+        }
+      ],
+      [
+        "Cancer",
+        "Current engagement also held",
+        {
+          "text": "4",
+          "sources": [
+            {
+              "path": "results/primary/hk_pooled.csv",
+              "row": 233,
+              "field": "k",
+              "raw": "4"
+            }
+          ]
+        },
+        {
+          "text": "124,102",
+          "sources": [
+            {
+              "path": "results/primary/hk_pooled.csv",
+              "row": 233,
+              "field": "n",
+              "raw": "124102.0"
+            }
+          ]
+        },
+        {
+          "text": "0.97 (0.70 to 1.36)",
+          "sources": [
+            {
+              "path": "results/primary/hk_pooled.csv",
+              "row": 233,
+              "field": "pooled",
+              "raw": "0.9745476452598546"
+            },
+            {
+              "path": "results/primary/hk_pooled.csv",
+              "row": 233,
+              "field": "ci_low_safeguarded",
+              "raw": "0.6965164040939269"
+            },
+            {
+              "path": "results/primary/hk_pooled.csv",
+              "row": 233,
+              "field": "ci_high_safeguarded",
+              "raw": "1.363561729916489"
+            }
+          ]
+        }
+      ],
+      [
+        "Arthritis",
+        "Standard adjustment",
+        {
+          "text": "4",
+          "sources": [
+            {
+              "path": "results/primary/hk_pooled.csv",
+              "row": 195,
+              "field": "k",
+              "raw": "4"
+            }
+          ]
+        },
+        {
+          "text": "72,781",
+          "sources": [
+            {
+              "path": "results/primary/hk_pooled.csv",
+              "row": 195,
+              "field": "n",
+              "raw": "72781.0"
+            }
+          ]
+        },
+        {
+          "text": "1.12 (1.03 to 1.23)",
+          "sources": [
+            {
+              "path": "results/primary/hk_pooled.csv",
+              "row": 195,
+              "field": "pooled",
+              "raw": "1.123356526595527"
+            },
+            {
+              "path": "results/primary/hk_pooled.csv",
+              "row": 195,
+              "field": "ci_low_safeguarded",
+              "raw": "1.025482830152652"
+            },
+            {
+              "path": "results/primary/hk_pooled.csv",
+              "row": 195,
+              "field": "ci_high_safeguarded",
+              "raw": "1.2305714427777577"
+            }
+          ]
+        }
+      ],
+      [
+        "Arthritis",
+        "Current engagement also held",
+        {
+          "text": "4",
+          "sources": [
+            {
+              "path": "results/primary/hk_pooled.csv",
+              "row": 232,
+              "field": "k",
+              "raw": "4"
+            }
+          ]
+        },
+        {
+          "text": "72,781",
+          "sources": [
+            {
+              "path": "results/primary/hk_pooled.csv",
+              "row": 232,
+              "field": "n",
+              "raw": "72781.0"
+            }
+          ]
+        },
+        {
+          "text": "1.14 (0.99 to 1.32)",
+          "sources": [
+            {
+              "path": "results/primary/hk_pooled.csv",
+              "row": 232,
+              "field": "pooled",
+              "raw": "1.1410878446362422"
+            },
+            {
+              "path": "results/primary/hk_pooled.csv",
+              "row": 232,
+              "field": "ci_low_safeguarded",
+              "raw": "0.9851693025522495"
+            },
+            {
+              "path": "results/primary/hk_pooled.csv",
+              "row": 232,
+              "field": "ci_high_safeguarded",
+              "raw": "1.3216829491167865"
+            }
+          ]
+        }
+      ]
+    ],
+    "footnotes": [
+      "CI, confidence interval. Each comparison is stopping any activity versus none stopped among participants free of the specified disease at the second interview and with observed follow-up.",
+      "All models use the matched disease-specific complete-case sample. Standard adjustment excludes current engagement indicators. The other model also holds current drinking, regular physical activity, and paid work status. Pooled intervals use safeguarded Hartung\u2013Knapp uncertainty."
+    ],
+    "methods": [
+      "Disease-specific analyses included participants without the specified diagnosis at the second interview and with known follow-up status for that diagnosis. Stopping any activity across drinking, regular physical activity, and paid work was compared with none stopped. Models used the standard covariates and then added current engagement indicators on the same disease-specific sample. Diagnoses were participant-reported and required survival and observed follow-up. Cohort support depended on adequate outcome events and non-events."
+    ]
+  }
+]

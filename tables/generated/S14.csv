@@ -1,0 +1,20 @@
+Outcome and comparison,Cohorts,Person-intervals,Events,"Ratio of RRs or mean difference, SD (95% CI)",Context or prediction interval
+Death; other vs retirement-linked paid-work exit,CHARLS,Not available,Not available,Not evaluable,Retirement-linked status not recorded
+Death; other vs retirement-linked paid-work exit,ELSA,"7,714",60,Not evaluable,Too few events per model parameter
+Death; other vs retirement-linked paid-work exit,HRS,"26,123",645,1.39 (1.05–1.83),Retirement-linked / other exit RR: 1.63 / 2.26
+Death; other vs retirement-linked paid-work exit,KLoSA,Not available,Not available,Not evaluable,Retirement-linked status not recorded
+Death; other vs retirement-linked paid-work exit,MHAS,Not available,Not available,Not evaluable,No comparable interval
+Death; other vs retirement-linked paid-work exit,SHARE,"10,577",180,Not evaluable,Too few events after other exit
+New ADL limitation; other vs retirement-linked paid-work exit,CHARLS,Not available,Not available,Not evaluable,Retirement-linked status not recorded
+New ADL limitation; other vs retirement-linked paid-work exit,ELSA,"6,834",407,1.27 (0.82–1.96),Retirement-linked / other exit RR: 1.10 / 1.40
+New ADL limitation; other vs retirement-linked paid-work exit,HRS,"21,712","1,247",1.41 (1.14–1.75),Retirement-linked / other exit RR: 1.12 / 1.58
+New ADL limitation; other vs retirement-linked paid-work exit,KLoSA,Not available,Not available,Not evaluable,Retirement-linked status not recorded
+New ADL limitation; other vs retirement-linked paid-work exit,MHAS,Not available,Not available,Not evaluable,No comparable interval
+New ADL limitation; other vs retirement-linked paid-work exit,SHARE,"8,459",279,Not evaluable,Too few events after other exit
+New ADL limitation; descriptive work-exit synthesis,"ELSA, HRS","28,546",Not applicable,1.38 (0.40–4.83),Two cohorts; outside the main pooling rule
+Word-recall change; Any activity stopped,"CHARLS, ELSA, HRS, KLoSA, SHARE","107,264",Not applicable,-0.06 (-0.09–-0.04),"Prediction interval, SD: -0.10–-0.03"
+Word-recall change; One activity stopped,"ELSA, HRS, KLoSA, SHARE","106,241",Not applicable,-0.06 (-0.09–-0.03),"Prediction interval, SD: -0.13–0.00"
+Word-recall change; Two or more activities stopped,"ELSA, HRS, KLoSA, SHARE","106,241",Not applicable,-0.13 (-0.20–-0.05),"Prediction interval, SD: -0.29–0.04"
+Word-recall change; Regular physical activity component,"ELSA, HRS, KLoSA, SHARE","106,241",Not applicable,-0.05 (-0.12–0.02),"Prediction interval, SD: -0.25–0.14"
+Word-recall change; Drinking component,"ELSA, HRS, KLoSA, SHARE","106,241",Not applicable,-0.08 (-0.13–-0.02),"Prediction interval, SD: -0.19–0.04"
+Word-recall change; Paid-work component,"ELSA, HRS, KLoSA, SHARE","106,241",Not applicable,-0.05 (-0.08–-0.02),"Prediction interval, SD: -0.09–0.00"

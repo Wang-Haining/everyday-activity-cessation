@@ -1,0 +1,22 @@
+Outcome / population,Activities stopped,Model n,Estimate (95% CI),"Common-population risk, % (95% CI); target n","Category-specific risk, % (95% CI); target n"
+Death,None,"162,582",Reference,"1.8 (0.90–3.66); n=100,012","2.8 (1.27–6.28); n=162,582"
+Death,One,"162,582",1.79 (1.62–1.98),"3.4 (1.66–6.84); n=100,012","5.2 (2.30–11.16); n=162,582"
+Death,Two or more,"162,582",3.41 (2.92–3.98),"6.9 (3.50–13.02); n=100,012","6.9 (3.50–13.02); n=100,012"
+New ADL limitation,None,"109,368",Reference,"5.8 (3.32–9.96); n=74,757","7.7 (5.28–11.17); n=109,368"
+New ADL limitation,One,"109,368",1.48 (1.35–1.62),"8.8 (5.28–14.28); n=74,757","11.5 (8.32–15.63); n=109,368"
+New ADL limitation,Two or more,"109,368",1.99 (1.57–2.53),"11.5 (5.52–22.59); n=74,757","11.5 (5.52–22.59); n=74,757"
+Multimorbidity progression,None,"142,183",Reference,"13.8 (8.68–21.24); n=89,393","14.2 (8.64–22.43); n=142,183"
+Multimorbidity progression,One,"142,183",1.12 (1.05–1.18),"15.1 (8.82–24.75); n=89,393","15.6 (8.79–26.03); n=142,183"
+Multimorbidity progression,Two or more,"142,183",1.29 (1.13–1.48),"17.4 (9.00–30.92); n=89,393","17.4 (9.00–30.92); n=89,393"
+New IADL limitation,None,"109,600",Reference,"3.5 (2.47–4.95); n=75,296","5.4 (3.89–7.43); n=109,600"
+New IADL limitation,One,"109,600",1.52 (1.20–1.92),"5.5 (4.05–7.41); n=75,296","8.2 (6.47–10.40); n=109,600"
+New IADL limitation,Two or more,"109,600",2.45 (1.47–4.08),"8.8 (6.76–11.43); n=75,296","8.8 (6.76–11.43); n=75,296"
+IADL count increase,None,"135,691",Reference,Not estimated,Not estimated
+IADL count increase,One,"135,691",1.46 (1.27–1.69),Not estimated,Not estimated
+IADL count increase,Two or more,"135,691",2.17 (1.43–3.30),Not estimated,Not estimated
+"Word-recall change, SD",None,"106,241",Reference,Not estimated,Not estimated
+"Word-recall change, SD",One,"106,241",-0.06 (-0.09–-0.03),Not estimated,Not estimated
+"Word-recall change, SD",Two or more,"106,241",-0.13 (-0.20–-0.05),Not estimated,Not estimated
+"Multimorbidity progression, KLoSA",None,"16,408",Reference,"9.8 (9.07–10.59); n=6,928","9.9 (9.39–10.50); n=16,408"
+"Multimorbidity progression, KLoSA",One,"16,408",1.00 (0.90–1.11),"9.8 (8.82–10.78); n=6,928","9.9 (9.04–10.80); n=16,408"
+"Multimorbidity progression, KLoSA",Two or more,"16,408",0.96 (0.68–1.34),"9.4 (6.33–12.49); n=6,928","9.4 (6.33–12.49); n=6,928"

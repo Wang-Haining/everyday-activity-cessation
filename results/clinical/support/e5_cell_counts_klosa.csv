@@ -1,0 +1,13 @@
+cohort,outcome,classification,srh_group,cell,n,events,people
+klosa,mortality,cess,fair_poor,0,6845,229,3422
+klosa,mortality,cess,fair_poor,1,3291,242,2659
+klosa,mortality,cess,fair_poor,2plus,293,30,291
+klosa,mortality,cess,good_or_better,0,4930,73,2773
+klosa,mortality,cess,good_or_better,1,1727,35,1465
+klosa,mortality,cess,good_or_better,2plus,107,2,105
+klosa,mortality,traj,fair_poor,loss_only,3213,256,2691
+klosa,mortality,traj,fair_poor,loss_with_gain,371,16,341
+klosa,mortality,traj,fair_poor,no_loss,6845,229,3422
+klosa,mortality,traj,good_or_better,loss_only,1567,34,1381
+klosa,mortality,traj,good_or_better,loss_with_gain,267,3,253
+klosa,mortality,traj,good_or_better,no_loss,4930,73,2773
